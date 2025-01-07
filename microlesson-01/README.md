@@ -36,38 +36,6 @@ Supervised Machine Learning involves building models that learn from labeled dat
 Supervised learning is a type of machine learning where the model is trained on labeled data. In this context, "labeled data" means that each training example is paired with an output label. The model uses this data to learn the mapping function from inputs to outputs, enabling it to make predictions on new, unseen data.
 
 ---
-
-
-
-Before diving into supervised machine learning, it is essential to understand some foundational terms:
-
-### 1. **Data**
-   - A collection of facts, measurements, or observations, often represented in a structured format such as tables, matrices, or arrays.
-
-### 2. **Features**
-   - The individual measurable properties or characteristics of the data. For example, in a dataset about houses, features could include "size," "number of bedrooms," and "location."
-
-### 3. **Labels**
-   - The output or target variable in supervised learning. Labels are used during training to teach the model what the correct predictions should be.
-
-### 4. **Training Data**
-   - The portion of the dataset used to train the model. It contains both features and their corresponding labels.
-
-### 5. **Test Data**
-   - A separate portion of the dataset used to evaluate the model's performance. It contains features but is not used in training.
-
-### 6. **Model**
-   - A mathematical representation or algorithm that maps input features to the desired output labels. Examples include linear regression, decision trees, and neural networks.
-
-### 7. **Overfitting**
-   - When a model learns patterns specific to the training data too well, resulting in poor generalization to unseen data.
-
-### 8. **Underfitting**
-   - When a model fails to capture the underlying patterns in the data, leading to low performance on both training and test datasets.
-
-### 9. **Metrics**
-   - Criteria used to evaluate a model's performance. Examples include accuracy, precision, recall, F1-score for classification tasks, and mean squared error for regression tasks.
-
 ## Two types of Sypervised Machine Learning 
 
 Supervised Machine Learning is a foundational approach in artificial intelligence, where algorithms are trained to map input data to output labels using a labeled dataset. The process involves identifying patterns and relationships within the data to make predictions or decisions. There are two primary types of tasks in supervised learning:
