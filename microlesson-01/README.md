@@ -1,5 +1,5 @@
 <h1>
-  <span class="headline">[Quick Refresher to ML]</span>
+  <span class="headline">[Quick Refresher to Machine Learning]</span>
   <span class="subhead">Supervised Machine Learning Microlesson 01</span>
 </h1>
 
@@ -68,7 +68,7 @@ Before diving into supervised machine learning, it is essential to understand so
 ### 9. **Metrics**
    - Criteria used to evaluate a model's performance. Examples include accuracy, precision, recall, F1-score for classification tasks, and mean squared error for regression tasks.
 
-## Summary of Supervised Machine Learning
+## Two types of Sypervised Machine Learning 
 
 Supervised Machine Learning is a foundational approach in artificial intelligence, where algorithms are trained to map input data to output labels using a labeled dataset. The process involves identifying patterns and relationships within the data to make predictions or decisions. There are two primary types of tasks in supervised learning:
 
