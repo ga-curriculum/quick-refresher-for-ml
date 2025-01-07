@@ -26,10 +26,19 @@ Explore types of ML models (supervised, unsupervised & reinforcement learning)  
 ## Internal
 
 ### Prerequisites
+1. Basic Mathematics
+High school-level algebra and basic statistics (mean, median, mode).
+2. Basic Programming Skills
+Familiarity with Python (basic syntax, loops, and functions).
+3. Understanding of Data
+Awareness of what data is (structured vs. unstructured).
+Ability to work with simple datasets (e.g., CSV files).
+4. Interest in Problem Solving
+Curiosity to solve real-world problems using patterns in data.
+5. Access to Tools
+Basic knowledge of tools like Jupyter Notebook and libraries like NumPy and Pandas.
 
-- tktk
-- tktk
-- tktk
+
 
 ### Starter code
 
