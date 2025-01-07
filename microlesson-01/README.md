@@ -119,9 +119,6 @@ This section describes 10 major supervised machine learning algorithms, along wi
    - A highly efficient implementation of gradient boosting, known for its speed and accuracy.
    - **Applications**: Competition-winning solutions in Kaggle, predictive maintenance.
 
-10. **Neural Networks**
-    - Inspired by the human brain, these algorithms are capable of capturing complex patterns in data. Used for both classification and regression.
-    - **Applications**: Image recognition, natural language processing.
 
 ---
 
