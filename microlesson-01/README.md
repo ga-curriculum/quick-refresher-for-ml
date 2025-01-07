@@ -68,10 +68,6 @@ Before diving into supervised machine learning, it is essential to understand so
 ### 9. **Metrics**
    - Criteria used to evaluate a model's performance. Examples include accuracy, precision, recall, F1-score for classification tasks, and mean squared error for regression tasks.
 
-### 10. **Hyperparameters**
-   - Configuration settings for the model that are defined before training, such as learning rate, number of trees in a random forest, or regularization strength.
-
----
 
 ## Summary of Supervised Machine Learning
 
