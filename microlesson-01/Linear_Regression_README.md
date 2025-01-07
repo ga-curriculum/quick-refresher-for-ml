@@ -31,28 +31,6 @@ Linear Regression is one of the most fundamental algorithms in machine learning,
 
 Linear Regression models the relationship between dependent and independent variables using the following key components:
 
-### The Linear Equation
-\[ y = eta_0 + eta_1X + \epsilon \]
-- \( y \): Dependent variable (target).
-- \( X \): Independent variable (feature).
-- \( eta_0 \): Intercept (value of \( y \) when \( X = 0 \)).
-- \( eta_1 \): Coefficient (slope of the line).
-- \( \epsilon \): Error term.
-
-### Cost Function
-The cost function calculates the error between predicted and actual values:
-\[ J(eta_0, eta_1) = rac{1}{2m} \sum_{i=1}^m (h_	heta(x_i) - y_i)^2 \]
-where:
-- \( h_	heta(x_i) \): Predicted value.
-- \( y_i \): Actual value.
-- \( m \): Number of training examples.
-
-### Optimization Using Gradient Descent
-Gradient Descent minimizes the cost function by iteratively adjusting \( eta_0 \) and \( eta_1 \):
-\[ eta_j := eta_j - lpha rac{\partial J}{\partial eta_j} \]
-where:
-- \( lpha \): Learning rate (controls the step size for updates).
-
 ## Code Implementation
 
 ### Step 1: Importing Libraries
