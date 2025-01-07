@@ -35,8 +35,7 @@ Awareness of what data is (structured vs. unstructured).
 Ability to work with simple datasets (e.g., CSV files).
 4. Interest in Problem Solving
 Curiosity to solve real-world problems using patterns in data.
-5. Access to Tools
-Basic knowledge of tools like Jupyter Notebook and libraries like NumPy and Pandas.
+5.Basic knowledge of libraries like NumPy and Pandas.
 
 
 
