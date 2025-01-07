@@ -23,7 +23,7 @@ Supervised Machine Learning involves building models that learn from labeled dat
 ## Table of Contents
 
 1. [Introduction](#introduction)
-2.
+2. [Base vocabulary and Base Code for Supervised ML](https://git.generalassemb.ly/modular-curriculum-all-courses/quick-refresher-for-ml/blob/main/microlesson-01/README_Base_Vocabulary_Supervised_Learning.md)
 3. [Types of Supervised Machine Learning](#summary-of-supervised-machine-learning)
 4. [Major Supervised Machine Learning Algorithms](#major-supervised-machine-learning-algorithms)
 5. [Prerequisites](#prerequisites)
@@ -37,7 +37,7 @@ Supervised learning is a type of machine learning where the model is trained on 
 
 ---
 
-**[Base vocabulary and Base Code for Supervised ML](https://git.generalassemb.ly/modular-curriculum-all-courses/quick-refresher-for-ml/blob/main/microlesson-01/Base_Vocabulary_with_Code_Supervised_Learning.txt)**
+
 
 Before diving into supervised machine learning, it is essential to understand some foundational terms:
 
