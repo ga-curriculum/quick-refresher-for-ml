@@ -23,8 +23,8 @@ Supervised Machine Learning involves building models that learn from labeled dat
 ## Table of Contents
 
 1. [Introduction](#introduction)
-2. [Base Vocabulary](#base-vocabulary)
-3. [Summary of Supervised Machine Learning](#summary-of-supervised-machine-learning)
+2.
+3. [Types of Supervised Machine Learning](#summary-of-supervised-machine-learning)
 4. [Major Supervised Machine Learning Algorithms](#major-supervised-machine-learning-algorithms)
 5. [Prerequisites](#prerequisites)
 6. [Dataset Resources](#dataset-resources)
