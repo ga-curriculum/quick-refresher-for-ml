@@ -1,11 +1,13 @@
 <h1>
   <span class="prefix"></span>
-  <span class="headline">[tktk Headline]</span>
+  <span class="headline">Quick Refresher for ML</span>
 </h1>
+
 
 ## About
 
-tktk Write a short but descriptive summary of the content in this module.
+Explore types of ML models (supervised, unsupervised & reinforcement learning)  and their use cases
+
 
 ## Content
 
