@@ -1,6 +1,6 @@
 <h1>
-  <span class="headline">[tktk Headline]</span>
-  <span class="subhead">tktk Microlesson 01</span>
+  <span class="headline">[Quick Refresher to ML]</span>
+  <span class="subhead">Supervised Machine Learning Microlesson 01</span>
 </h1>
 
 **Learning objective:**
