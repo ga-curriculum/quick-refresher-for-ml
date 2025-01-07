@@ -87,7 +87,7 @@ This section describes 10 major supervised machine learning algorithms, along wi
    - Predicts continuous values by establishing a linear relationship between the input features and the target variable.
    - **Applications**: House price prediction, stock price forecasting.
 
-2. **Logistic Regression**
+2. **[Logistic Regression](https://git.generalassemb.ly/modular-curriculum-all-courses/quick-refresher-for-ml/blob/main/microlesson-01/logistic_regression_readme1.md)**
    - Used for binary and multi-class classification tasks. Estimates probabilities using a logistic function.
    - **Applications**: Spam detection, credit risk analysis.
 
