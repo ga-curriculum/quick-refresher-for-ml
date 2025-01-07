@@ -8,10 +8,6 @@ Linear Regression is one of the most fundamental algorithms in machine learning,
 ### Key Concepts of Linear Regression
 - **Dependent Variable (y)**: The outcome or target variable you want to predict.
 - **Independent Variable (X)**: The input variables or features used to make predictions.
-- **Linear Equation**: The relationship is expressed as \( y = eta_0 + eta_1X + \epsilon \), where:
-  - \( eta_0 \): Intercept of the line.
-  - \( eta_1 \): Slope or coefficient for the independent variable.
-  - \( \epsilon \): Error term.
 
 ### Real-World Applications
 - Predicting house prices based on features like area, location, and number of rooms.
