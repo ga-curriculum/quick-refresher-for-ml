@@ -37,7 +37,7 @@ Supervised learning is a type of machine learning where the model is trained on 
 
 ---
 
-## Base Vocabulary
+**[Base vocabulary and Base Code for Supervised ML](https://git.generalassemb.ly/modular-curriculum-all-courses/quick-refresher-for-ml/blob/main/microlesson-01/Base_Vocabulary_with_Code_Supervised_Learning.txt)**
 
 Before diving into supervised machine learning, it is essential to understand some foundational terms:
 
