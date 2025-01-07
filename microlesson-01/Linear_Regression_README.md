@@ -27,10 +27,6 @@ Linear Regression is one of the most fundamental algorithms in machine learning,
 5. **Resources for Practice**
    - Links to publicly available datasets.
 
-## Mathematics Behind Linear Regression
-
-Linear Regression models the relationship between dependent and independent variables using the following key components:
-
 ## Code Implementation
 
 ### Step 1: Importing Libraries
