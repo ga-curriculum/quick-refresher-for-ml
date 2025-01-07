@@ -3,18 +3,18 @@
   <span class="subhead">Supervised Machine Learning Microlesson 01</span>
 </h1>
 
+
 **Learning objective:**
 
-1.Refresh  understanding of supervised learning, focusing on its key characteristics and applications in classification and regression tasks.
+1. Refresh understanding of supervised learning, focusing on its key characteristics and applications in classification and regression tasks.
 
-2.Refresh  understanding of unsupervised learning, focusing on clustering and dimensionality reduction techniques.
+2. Refresh understanding of unsupervised learning, focusing on clustering and dimensionality reduction techniques.
 
-3.Refresh  understanding of reinforcement learning, with an emphasis on policy-based and reward-driven decision-making systems.
+3. Refresh understanding of reinforcement learning, with an emphasis on policy-based and reward-driven decision-making systems.
 
-4.Relate refreshed ML concepts to real-world use cases in AI-driven solutions, setting the stage for advanced architectures like transformers and GANs.
+4. Relate refreshed ML concepts to real-world use cases in AI-driven solutions, setting the stage for advanced architectures like transformers and GANs.
 
-5.Build a strong base for exploring advanced AI topics in subsequent modules.
-
+5. Build a strong base for exploring advanced AI topics in subsequent modules.
 
 # Supervised Machine Learning
 
@@ -68,7 +68,6 @@ Before diving into supervised machine learning, it is essential to understand so
 ### 9. **Metrics**
    - Criteria used to evaluate a model's performance. Examples include accuracy, precision, recall, F1-score for classification tasks, and mean squared error for regression tasks.
 
-
 ## Summary of Supervised Machine Learning
 
 Supervised Machine Learning is a foundational approach in artificial intelligence, where algorithms are trained to map input data to output labels using a labeled dataset. The process involves identifying patterns and relationships within the data to make predictions or decisions. There are two primary types of tasks in supervised learning:
@@ -84,7 +83,7 @@ Supervised learning is widely used due to its effectiveness and reliability in s
 
 This section describes 10 major supervised machine learning algorithms, along with their key characteristics and applications:
 
-1. **Linear Regression**
+1. **[Linear Regression](https://git.generalassemb.ly/modular-curriculum-all-courses/quick-refresher-for-ml/blob/main/microlesson-01/Linear_Regression_README.md)**
    - Predicts continuous values by establishing a linear relationship between the input features and the target variable.
    - **Applications**: House price prediction, stock price forecasting.
 
@@ -160,10 +159,4 @@ Here are some useful resources for datasets commonly used in supervised machine 
 
 8. **UCI Machine Learning Repository**: A comprehensive collection of datasets for different machine learning tasks.
    - Source: [UCI Repository](https://archive.ics.uci.edu/ml/index.php)
-
-
-
-
-
-
 
