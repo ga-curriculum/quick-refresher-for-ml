@@ -1,6 +1,6 @@
 <h1>
   <span class="prefix"></span>
-  <span class="headline">Quick Refresher for ML</span>
+  <span class="headline">Quick Refresher for Machine Learning</span>
 </h1>
 
 
