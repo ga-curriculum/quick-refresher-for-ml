@@ -1,5 +1,5 @@
 
-# Full Lesson on Support Vector Machine (SVM)
+#  Support Vector Machine (SVM)
 
 ## Overview
 Support Vector Machine (SVM) is a supervised machine learning algorithm used for classification, regression, and outlier detection tasks. It is known for its effectiveness in high-dimensional spaces and its ability to handle non-linear decision boundaries using kernel functions.
