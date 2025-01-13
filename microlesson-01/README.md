@@ -88,7 +88,7 @@ This section describes 10 major supervised machine learning algorithms, along wi
    - An ensemble method that builds multiple decision trees and combines their outputs to improve accuracy.
    - **Applications**: Loan approval, product recommendation.
 
-5. **Support Vector Machine (SVM)**
+5. **[Support Vector Machine (SVM)](https://git.generalassemb.ly/modular-curriculum-all-courses/quick-refresher-for-ml/blob/main/microlesson-01/Support_Vector_Machine.md)**
    - Classifies data by finding the hyperplane that best separates classes. Also used for regression tasks.
    - **Applications**: Image recognition, text categorization.
 
