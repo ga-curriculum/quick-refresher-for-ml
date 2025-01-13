@@ -1,5 +1,5 @@
 
-# Full Lesson on Random Forest
+#  Random Forest
 
 ## Overview
 Random Forest is a versatile machine learning algorithm that excels in both classification and regression tasks. It is based on the ensemble learning technique, combining multiple decision trees to improve performance and reduce overfitting.
