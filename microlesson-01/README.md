@@ -12,7 +12,7 @@
 
 3. Refresh understanding of reinforcement learning, with an emphasis on policy-based and reward-driven decision-making systems.
 
-4. Relate refreshed ML concepts to real-world use cases in AI-driven solutions, setting the stage for advanced architectures like transformers and GANs.
+4. Relate refreshed ML concepts to real-world use cases.
 
 5. Build a strong base for exploring advanced AI topics in subsequent modules.
 
