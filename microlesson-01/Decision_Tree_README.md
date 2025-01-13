@@ -1,5 +1,5 @@
 
-# Decision Tree Algorithm
+# Decision Tree 
 
 ## 1. Introduction to Decision Trees
 - A decision tree is a supervised machine learning algorithm used for both classification and regression tasks.
