@@ -59,7 +59,6 @@ Supervised learning is widely used due to its effectiveness and reliability in s
 | **Limitations**        | Labeled data dependency, scalability issues.            | Results can be vague; limited real-world usage.        | High computational cost; environment-sensitive.      |
 | **Scalability**        | Scales well with distributed training (e.g., GPUs).     | Limited by algorithm complexity (e.g., clustering).    | Resource-heavy; often requires simulation setups.    |
 | **Learning Type**      | Predictive (maps inputs to outputs).                    | Descriptive (finds structure in data).                 | Prescriptive (takes actions for optimal results).    |
-| **Recent Advances**    | Pre-trained models like BERT, GPT for NLP.             | Advances in generative models like DALL-E, StyleGAN.   | Real-world RL in robotics and autonomous systems.    |
 | **Interpretability**   | High with simpler models, challenging for deep models. | Often low; results require domain knowledge to analyze.| Policy outcomes interpretable; underlying process opaque. |
 
 This advanced tabular format highlights key distinctions and innovations, offering deeper insights into the three paradigms of machine learning.
