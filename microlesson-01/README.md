@@ -1,6 +1,6 @@
 <h1>
   <span class="headline">[Quick Refresher to Machine Learning]</span>
-  <span class="subhead">Supervised Machine Learning Microlesson 01</span>
+  <span class="subhead">Supervised, Unsupervised, and Reinforcement Machine Learning Microlesson 01</span>
 </h1>
 
 
