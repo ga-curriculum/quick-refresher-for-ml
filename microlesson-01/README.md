@@ -84,7 +84,7 @@ This section describes 10 major supervised machine learning algorithms, along wi
    - A tree-based model that splits the data into subsets based on feature conditions. Works for both classification and regression.
    - **Applications**: Customer segmentation, fraud detection.
 
-4. **Random Forest**
+4. **[Random Forest](https://git.generalassemb.ly/modular-curriculum-all-courses/quick-refresher-for-ml/blob/main/microlesson-01/Random_Forest.md)**
    - An ensemble method that builds multiple decision trees and combines their outputs to improve accuracy.
    - **Applications**: Loan approval, product recommendation.
 
