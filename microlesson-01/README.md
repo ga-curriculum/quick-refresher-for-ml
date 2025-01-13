@@ -59,7 +59,7 @@ This section describes 10 major supervised machine learning algorithms, along wi
    - Used for binary and multi-class classification tasks. Estimates probabilities using a logistic function.
    - **Applications**: Spam detection, credit risk analysis.
 
-3. **Decision Tree**
+3. **[Decision Tree](https://git.generalassemb.ly/modular-curriculum-all-courses/quick-refresher-for-ml/blob/main/microlesson-01/Decision_Tree.md)**
    - A tree-based model that splits the data into subsets based on feature conditions. Works for both classification and regression.
    - **Applications**: Customer segmentation, fraud detection.
 
