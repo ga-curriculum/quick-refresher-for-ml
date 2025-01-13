@@ -11,11 +11,11 @@
 
 ## 2. Mathematics Behind Decision Trees
 - **Entropy**: Measures the impurity in the data.
-  \[ Entropy = - \sum_{i=1}^{n} p_i \log_2(p_i) \]
+  
 - **Information Gain**: The reduction in entropy after a split.
-  \[ IG = Entropy_{parent} - \sum \left( \frac{|child|}{|parent|} \times Entropy_{child} \right) \]
+  
 - **Gini Index**: Another metric to evaluate splits.
-  \[ Gini = 1 - \sum_{i=1}^{n} p_i^2 \]
+
 
 ## 3. Building a Decision Tree
 - **Steps**:
