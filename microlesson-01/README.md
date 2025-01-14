@@ -82,7 +82,7 @@ This section describes 10 major supervised machine learning algorithms, along wi
    - Classifies data by finding the hyperplane that best separates classes. Also used for regression tasks.
    - **Applications**: Image recognition, text categorization.
 
-6. **K-Nearest Neighbors (KNN)**
+6. **[K-Nearest Neighbors (KNN)](https://git.generalassemb.ly/modular-curriculum-all-courses/quick-refresher-for-ml/blob/main/microlesson-01/KNN-README.md)**
    - A non-parametric algorithm that classifies or predicts based on the closest training examples in the feature space.
    - **Applications**: Handwriting detection, recommendation systems.
 
