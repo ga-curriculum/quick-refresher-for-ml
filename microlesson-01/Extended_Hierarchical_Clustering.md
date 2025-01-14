@@ -55,9 +55,6 @@ Hierarchical clustering is an unsupervised learning algorithm used for clusterin
    - Identify customer segments based on purchasing behavior.
 4. **Image Segmentation**:
    - Group pixels into meaningful regions.
-5. **Social Network Analysis**:
-   - Identify communities or subgroups within networks.
-
 ---
 
 ## Advantages
