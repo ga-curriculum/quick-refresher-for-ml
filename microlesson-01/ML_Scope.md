@@ -32,15 +32,11 @@ Unsupervised learning involves discovering patterns or structures in data withou
 ### Applications and Scope:
 1. **Clustering**:
    - Customer segmentation, social network analysis, geospatial mapping.
-2. **Dimensionality Reduction**:
-   - Principal Component Analysis (PCA), t-SNE for data visualization.
-3. **Anomaly Detection**:
+2. **Anomaly Detection**:
    - Fraud detection, intrusion detection, system monitoring.
-4. **Recommendation Systems**:
+3. **Recommendation Systems**:
    - Collaborative filtering, user behavior analysis.
-5. **Generative Models**:
-   - Image synthesis, text generation, music composition.
-6. **Market Basket Analysis**:
+4. **Market Basket Analysis**:
    - Understanding customer purchase patterns in retail.
 
 ### Challenges:
