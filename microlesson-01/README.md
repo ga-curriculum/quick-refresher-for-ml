@@ -158,22 +158,6 @@ These algorithms reduce the number of features while preserving significant info
 
 ---
 
-## Advantages
-
-1. **No Labeling Required:** Efficient for datasets without labels.
-2. **Scalable:** Can handle large datasets effectively.
-3. **Versatile:** Applies to a wide range of applications like clustering, anomaly detection, and recommendation systems.
-
-## Limitations
-
-1. **Interpretability:** Results can be difficult to interpret.
-2. **Quality of Results:** Strongly dependent on the choice of algorithm and parameters.
-3. **Scalability Issues:** Some algorithms may not scale well with high-dimensional data.
-
----
-
----
-
 # Reinforcement Machine Learning
 
 Reinforcement Machine Learning is a type of machine learning where an agent learns to make decisions by performing actions in an environment to maximize cumulative rewards. It is inspired by behavioral psychology and is used in tasks where sequential decision-making is critical.
@@ -237,21 +221,6 @@ Reinforcement Machine Learning is a type of machine learning where an agent lear
 - **Finance:** Portfolio optimization and automated trading.
 - **Healthcare:** Personalized treatment planning and drug discovery.
 
----
-
-## Advantages
-
-1. **Sequential Decision-Making:** Handles tasks with long-term rewards effectively.
-2. **Adaptability:** Learns directly from the environment.
-3. **Scalability:** Can be applied to complex and high-dimensional problems.
-
-## Limitations
-
-1. **Data Efficiency:** Requires a large amount of data to learn effectively.
-2. **Computational Cost:** Computationally expensive for large-scale problems.
-3. **Stability:** Training can be unstable, requiring careful tuning of parameters.
-
----
 
 
 
