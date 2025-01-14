@@ -84,27 +84,6 @@ Hierarchical clustering is an unsupervised learning algorithm used for clusterin
 
 ---
 
-## Techniques to Improve Performance
-
-1. **Dimensionality Reduction**:
-   - Use PCA or t-SNE to reduce dataset dimensions before clustering.
-2. **Outlier Removal**:
-   - Preprocess data to remove or reduce the impact of outliers.
-3. **Hybrid Methods**:
-   - Combine hierarchical clustering with other methods like K-Means for improved efficiency.
-
----
-
-## Evaluation Metrics
-
-- **Cophenetic Correlation Coefficient**:
-   - Measures how faithfully the dendrogram represents the data.
-- **Silhouette Score**:
-   - Evaluates the consistency within clusters.
-- **Davies-Bouldin Index**:
-   - Assesses cluster separation.
-
----
 
 ## Research Paper References
 
@@ -113,15 +92,6 @@ Hierarchical clustering is an unsupervised learning algorithm used for clusterin
 
 2. Murtagh, F., & Contreras, P. (2012). *Algorithms for hierarchical clustering: An overview*. Wiley Interdisciplinary Reviews: Data Mining and Knowledge Discovery, 2(1), 86-97.  
    [Read the paper](https://doi.org/10.1002/widm.53)
-
-3. Sneath, P. H., & Sokal, R. R. (1973). *Numerical taxonomy: The principles and practice of numerical classification*. W. H. Freeman.  
-   [Read the book](https://archive.org/details/numericaltaxonomy)
-
-4. Ward, J. H. (1963). *Hierarchical grouping to optimize an objective function*. Journal of the American Statistical Association, 58(301), 236-244.  
-   [Read the paper](https://doi.org/10.1080/01621459.1963.10500845)
-
-5. Everitt, B. S., Landau, S., Leese, M., & Stahl, D. (2011). *Cluster analysis*. Wiley.  
-   [Read the book](https://doi.org/10.1002/9780470977811)
 
 ---
 
