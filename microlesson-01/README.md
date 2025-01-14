@@ -86,7 +86,7 @@ This section describes 10 major supervised machine learning algorithms, along wi
    - A non-parametric algorithm that classifies or predicts based on the closest training examples in the feature space.
    - **Applications**: Handwriting detection, recommendation systems.
 
-7. **Naive Bayes**
+7. **[Naive Bayes](https://git.generalassemb.ly/modular-curriculum-all-courses/quick-refresher-for-ml/blob/main/microlesson-01/Naive_Bayes_Algorithm.md)**
    - Based on Bayes' theorem, assumes independence between features. Commonly used for classification.
    - **Applications**: Sentiment analysis, email classification.
 
