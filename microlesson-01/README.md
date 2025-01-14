@@ -118,7 +118,7 @@ Clustering algorithms partition data into groups based on similarity. Examples i
   - Assigns data points to clusters iteratively to minimize intra-cluster variance.
   - Requires the number of clusters (`k`) to be predefined.
 
-- **Hierarchical Clustering:**
+- **[Hierarchical Clustering](https://git.generalassemb.ly/modular-curriculum-all-courses/quick-refresher-for-ml/blob/main/microlesson-01/Extended_Hierarchical_Clustering.md)**
   - Builds a tree of clusters using either a bottom-up or top-down approach.
   - Does not require the number of clusters beforehand.
 
