@@ -60,8 +60,7 @@ Reinforcement learning (RL) involves an agent learning to make decisions by inte
    - Portfolio management, algorithmic trading.
 5. **Healthcare**:
    - Personalized treatment recommendations, optimizing resource allocation.
-6. **Smart Systems**:
-   - HVAC optimization, energy management in buildings.
+
 
 ### Challenges:
 - Requires large amounts of computational resources.
