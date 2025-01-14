@@ -114,7 +114,7 @@ Unsupervised Machine Learning is a type of machine learning technique where mode
 
 Clustering algorithms partition data into groups based on similarity. Examples include:
 
-- **K-Means:**
+- **[K-Means Clustering](https://git.generalassemb.ly/modular-curriculum-all-courses/quick-refresher-for-ml/blob/main/microlesson-01/K-Means_Clustering.md)**
   - Assigns data points to clusters iteratively to minimize intra-cluster variance.
   - Requires the number of clusters (`k`) to be predefined.
 
