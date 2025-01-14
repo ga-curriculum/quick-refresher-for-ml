@@ -90,14 +90,6 @@ This section describes 10 major supervised machine learning algorithms, along wi
    - Based on Bayes' theorem, assumes independence between features. Commonly used for classification.
    - **Applications**: Sentiment analysis, email classification.
 
-8. **Gradient Boosting Machines (GBM)**
-   - An ensemble method that builds models sequentially to correct errors from previous models.
-   - **Applications**: Web search ranking, healthcare prediction.
-
-9. **XGBoost**
-   - A highly efficient implementation of gradient boosting, known for its speed and accuracy.
-   - **Applications**: Competition-winning solutions in Kaggle, predictive maintenance.
-
 ---
 
 # Unsupervised Machine Learning
