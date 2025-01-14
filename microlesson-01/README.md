@@ -33,7 +33,7 @@
 
 This advanced tabular format highlights key distinctions and innovations, offering deeper insights into the three paradigms of machine learning.
 
-**[Scope of Supervised Unsupervised and Reinforcement Machine Learning](https://git.generalassemb.ly/modular-curriculum-all-courses/quick-refresher-for-ml/blob/main/microlesson-01/ML_Scope.md)**
+[Scope of Supervised Unsupervised and Reinforcement Machine Learning](https://git.generalassemb.ly/modular-curriculum-all-courses/quick-refresher-for-ml/blob/main/microlesson-01/ML_Scope.md)
 
 [Essential Component of Machine Learning](https://git.generalassemb.ly/modular-curriculum-all-courses/quick-refresher-for-ml/blob/main/microlesson-01/README_Base_Vocabulary_Supervised_Learning.md)
 ---
