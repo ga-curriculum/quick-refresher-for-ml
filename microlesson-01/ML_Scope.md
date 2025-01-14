@@ -1,5 +1,5 @@
 
-# Scope of Supervised, Unsupervised, and Reinforcement Learning
+# Scope of Supervised, Unsupervised and Reinforcement Learning
 
 ## 1. Supervised Learning
 
