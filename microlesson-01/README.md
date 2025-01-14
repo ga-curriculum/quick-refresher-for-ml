@@ -34,23 +34,13 @@
 
 This advanced tabular format highlights key distinctions and innovations, offering deeper insights into the three paradigms of machine learning.
 
-
+[Essential Component of Machine Learning](https://git.generalassemb.ly/modular-curriculum-all-courses/quick-refresher-for-ml/blob/main/microlesson-01/README_Base_Vocabulary_Supervised_Learning.md)
 ---
 # Supervised Machine Learning
 
 Supervised Machine Learning involves building models that learn from labeled datasets to make predictions or decisions. This repository provides an introduction to supervised learning with examples of both classification and regression tasks.
 
-## Table of Contents
 
-1. [Introduction](#introduction)
-2. [Base vocabulary and Base Code for Supervised ML](https://git.generalassemb.ly/modular-curriculum-all-courses/quick-refresher-for-ml/blob/main/microlesson-01/README_Base_Vocabulary_Supervised_Learning.md)
-3. [Types of Supervised Machine Learning](#summary-of-supervised-machine-learning)
-4. [Major Supervised Machine Learning Algorithms](#major-supervised-machine-learning-algorithms)
-5. [Prerequisites](#prerequisites)
-6. [Dataset Resources](#dataset-resources)
-
-
----
 
 ## Introduction
 
@@ -108,15 +98,162 @@ This section describes 10 major supervised machine learning algorithms, along wi
    - A highly efficient implementation of gradient boosting, known for its speed and accuracy.
    - **Applications**: Competition-winning solutions in Kaggle, predictive maintenance.
 
+---
+
+# Unsupervised Machine Learning
+
+Unsupervised Machine Learning is a type of machine learning technique where models are trained on datasets without labeled responses. The algorithm tries to learn the inherent structure, patterns, or distributions in the data to derive meaningful insights.
 
 ---
 
-## Prerequisites
+## Key Features of Unsupervised Learning
 
-- Python 3.7+
-- Libraries: `pandas`, `numpy`, `matplotlib`, `scikit-learn`
+- **No Labels Required:** Works on unlabeled data.
+- **Pattern Discovery:** Identifies hidden patterns or intrinsic structures in input data.
+- **Dimensionality Reduction:** Reduces the number of features while retaining significant information.
+- **Clustering:** Groups data points based on similarities.
 
 ---
+
+## Common Algorithms
+
+### 1. Clustering
+
+Clustering algorithms partition data into groups based on similarity. Examples include:
+
+- **K-Means:**
+  - Assigns data points to clusters iteratively to minimize intra-cluster variance.
+  - Requires the number of clusters (`k`) to be predefined.
+
+- **Hierarchical Clustering:**
+  - Builds a tree of clusters using either a bottom-up or top-down approach.
+  - Does not require the number of clusters beforehand.
+
+- **DBSCAN (Density-Based Spatial Clustering of Applications with Noise):**
+  - Groups data points that are closely packed together while marking outliers.
+  - Does not require the number of clusters but needs `eps` and `min_samples` parameters.
+
+### 2. Dimensionality Reduction
+
+These algorithms reduce the number of features while preserving significant information:
+
+- **Principal Component Analysis (PCA):**
+  - Transforms data to new axes (principal components) based on variance.
+
+- **t-Distributed Stochastic Neighbor Embedding (t-SNE):**
+  - Projects high-dimensional data to lower dimensions while preserving relationships.
+
+- **Autoencoders:**
+  - Neural network-based methods to encode and decode data efficiently.
+
+---
+
+## Applications of Unsupervised Learning
+
+- **Market Segmentation:** Identifying customer groups with similar behavior.
+- **Anomaly Detection:** Spotting unusual patterns in datasets for fraud detection or system monitoring.
+- **Recommendation Systems:** Suggesting items to users by finding similar users or products.
+- **Genomics:** Understanding genetic data by identifying groups of genes with similar expressions.
+- **Image Compression:** Reducing the size of image data using dimensionality reduction techniques.
+
+---
+
+## Advantages
+
+1. **No Labeling Required:** Efficient for datasets without labels.
+2. **Scalable:** Can handle large datasets effectively.
+3. **Versatile:** Applies to a wide range of applications like clustering, anomaly detection, and recommendation systems.
+
+## Limitations
+
+1. **Interpretability:** Results can be difficult to interpret.
+2. **Quality of Results:** Strongly dependent on the choice of algorithm and parameters.
+3. **Scalability Issues:** Some algorithms may not scale well with high-dimensional data.
+
+---
+
+---
+
+# Reinforcement Machine Learning
+
+Reinforcement Machine Learning is a type of machine learning where an agent learns to make decisions by performing actions in an environment to maximize cumulative rewards. It is inspired by behavioral psychology and is used in tasks where sequential decision-making is critical.
+
+---
+
+## Key Features of Reinforcement Learning
+
+- **Agent-Environment Interaction:** The agent learns by interacting with the environment.
+- **Exploration vs. Exploitation:** The agent explores new actions while exploiting known rewards.
+- **Reward Signal:** Guides the agent's learning process based on feedback.
+- **Sequential Decision-Making:** Focuses on long-term cumulative rewards.
+
+---
+
+## Terminology
+
+- **Agent:** The decision-maker.
+- **Environment:** The system with which the agent interacts.
+- **Action (A):** Choices the agent can make.
+- **State (S):** Representation of the environment at a given time.
+- **Reward (R):** Feedback signal for the agent's actions.
+- **Policy (π):** Strategy that the agent follows to decide actions.
+- **Value Function:** Measures the long-term reward of states.
+
+---
+
+## Common Algorithms
+
+### 1. Model-Free Methods
+
+- **Q-Learning:**
+  - Off-policy algorithm that learns the value of actions without a model of the environment.
+
+- **SARSA (State-Action-Reward-State-Action):**
+  - On-policy algorithm that updates action-value based on the current policy.
+
+### 2. Policy Gradient Methods
+
+- **REINFORCE:**
+  - Directly optimizes the policy by following the gradient of expected rewards.
+
+- **Actor-Critic:**
+  - Combines policy-based (actor) and value-based (critic) methods for stability and efficiency.
+
+### 3. Deep Reinforcement Learning
+
+- **Deep Q-Networks (DQN):**
+  - Combines Q-Learning with deep neural networks for complex environments.
+
+- **Proximal Policy Optimization (PPO):**
+  - Stable and efficient policy gradient algorithm used in many applications.
+
+---
+
+## Applications of Reinforcement Learning
+
+- **Gaming:** Mastering complex games like chess, Go, and video games.
+- **Robotics:** Training robots to perform tasks such as navigation and manipulation.
+- **Self-Driving Cars:** Decision-making for navigation and obstacle avoidance.
+- **Finance:** Portfolio optimization and automated trading.
+- **Healthcare:** Personalized treatment planning and drug discovery.
+
+---
+
+## Advantages
+
+1. **Sequential Decision-Making:** Handles tasks with long-term rewards effectively.
+2. **Adaptability:** Learns directly from the environment.
+3. **Scalability:** Can be applied to complex and high-dimensional problems.
+
+## Limitations
+
+1. **Data Efficiency:** Requires a large amount of data to learn effectively.
+2. **Computational Cost:** Computationally expensive for large-scale problems.
+3. **Stability:** Training can be unstable, requiring careful tuning of parameters.
+
+---
+
+
 
 ## Dataset Resources
 
