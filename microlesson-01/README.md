@@ -133,18 +133,6 @@ Clustering algorithms partition data into groups based on similarity. Examples i
   - Groups data points that are closely packed together while marking outliers.
   - Does not require the number of clusters but needs `eps` and `min_samples` parameters.
 
-### 2. Dimensionality Reduction
-
-These algorithms reduce the number of features while preserving significant information:
-
-- **Principal Component Analysis (PCA):**
-  - Transforms data to new axes (principal components) based on variance.
-
-- **t-Distributed Stochastic Neighbor Embedding (t-SNE):**
-  - Projects high-dimensional data to lower dimensions while preserving relationships.
-
-- **Autoencoders:**
-  - Neural network-based methods to encode and decode data efficiently.
 
 ---
 
