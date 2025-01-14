@@ -121,12 +121,6 @@ Clustering algorithms partition data into groups based on similarity. Examples i
 - **[Hierarchical Clustering](https://git.generalassemb.ly/modular-curriculum-all-courses/quick-refresher-for-ml/blob/main/microlesson-01/Extended_Hierarchical_Clustering.md)**
   - Builds a tree of clusters using either a bottom-up or top-down approach.
   - Does not require the number of clusters beforehand.
-
-- **DBSCAN (Density-Based Spatial Clustering of Applications with Noise):**
-  - Groups data points that are closely packed together while marking outliers.
-  - Does not require the number of clusters but needs `eps` and `min_samples` parameters.
-
-
 ---
 
 ## Applications of Unsupervised Learning
