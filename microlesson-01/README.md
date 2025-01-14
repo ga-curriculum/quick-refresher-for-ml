@@ -24,7 +24,6 @@
 | **Definition**         | Predicts outcomes using labeled data.                   | Identifies patterns in unlabeled data.                 | Trains agents to maximize rewards through actions.   |
 | **Objective**          | Minimize prediction error and generalize to new data.  | Discover hidden patterns or latent structures.         | Maximize long-term cumulative rewards.              |
 | **Data Requirements**  | Requires large, labeled datasets.                      | Operates on raw, unlabeled data.                       | Interacts with an environment to generate data.      |
-| **Algorithms**         | Random Forest, Gradient Boosting, Transformers.        | DBSCAN, Variational Autoencoders (VAEs), GANs.         | Proximal Policy Optimization (PPO), AlphaZero.      |
 | **Applications**       | Personalized recommendations, medical diagnosis.       | Genomics, customer segmentation, fraud detection.      | Self-driving cars, financial portfolio management.   |
 | **Strengths**          | High precision with labeled data, interpretable models.| Identifies unknown relationships, reduced preprocessing.| Effective in dynamic, sequential environments.       |
 | **Limitations**        | Labeled data dependency, scalability issues.            | Results can be vague; limited real-world usage.        | High computational cost; environment-sensitive.      |
