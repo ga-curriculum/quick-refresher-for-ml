@@ -59,7 +59,7 @@ tktk If there is not a deployed site related to this module this section and all
 
 ### Course landing pages
 
-- [tktk-course-acronym - tktk Course Full Name](https://pages.git.generalassemb.ly/modular-curriculum-all-courses/tktk-module-name/canvas-landing-pages/tktk-course-acronym.html)
+- [[Quick Refresher for Machine Learning](./microlesson-01/README.md)]
 - [Fallback](https://pages.git.generalassemb.ly/modular-curriculum-all-courses/tktk-module-name/canvas-landing-pages/fallback.html)
 
 ### Resources
