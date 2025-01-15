@@ -17,7 +17,7 @@
 5. Build a strong base for exploring advanced AI topics in subsequent modules.
 
 
-# Comparative Analysis of Supervised, Unsupervised, and Reinforcement Machine Learning
+# 1. Comparative Analysis of Supervised, Unsupervised, and Reinforcement Machine Learning
 
 | **Category**           | **Supervised Learning**                                   | **Unsupervised Learning**                                | **Reinforcement Learning**                            |
 |------------------------|---------------------------------------------------------|--------------------------------------------------------|-----------------------------------------------------|
@@ -37,7 +37,7 @@ This advanced tabular format highlights key distinctions and innovations, offeri
 
 [Essential Component of Machine Learning](https://git.generalassemb.ly/modular-curriculum-all-courses/quick-refresher-for-ml/blob/main/microlesson-01/README_Base_Vocabulary_Supervised_Learning.md)
 ---
-# Supervised Machine Learning
+# 2. Supervised Machine Learning
 
 Supervised Machine Learning involves building models that learn from labeled datasets to make predictions or decisions. This repository provides an introduction to supervised learning with examples of both classification and regression tasks.
 
@@ -68,35 +68,36 @@ This section describes 10 major supervised machine learning algorithms, along wi
 
 1. **[Linear Regression](https://git.generalassemb.ly/modular-curriculum-all-courses/quick-refresher-for-ml/blob/main/microlesson-01/Linear_Regression_README.md)**
    - Predicts continuous values by establishing a linear relationship between the input features and the target variable.
-   - **Applications**: House price prediction, stock price forecasting.
+   - **Use Cases**: House price prediction, stock price forecasting.
 
 2. **[Logistic Regression](https://git.generalassemb.ly/modular-curriculum-all-courses/quick-refresher-for-ml/blob/main/microlesson-01/logistic_regression_readme1.md)**
    - Used for binary and multi-class classification tasks. Estimates probabilities using a logistic function.
-   - **Applications**: Spam detection, credit risk analysis.
+   - **Use Cases**: Spam detection, credit risk analysis.
 
 3. **[Decision Tree](https://git.generalassemb.ly/modular-curriculum-all-courses/quick-refresher-for-ml/blob/main/microlesson-01/use_Decision_Tree_README.md)**
    - A tree-based model that splits the data into subsets based on feature conditions. Works for both classification and regression.
-   - **Applications**: Customer segmentation, fraud detection.
+   - **Use Cases**: Customer segmentation, fraud detection.
 
 4. **[Random Forest](https://git.generalassemb.ly/modular-curriculum-all-courses/quick-refresher-for-ml/blob/main/microlesson-01/Random_Forest.md)**
    - An ensemble method that builds multiple decision trees and combines their outputs to improve accuracy.
-   - **Applications**: Loan approval, product recommendation.
+   - **Use Cases**: Loan approval, product recommendation.
 
 5. **[Support Vector Machine (SVM)](https://git.generalassemb.ly/modular-curriculum-all-courses/quick-refresher-for-ml/blob/main/microlesson-01/Support_Vector_Machine.md)**
    - Classifies data by finding the hyperplane that best separates classes. Also used for regression tasks.
-   - **Applications**: Image recognition, text categorization.
+   - **Use Cases**: Image recognition, text categorization.
 
 6. **[K-Nearest Neighbors (KNN)](https://git.generalassemb.ly/modular-curriculum-all-courses/quick-refresher-for-ml/blob/main/microlesson-01/KNN-README.md)**
    - A non-parametric algorithm that classifies or predicts based on the closest training examples in the feature space.
-   - **Applications**: Handwriting detection, recommendation systems.
+   - **Use Cases**: Handwriting detection, recommendation systems.
 
 7. **[Naive Bayes](https://git.generalassemb.ly/modular-curriculum-all-courses/quick-refresher-for-ml/blob/main/microlesson-01/Naive_Bayes_Algorithm.md)**
    - Based on Bayes' theorem, assumes independence between features. Commonly used for classification.
-   - **Applications**: Sentiment analysis, email classification.
+   - **Use Cases**: Sentiment analysis, email classification.
+   - 
 
 ---
 
-# Unsupervised Machine Learning
+# 3. Unsupervised Machine Learning
 
 ![Unsupervised Machine Learning](https://git.generalassemb.ly/modular-courses/ai-solution-architect-deloitte-ENT/blob/main/_images/Screenshot%202025-01-15%20103627.png)
 
@@ -130,7 +131,7 @@ Clustering algorithms partition data into groups based on similarity. Examples i
   - Does not require the number of clusters beforehand.
 ---
 
-## Applications of Unsupervised Learning
+## Use Cases of Unsupervised Learning
 
 - **Market Segmentation:** Identifying customer groups with similar behavior.
 - **Anomaly Detection:** Spotting unusual patterns in datasets for fraud detection or system monitoring.
@@ -140,7 +141,7 @@ Clustering algorithms partition data into groups based on similarity. Examples i
 
 ---
 
-# Reinforcement Machine Learning
+# 4. Reinforcement Machine Learning
 
 ![Rainforcement Machine Learning](https://git.generalassemb.ly/modular-courses/ai-solution-architect-deloitte-ENT/blob/main/_images/Screenshot%202025-01-15%20095101.png)
 
@@ -189,17 +190,9 @@ Reinforcement Machine Learning is a type of machine learning where an agent lear
 - **Actor-Critic:**
   - Combines policy-based (actor) and value-based (critic) methods for stability and efficiency.
 
-### 3. Deep Reinforcement Learning
-
-- **Deep Q-Networks (DQN):**
-  - Combines Q-Learning with deep neural networks for complex environments.
-
-- **Proximal Policy Optimization (PPO):**
-  - Stable and efficient policy gradient algorithm used in many applications.
-
 ---
 
-## Applications of Reinforcement Learning
+## Use Cases of Reinforcement Learning
 
 - **Gaming:** Mastering complex games like chess, Go, and video games.
 - **Robotics:** Training robots to perform tasks such as navigation and manipulation.
@@ -207,7 +200,7 @@ Reinforcement Machine Learning is a type of machine learning where an agent lear
 - **Finance:** Portfolio optimization and automated trading.
 - **Healthcare:** Personalized treatment planning and drug discovery.
 
-# Limitations of Machine Learning
+# 5. Limitations of Machine Learning
 
 Machine Learning (ML) has revolutionized various fields by enabling machines to learn from data and make intelligent decisions. However, despite its vast potential and applications, ML comes with certain limitations and challenges that need to be addressed for effective deployment.
 
@@ -322,7 +315,7 @@ ML models lack reasoning and common sense understanding, making them prone to er
 Machine learning has immense potential but is not without its limitations. To overcome these challenges, practitioners must focus on improving data quality, enhancing interpretability, addressing ethical concerns, and developing robust deployment pipelines. Acknowledging these limitations helps set realistic expectations and ensures that ML systems are deployed responsibly and effectively.
 
 
-# Research Papers on Machine Learning Paradigms
+# References on Machine Learning Paradigms
 
 ## Supervised Learning
 
