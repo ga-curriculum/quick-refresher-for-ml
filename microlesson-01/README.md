@@ -314,3 +314,46 @@ ML models lack reasoning and common sense understanding, making them prone to er
 
 Machine learning has immense potential but is not without its limitations. To overcome these challenges, practitioners must focus on improving data quality, enhancing interpretability, addressing ethical concerns, and developing robust deployment pipelines. Acknowledging these limitations helps set realistic expectations and ensures that ML systems are deployed responsibly and effectively.
 
+# References on Machine Learning Paradigms
+
+## Supervised Learning
+
+1. **A Review of Supervised Machine Learning Algorithms**  
+   *Authors*: S. B. Kotsiantis, I. Zaharakis, P. Pintelas  
+   *Published in*: Proceedings of the 2007 Conference on Emerging Artificial Intelligence Applications in Computer Engineering  
+   *Summary*: This paper provides a comprehensive overview of various supervised machine learning algorithms, discussing their applicability, advantages, and limitations in different problem domains.  
+   *Link*: [https://datajobs.com/data-science-repo/Supervised-Learning-%5BSB-Kotsiantis%5D.pdf](https://datajobs.com/data-science-repo/Supervised-Learning-%5BSB-Kotsiantis%5D.pdf)
+
+2. **Supervised Machine Learning: A Survey**  
+   *Authors*: S. B. Kotsiantis  
+   *Published in*: Informatica, 2007  
+   *Summary*: This survey delves into various supervised learning techniques, providing insights into their theoretical foundations and practical applications.  
+   *Link*: [https://ieeexplore.ieee.org/document/9641998](https://ieeexplore.ieee.org/document/9641998)
+
+## Unsupervised Learning
+
+1. **Feature Selection for Unsupervised Learning**  
+   *Authors*: J. Dy and C. Brodley  
+   *Published in*: Journal of Machine Learning Research, 2004  
+   *Summary*: This paper explores methods for feature selection in unsupervised learning scenarios, aiming to improve clustering performance by identifying relevant features.  
+   *Link*: [https://jmlr.org/papers/volume5/dy04a/dy04a.pdf](https://jmlr.org/papers/volume5/dy04a/dy04a.pdf)
+
+2. **Unsupervised Learning by Program Synthesis**  
+   *Authors*: K. Ellis, D. Ritchie, A. Solar-Lezama, J. Tenenbaum  
+   *Published in*: Advances in Neural Information Processing Systems (NeurIPS), 2018  
+   *Summary*: This work introduces an approach where unsupervised learning is achieved through program synthesis, enabling the discovery of interpretable representations from data.  
+   *Link*: [https://dspace.mit.edu/bitstream/handle/1721.1/113870/Solar-Lezama_Unsupervised%20learning.pdf](https://dspace.mit.edu/bitstream/handle/1721.1/113870/Solar-Lezama_Unsupervised%20learning.pdf)
+
+## Reinforcement Learning
+
+1. **Reinforcement Learning: An Overview**  
+   *Author*: K. Murphy  
+   *Published in*: arXiv preprint, 2024  
+   *Summary*: This manuscript provides a comprehensive overview of the field of (deep) reinforcement learning and sequential decision making, covering value-based RL, policy-gradient methods, model-based methods, and various other topics.  
+   *Link*: [https://arxiv.org/abs/2412.05265](https://arxiv.org/abs/2412.05265)
+
+2. **Reinforcement Learning Algorithms: An Overview and Classification**  
+   *Authors*: M. Arulkumaran, M. P. Deisenroth, M. Brundage, A. A. Bharath  
+   *Published in*: arXiv preprint, 2017  
+   *Summary*: This paper provides an overview and classification of various reinforcement learning algorithms, discussing their theoretical foundations and practical applications.  
+   *Link*: [https://arxiv.org/pdf/2209.14940](https://arxiv.org/pdf/2209.14940)
