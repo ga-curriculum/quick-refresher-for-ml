@@ -134,7 +134,7 @@ Clustering algorithms partition data into groups based on similarity. Examples i
 ---
 
 # Reinforcement Machine Learning
-[Rainforcement Machine Learning](https://git.generalassemb.ly/modular-courses/ai-solution-architect-deloitte-ENT/blob/main/_images/Screenshot%202025-01-15%20095101.png)
+![Rainforcement Machine Learning](https://git.generalassemb.ly/modular-courses/ai-solution-architect-deloitte-ENT/blob/main/_images/Screenshot%202025-01-15%20095101.png)
 Reinforcement Machine Learning is a type of machine learning where an agent learns to make decisions by performing actions in an environment to maximize cumulative rewards. It is inspired by behavioral psychology and is used in tasks where sequential decision-making is critical.
 
 ---
