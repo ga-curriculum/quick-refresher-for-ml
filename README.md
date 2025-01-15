@@ -6,7 +6,7 @@
 
 ## About
 
-Explore types of ML models (supervised, unsupervised & reinforcement learning)  and their use cases
+This session provides a quick refresher on supervised, unsupervised, and reinforcement learning, highlighting their core principles and differences. Use cases include applications in predictive modeling, clustering, and autonomous systems, providing a comprehensive understanding of diverse machine learning paradigms
 
 
 ## Content
