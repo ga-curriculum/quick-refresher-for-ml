@@ -60,13 +60,6 @@
   - Reduces overfitting by testing the model on unseen data.
   - Provides a more reliable estimate of model performance.
 
-## 7. Evaluation
-- **Definition**: Assessing the model's performance on unseen data.
-- **Metrics**:
-  - Accuracy, Precision, Recall (for classification)
-  - Mean Squared Error (MSE) (for regression)
-  - F1 Score (for imbalanced datasets)
-
 ## 8. Hyperparameters
 - **Definition**: Settings or configurations that control the training process of a model.
 - **Examples**:
@@ -74,14 +67,4 @@
   - Number of Layers
   - Regularization Parameter
 
-## 9. Deployment
-- **Definition**: Integrating the trained model into a real-world environment for predictions.
-- **Key Steps**:
-  - Model Serialization (e.g., saving in formats like ONNX, Pickle)
-  - Integration with APIs or applications
 
-## 10. Feedback Loop
-- **Definition**: Continuously improving the model by collecting and incorporating new data.
-- **Importance**:
-  - Enhances model accuracy.
-  - Adapts to changing data patterns.
