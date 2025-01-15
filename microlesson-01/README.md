@@ -1,6 +1,6 @@
 <h1>
   <span class="headline">[Quick Refresher to Machine Learning]</span>
-  <span class="subhead">Supervised, Unsupervised, and Reinforcement Machine Learning Microlesson 01</span>
+  <span class="subhead">Supervised, Unsupervised, and Reinforcement Machine Learning </span>
 </h1>
 
 
@@ -49,7 +49,8 @@ Supervised learning is a type of machine learning where the model is trained on 
 
 ---
 ## Two types of Sypervised Machine Learning 
-
+![Soupervised ML](https://git.generalassemb.ly/modular-courses/ai-solution-architect-deloitte-ENT/blob/main/_images/Screenshot%202025-01-15%20102119.png)
+[Source](https://www.researchgate.net/publication/378622301_Integrating_machine_learning_and_genome_editing_for_crop_improvement)
 Supervised Machine Learning is a foundational approach in artificial intelligence, where algorithms are trained to map input data to output labels using a labeled dataset. The process involves identifying patterns and relationships within the data to make predictions or decisions. There are two primary types of tasks in supervised learning:
 
 1. **Classification**: Involves predicting categorical labels. Examples include spam detection, image recognition, and disease diagnosis.
