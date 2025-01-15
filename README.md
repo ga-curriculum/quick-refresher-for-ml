@@ -15,7 +15,7 @@ Explore types of ML models (supervised, unsupervised & reinforcement learning)  
 | ------ |:------------------:| ------ |
 | [Setup](./setup/README.md)                          | -- | Set up the development environment. |
 | [Concepts](./concepts/README.md)                    | -- | tktk Skills to cover                |
-| [tktk Microlesson Name](./microlesson-01/README.md) | -- | tktk Skills to cover                |
+| [Quick Refresher for Machine Learning](./microlesson-01/README.md) | -- | tktk Skills to cover                |
 | [tktk Microlesson Name](./microlesson-02/README.md) | -- | tktk Skills to cover                |
 | **Total content**                                   | -- |                                     |
 
