@@ -36,7 +36,7 @@ Ability to work with simple datasets (e.g., CSV files).
 4. Interest in Problem Solving
 Curiosity to solve real-world problems using patterns in data.
 
-5.Basic knowledge of libraries like NumPy and Pandas.
+
 
 
 
