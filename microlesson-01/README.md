@@ -31,8 +31,6 @@
 | **Learning Type**      | Predictive (maps inputs to outputs).                    | Descriptive (finds structure in data).                 | Prescriptive (takes actions for optimal results).    |
 | **Interpretability**   | High with simpler models, challenging for deep models. | Often low; results require domain knowledge to analyze.| Policy outcomes interpretable; underlying process opaque. |
 
-This advanced tabular format highlights key distinctions and innovations, offering deeper insights into the three paradigms of machine learning.
-
 [Scope](https://git.generalassemb.ly/modular-curriculum-all-courses/quick-refresher-for-ml/blob/main/microlesson-01/ML_Scope.md)
 
 [Essential Component of Machine Learning](https://git.generalassemb.ly/modular-curriculum-all-courses/quick-refresher-for-ml/blob/main/microlesson-01/README_Base_Vocabulary_Supervised_Learning.md)
