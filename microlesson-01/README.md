@@ -3,21 +3,18 @@
   <span class="subhead">Supervised, Unsupervised, and Reinforcement Machine Learning </span>
 </h1>
 
+## Learning Objectives
 
-**Learning objective:**
+By the end of this course, you will be able to:
 
-1. Refresh understanding of supervised learning, focusing on its key characteristics and applications in classification and regression tasks.
-
-2. Refresh understanding of unsupervised learning, focusing on clustering and dimensionality reduction techniques.
-
-3. Refresh understanding of reinforcement learning, with an emphasis on policy-based and reward-driven decision-making systems.
-
-4. Relate refreshed ML concepts to real-world use cases.
-
-5. Build a strong base for exploring advanced AI topics in subsequent modules.
+- **Recall supervised learning concepts**, emphasizing key characteristics and applications in classification and regression tasks.
+- **Explain unsupervised learning techniques**, focusing on clustering and dimensionality reduction methods.
+- **Analyze reinforcement learning frameworks**, emphasizing policy-based and reward-driven decision-making systems.
+- **Apply refreshed ML concepts** to real-world use cases to contextualize learning.
+- **Prepare to explore advanced AI topics**, building a foundational understanding for subsequent modules.
 
 
-# 1. Comparative Analysis of Supervised, Unsupervised, and Reinforcement Machine Learning
+# 1. Comparative Analysis of Supervised, Unsupervised, and Reinforcement Machine Learning (10 mins)
 
 | **Category**           | **Supervised Learning**                                   | **Unsupervised Learning**                                | **Reinforcement Learning**                            |
 |------------------------|---------------------------------------------------------|--------------------------------------------------------|-----------------------------------------------------|
