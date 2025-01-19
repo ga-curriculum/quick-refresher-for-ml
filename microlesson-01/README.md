@@ -31,20 +31,20 @@ By the end of this course, you will be able to:
 [Scope](https://git.generalassemb.ly/modular-curriculum-all-courses/quick-refresher-for-ml/blob/main/microlesson-01/ML_Scope.md)
 
 [Essential Component of Machine Learning](https://git.generalassemb.ly/modular-curriculum-all-courses/quick-refresher-for-ml/blob/main/microlesson-01/README_Base_Vocabulary_Supervised_Learning.md)
----
+
 # 2. Supervised Machine Learning
 
 Supervised Machine Learning involves building models that learn from labeled datasets to make predictions or decisions. This repository provides an introduction to supervised learning with examples of both classification and regression tasks.
-
-
 
 ## Introduction
 
 Supervised learning is a type of machine learning where the model is trained on labeled data. In this context, "labeled data" means that each training example is paired with an output label. The model uses this data to learn the mapping function from inputs to outputs, enabling it to make predictions on new, unseen data.
 
 ---
-## Two types of Sypervised Machine Learning 
-![Soupervised ML](https://git.generalassemb.ly/modular-courses/ai-solution-architect-deloitte-ENT/blob/main/_images/Screenshot%202025-01-15%20102119.png)
+
+## Two Types of Supervised Machine Learning
+
+![Supervised ML](https://git.generalassemb.ly/modular-courses/ai-solution-architect-deloitte-ENT/blob/main/_images/Screenshot%202025-01-15%20102119.png)
 
 [Source](https://www.researchgate.net/publication/378622301_Integrating_machine_learning_and_genome_editing_for_crop_improvement)
 
@@ -55,7 +55,7 @@ Supervised Machine Learning is a foundational approach in artificial intelligenc
 
 Supervised learning is widely used due to its effectiveness and reliability in solving real-world problems such as fraud detection, customer segmentation, and predictive maintenance.
 
-
+---
 
 ## Major Supervised Machine Learning Algorithms
 
@@ -88,6 +88,43 @@ This section describes 10 major supervised machine learning algorithms, along wi
 7. **[Naive Bayes](https://git.generalassemb.ly/modular-curriculum-all-courses/quick-refresher-for-ml/blob/main/microlesson-01/Naive_Bayes_Algorithm.md)**
    - Based on Bayes' theorem, assumes independence between features. Commonly used for classification.
    - **Use Cases**: Sentiment analysis, email classification.
+
+---
+
+## Activity: Personalized Product Recommendations
+
+**Objective:** Apply supervised learning concepts to a real-world scenario by exploring personalized product recommendations.
+
+### Scenario:
+Your company operates an e-commerce platform, and you want to implement a system that suggests products to users based on their past purchase history and browsing behavior.
+
+**Tasks:**
+
+1. **Dataset Exploration:**
+   - Examine a labeled dataset containing customer interactions. Features include customer demographics, browsing history, and past purchases.
+
+2. **Model Selection:**
+   - Choose an appropriate supervised learning algorithm (e.g., Logistic Regression, Random Forest) for predicting the likelihood of a customer purchasing a recommended product.
+
+3. **Model Training and Validation:**
+   - Train your chosen model on the provided dataset.
+   - Evaluate its performance using appropriate metrics (e.g., accuracy, precision, recall).
+
+4. **Result Interpretation:**
+   - Analyze the model's predictions and identify patterns in customer behavior.
+   - Discuss how these insights could improve the e-commerce platform's customer experience.
+
+5. **Optimization:**
+   - Explore hyperparameter tuning to improve model performance.
+   - Discuss potential challenges in scaling the recommendation system for millions of users.
+
+**Deliverables:**
+- A summary of your model's performance.
+- Insights and recommendations based on the analysis.
+- A brief discussion of next steps and challenges.
+
+---
+
    - 
 
 ---
@@ -133,6 +170,48 @@ Clustering algorithms partition data into groups based on similarity. Examples i
 - **Recommendation Systems:** Suggesting items to users by finding similar users or products.
 - **Genomics:** Understanding genetic data by identifying groups of genes with similar expressions.
 - **Image Compression:** Reducing the size of image data using dimensionality reduction techniques.
+
+---
+
+## Activity: Market Segmentation for a Retail Business
+
+**Objective:** Leverage unsupervised learning to perform market segmentation and identify distinct customer groups for a retail business.
+
+### Scenario:
+A retail chain wants to optimize its marketing campaigns by understanding the distinct segments within its customer base. The company has collected customer demographic information, purchase histories, and behavioral data, but the dataset is unlabeled.
+
+**Tasks:**
+
+1. **Dataset Exploration:**
+   - Examine the provided dataset to understand the features, such as customer demographics, purchase frequency, average spending, and preferred product categories.
+
+2. **Clustering Algorithm Selection:**
+   - Choose an appropriate clustering algorithm (e.g., K-Means, Hierarchical Clustering) for segmenting the customer base.
+
+3. **Feature Engineering:**
+   - Preprocess the data by normalizing numerical features and handling missing values.
+   - Select relevant features for clustering.
+
+4. **Cluster Identification:**
+   - Apply the chosen clustering algorithm and determine the optimal number of clusters using techniques like the elbow method or silhouette score.
+
+5. **Result Analysis:**
+   - Visualize the clusters using dimensionality reduction techniques (e.g., PCA, t-SNE).
+   - Interpret the characteristics of each cluster (e.g., high-spenders, frequent shoppers, discount-seekers).
+
+6. **Business Insights:**
+   - Provide actionable insights on how the company can target each customer segment with tailored marketing strategies.
+
+7. **Challenges and Limitations:**
+   - Discuss potential challenges, such as overlapping clusters or data quality issues.
+   - Propose ways to validate and refine the clustering results.
+
+**Deliverables:**
+- A summary of the identified customer segments.
+- Visualizations of the clusters and their characteristics.
+- Recommendations for marketing strategies tailored to each segment.
+
+---
 
 ---
 
@@ -194,6 +273,54 @@ Reinforcement Machine Learning is a type of machine learning where an agent lear
 - **Self-Driving Cars:** Decision-making for navigation and obstacle avoidance.
 - **Finance:** Portfolio optimization and automated trading.
 - **Healthcare:** Personalized treatment planning and drug discovery.
+
+---
+
+## Activity: Designing a Reinforcement Learning Agent for a Smart Traffic System
+
+**Objective:** Apply reinforcement learning concepts to design and evaluate an agent for optimizing traffic flow in a smart traffic system.
+
+### Scenario:
+A city is experiencing significant traffic congestion during peak hours, causing delays and increased emissions. The local government wants to implement a smart traffic management system where AI agents control traffic lights to minimize overall wait times and improve traffic flow efficiency.
+
+**Tasks:**
+
+1. **Problem Formulation:**
+   - Define the environment, including:
+     - **States (S):** Traffic conditions at each intersection (e.g., vehicle density, queue lengths).
+     - **Actions (A):** Traffic light settings (e.g., green, yellow, red durations for each direction).
+     - **Reward (R):** Negative of the total wait time for all vehicles.
+   - Establish the objective as minimizing cumulative traffic wait times.
+
+2. **Algorithm Selection:**
+   - Choose a reinforcement learning algorithm (e.g., Q-Learning, SARSA, or Actor-Critic) for the task.
+   - Justify the selection based on the problem's complexity and requirements.
+
+3. **Simulation Design:**
+   - Create a simulated traffic environment with multiple intersections and variable traffic patterns.
+   - Set up the simulation to provide state information and feedback (rewards) for agent actions.
+
+4. **Agent Training:**
+   - Train the reinforcement learning agent in the simulated environment.
+   - Experiment with different hyperparameters, such as learning rate and exploration strategies (e.g., ε-greedy).
+
+5. **Evaluation:**
+   - Evaluate the agent's performance by comparing traffic wait times before and after implementing the RL agent.
+   - Use metrics such as average wait time, total vehicles cleared, and system stability.
+
+6. **Enhancements:**
+   - Propose potential enhancements, such as multi-agent reinforcement learning for coordinated control across intersections or using real-world traffic data for more realistic training.
+
+7. **Discussion:**
+   - Analyze the trade-offs between exploration and exploitation in this context.
+   - Reflect on the challenges of transferring the trained agent from simulation to real-world deployment.
+
+**Deliverables:**
+- A report summarizing the agent's design, training process, and performance evaluation.
+- Visualizations of traffic flow improvements and agent actions.
+- Recommendations for future enhancements and deployment strategies.
+
+---
 
 # 5. Limitations of Machine Learning
 
