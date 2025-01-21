@@ -14,7 +14,7 @@ By the end of this course, you will be able to:
 - **Prepare to explore advanced AI topics**, building a foundational understanding for subsequent modules.
 
 
-# 1. Comparative Analysis of Supervised, Unsupervised, and Reinforcement Machine Learning (10 mins)
+## 1. Comparative Analysis of Supervised, Unsupervised, and Reinforcement Machine Learning (10 mins)
 
 | **Category**           | **Supervised Learning**                                   | **Unsupervised Learning**                                | **Reinforcement Learning**                            |
 |------------------------|---------------------------------------------------------|--------------------------------------------------------|-----------------------------------------------------|
