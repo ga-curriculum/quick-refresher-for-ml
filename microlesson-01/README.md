@@ -212,11 +212,12 @@ Clustering algorithms partition data into groups based on similarity. Examples i
 
 #### 3. Use Cases of Unsupervised Learning
 
-- **Market Segmentation:** Identifying customer groups with similar behavior.
-- **Anomaly Detection:** Spotting unusual patterns in datasets for fraud detection or system monitoring.
-- **Recommendation Systems:** Suggesting items to users by finding similar users or products.
-- **Genomics:** Understanding genetic data by identifying groups of genes with similar expressions.
-- **Image Compression:** Reducing the size of image data using dimensionality reduction techniques.
+- 🧑‍🤝‍🧑 **Market Segmentation:** Identifying customer groups with similar behavior.
+- 🚨 **Anomaly Detection:** Spotting unusual patterns in datasets for fraud detection or system monitoring.
+- 🛒 **Recommendation Systems:** Suggesting items to users by finding similar users or products.
+- 🧬 **Genomics:** Understanding genetic data by identifying groups of genes with similar expressions.
+- 🖼️ **Image Compression:** Reducing the size of image data using dimensionality reduction techniques.
+
 
 ---
 
@@ -313,11 +314,12 @@ Reinforcement Machine Learning is a type of machine learning where an agent lear
 
 #### 4. Use Cases of Reinforcement Learning
 
-- **Gaming:** Mastering complex games like chess, Go, and video games.
-- **Robotics:** Training robots to perform tasks such as navigation and manipulation.
-- **Self-Driving Cars:** Decision-making for navigation and obstacle avoidance.
-- **Finance:** Portfolio optimization and automated trading.
-- **Healthcare:** Personalized treatment planning and drug discovery.
+- 🎮 **Gaming:** Mastering complex games like chess, Go, and video games.
+- 🤖 **Robotics:** Training robots to perform tasks such as navigation and manipulation.
+- 🚗 **Self-Driving Cars:** Decision-making for navigation and obstacle avoidance.
+- 💰 **Finance:** Portfolio optimization and automated trading.
+- 🏥 **Healthcare:** Personalized treatment planning and drug discovery.
+
 
 ---
 
