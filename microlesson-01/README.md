@@ -295,7 +295,6 @@ The sigmoid function is the cornerstone of logistic regression. It is used to ma
 
 The function is mathematically represented as:
 
-\[ \sigma(x) = \frac{1}{1 + e^{-x}} \]
 
 #### Properties of the Sigmoid Function:
 
@@ -319,19 +318,7 @@ The function is mathematically represented as:
 #### Intuition:
 
 - In logistic regression, the sigmoid function transforms the linear combination of input features into a probability score.
-- For example, consider the model equation:
-  
-  \[ z = w_1x_1 + w_2x_2 + \dots + w_nx_n + b \]
 
-  Here, \( z \) is a weighted sum of the inputs and bias term. The sigmoid function then maps \( z \) into the range [0, 1], enabling it to represent the likelihood of a specific outcome.
-
-- When \( z \) is large and positive, \( \sigma(z) \) is close to 1.
-- When \( z \) is large and negative, \( \sigma(z) \) is close to 0.
-- When \( z \) is 0, \( \sigma(z) \) equals 0.5, indicating maximum uncertainty between the two classes.
-
-This behavior makes the sigmoid function ideal for binary classification problems, as it naturally aligns with the concept of probability.
-
----
 
 ### 2. **Binary Classification**
 - Logistic Regression is primarily used for binary classification problems where the output has two classes, typically represented as 0 and 1.
