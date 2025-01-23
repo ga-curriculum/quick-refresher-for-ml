@@ -7,41 +7,41 @@
 
 - [Learning Objectives](#learning-objectives)
 
-- [I Machine Learning](#machine-learning)
+- [I Machine Learning](#machine-learning)(10 Mins)
     - [A. Comparative Analysis of Learning Types](#a-comparative-analysis-of-learning-types)
     - [B. Importance of Machine Learning in Real-World Applications](#b-importance-of-machine-learning-in-real-world-applications)
     - [c. Scope of Supervised ,Unsupervised and Rainforcement Machine Learning](#c-scope-of-supervised-unsupervised-and-rainforcement-machine-learning)
 
 ---
 
-- [II. Supervised Machine Learning](#ii-supervised-machine-learning)
+- [II. Supervised Machine Learning](#ii-supervised-machine-learning)(40 Mins)
     - [A. Introduction to Supervised Learning](#a-introduction-to-supervised-learning)
     - [B. Types of Supervised Learning](#b-types-of-supervised-learning)
         - [1. Classification](#1-classification)
         - [2. Regression](#2-regression)
     - [C. Major Algorithms in Supervised Learning](#c-major-algorithms-in-supervised-learning)
-        - [1. Linear Regression](#1-linear-regression)
-        - [2. Logistic Regression](#2-logistic-regression)
-        - [3. Decision Tree](#3-decision-tree)
-        - [4. Random Forest](#4-random-forest)
-        - [5. Support Vector Machine (SVM)](#5-support-vector-machine-svm)
-        - [6. K-Nearest Neighbors (KNN)](#6-K-Nearest-neighbors-(knn))
-        - [7. Naive Bayes](#7-naive-bayes)
+        - [1. Linear Regression](#1-linear-regression)(5 Mins)
+        - [2. Logistic Regression](#2-logistic-regression)(5 Mins)
+        - [3. Decision Tree](#3-decision-tree)(5 Mins)
+        - [4. Random Forest](#4-random-forest)(5 Mins)
+        - [5. Support Vector Machine (SVM)](#5-support-vector-machine-svm)(5Mins)
+        - [6. K-Nearest Neighbors (KNN)](#6-K-Nearest-neighbors-(knn))(5 Mins)
+        - [7. Naive Bayes](#7-naive-bayes)(5 Mins)
     - [D. Activity: Personalized Product Recommendations](#d-activity-personalized-product-recommendations)
 
 ---
 -
-- [III. Unsupervised Machine Learning](#iii-unsupervised-machine-learning)
+- [III. Unsupervised Machine Learning](#iii-unsupervised-machine-learning)(20 Mins)
     - [A. Key Features of Unsupervised Learning](#a-key-features-of-unsupervised-learning)
     - [B. Clustering Techniques](#b-clustering-techniques)
-        - [1. K-Means Clustering](#1-k-means-clustering)
-        - [2. Hierarchical Clustering](#2-hierarchical-clustering)
+        - [1. K-Means Clustering](#1-k-means-clustering)(5 mins)
+        - [2. Hierarchical Clustering](#2-hierarchical-clustering)(5 Mins)
     - [C. Use Cases of Unsupervised Learning](#c-use-cases-of-unsupervised-learning)
     - [D. Activity: Market Segmentation for a Retail Business](#d-activity-market-segmentation-for-a-retail-business)
 
 ---
 -
-- [IV. Reinforcement Machine Learning](#iv-reinforcement-machine-learning)
+- [IV. Reinforcement Machine Learning](#iv-reinforcement-machine-learning)(20 Mins)
     - [A. Key Features of Reinforcement Learning](#a-key-features-of-reinforcement-learning)
     - [B. Important Terminology](#b-important-terminology)
     - [C. Common Algorithms in Reinforcement Learning](#c-common-algorithms-in-reinforcement-learning)
@@ -53,7 +53,7 @@
 
 ---
 
--  [V. Limitations of Machine Learning](#v-limitations-of-machine-learning)
+-  [V. Limitations of Machine Learning](#v-limitations-of-machine-learning)(5 Mins)
     - [A. Data-Dependent Nature](#a-data-dependent-nature)
     - [B. Interpretability and Explainability](#b-interpretability-and-explainability)
     - [C. Overfitting and Underfitting](#c-overfitting-and-underfitting)
@@ -64,7 +64,7 @@
 
 ---
 
-- [VI. Conclusion](#vi-conclusion)
+- [VI. Conclusion](#vi-conclusion)(5 Mins)
     - [A. Recap of Key Points](#a-recap-of-key-points)
     - [B. Best Practices for Machine Learning Deployment](#b-best-practices-for-machine-learning-deployment)
     - [C. Future Trends in Machine Learning](#c-future-trends-in-machine-learning)
