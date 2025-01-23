@@ -163,7 +163,7 @@ Reinforcement learning (RL) involves an agent learning to make decisions by inte
 5. **Healthcare**:
    - Personalized treatment recommendations, optimizing resource allocation.
 
-### A. Supervised Machine Learning (5 min )
+### II. Supervised Machine Learning (5 min )
 
 Supervised Machine Learning involves building models that learn from labeled datasets to make predictions or decisions. This repository provides an introduction to supervised learning with examples of both classification and regression tasks.
 
