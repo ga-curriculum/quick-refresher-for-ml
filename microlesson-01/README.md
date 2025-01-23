@@ -282,8 +282,6 @@ Understanding the roles of independent and dependent variables is foundational f
 
  
 2. **[Logistic Regression]**
-    # Logistic Regression
-
 Logistic Regression is a supervised machine learning algorithm used for classification tasks. Despite its name, it is not a regression algorithm in the traditional sense; instead, it predicts probabilities and uses these probabilities to classify data into discrete categories.
 
 ---
