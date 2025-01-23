@@ -182,8 +182,6 @@ Supervised learning is widely used due to its effectiveness and reliability in s
 
 ### C. Major Algorithms in Supervised Learning
 
-This section describes 10 major supervised machine learning algorithms, along with their key characteristics and applications:
-
 #### 1. Linear Regression (5 mins)
 
 Linear Regression is a fundamental supervised learning algorithm used for predicting continuous outcomes. It is widely used in statistics and machine learning for modeling relationships between variables. Linear regression offers a simple yet powerful approach to understanding and predicting numerical data by examining the relationships between dependent and independent variables.
