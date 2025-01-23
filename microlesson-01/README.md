@@ -7,10 +7,10 @@
 
 - [Learning Objectives](#learning-objectives)
 
-- [I. Quick Refresher to Machine Learning](#i-quick-refresher-to-machine-learning)
+- [I Machine Learning](#machine-learning)
     - [A. Comparative Analysis of Learning Types](#a-comparative-analysis-of-learning-types)
     - [B. Importance of Machine Learning in Real-World Applications](#b-importance-of-machine-learning-in-real-world-applications)
-    - [c. Scope of Supervised ,Unsupervised and Rainforcement Machine Learning]
+    - [c. Scope of Supervised ,Unsupervised and Rainforcement Machine Learning](#c-scope-of-supervised-unsupervised-and-rainforcement-machine-learning)
 
 - [II. Supervised Machine Learning](#ii-supervised-machine-learning)
     - [A. Introduction to Supervised Learning](#a-introduction-to-supervised-learning)
@@ -67,6 +67,13 @@ By the end of this course, you will be able to:
 - **Apply refreshed ML concepts** to real-world use cases to contextualize learning.
 - **Prepare to explore advanced AI topics**, building a foundational understanding for subsequent modules.
 
+I # Machine Learning (ML)
+
+Machine learning (ML) is a subset of artificial intelligence (AI) that enables systems to automatically learn from data and improve their performance over time without being explicitly programmed. It focuses on creating algorithms that can:
+
+- Recognize patterns
+- Make decisions
+- Solve problems based on input data
 
 ## I. Comparative Analysis of Supervised, Unsupervised, and Reinforcement Machine Learning (10 mins)
 
