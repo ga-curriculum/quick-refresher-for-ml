@@ -10,6 +10,7 @@
 - [I. Quick Refresher to Machine Learning](#i-quick-refresher-to-machine-learning)
     - [A. Comparative Analysis of Learning Types](#a-comparative-analysis-of-learning-types)
     - [B. Importance of Machine Learning in Real-World Applications](#b-importance-of-machine-learning-in-real-world-applications)
+    - [c. Scope of Supervised ,Unsupervised and Rainforcement Machine Learning]
 
 - [II. Supervised Machine Learning](#ii-supervised-machine-learning)
     - [A. Introduction to Supervised Learning](#a-introduction-to-supervised-learning)
@@ -82,7 +83,7 @@ By the end of this course, you will be able to:
 | **Interpretability**   | High with simpler models, challenging for deep models. | Often low; results require domain knowledge to analyze.| Policy outcomes interpretable; underlying process opaque. |
 
 
-# Scope of Supervised, Unsupervised and Reinforcement Learning
+##Scope of Supervised, Unsupervised and Reinforcement Learning
 
 ## 1. Supervised Learning
 
