@@ -153,7 +153,6 @@ Reinforcement learning (RL) involves an agent learning to make decisions by inte
 
 
 
-[Essential Component of Machine Learning](https://git.generalassemb.ly/modular-curriculum-all-courses/quick-refresher-for-ml/blob/main/microlesson-01/README_Base_Vocabulary_Supervised_Learning.md)
 
 ### A. Supervised Machine Learning
 
