@@ -23,6 +23,8 @@
         - [3. Decision Tree](#3-decision-tree)
         - [4. Random Forest](#4-random-forest)
         - [5. Support Vector Machine (SVM)](#5-support-vector-machine-svm)
+        - [6. K-Nearest Neighbors (KNN)](#6-K-Nearest-neighbors-(knn))
+        - [7. Naive Bayes](#7-naive-bayes)
     - [D. Activity: Personalized Product Recommendations](#d-activity-personalized-product-recommendations)
 
 - [III. Unsupervised Machine Learning](#iii-unsupervised-machine-learning)
@@ -41,7 +43,7 @@
         - [2. SARSA](#2-sarsa)
         - [3. Policy Gradient Methods](#3-policy-gradient-methods)
     - [D. Use Cases of Reinforcement Learning](#d-use-cases-of-reinforcement-learning)
-    - [E. Activity: Smart Traffic System Agent](#e-activity-smart-traffic-system-agent)
+    - [E. Discussion: Smart Traffic System Agent](#e-activity-smart-traffic-system-agent)
 
 - [V. Limitations of Machine Learning](#v-limitations-of-machine-learning)
     - [A. Data-Dependent Nature](#a-data-dependent-nature)
@@ -182,7 +184,7 @@ Supervised learning is widely used due to its effectiveness and reliability in s
 
 ### C. Major Algorithms in Supervised Learning
 
-#### 1. Linear Regression (5 mins)
+#### C.1. Linear Regression (5 mins)
 
 Linear Regression is a fundamental supervised learning algorithm used for predicting continuous outcomes. It is widely used in statistics and machine learning for modeling relationships between variables. Linear regression offers a simple yet powerful approach to understanding and predicting numerical data by examining the relationships between dependent and independent variables.
 
@@ -273,7 +275,7 @@ Linear Regression provides a mathematical framework for understanding and predic
 
 ---
 
-2. **[Logistic Regression]**
+ **C.2[Logistic Regression]**
 Logistic Regression is a supervised machine learning algorithm used for classification tasks. Despite its name, it is not a regression algorithm in the traditional sense; instead, it predicts probabilities and uses these probabilities to classify data into discrete categories.
 
 ---
@@ -381,13 +383,9 @@ The function is mathematically represented as:
 
 ---
 
-## Conclusion
-
-Logistic Regression is a robust and versatile algorithm for binary classification tasks. Despite its simplicity, it is widely used in real-world applications due to its interpretability and efficiency. Understanding its assumptions and limitations is essential for applying it effectively to solve classification problems.
-
   
 
-3. **[Decision Tree]** (5 min)
+3. **C.3 [Decision Tree]** (5 min)
    
 # Decision Tree 
 
@@ -513,7 +511,7 @@ Visualization is a key feature of decision trees. Tools and libraries like Sciki
 - **Decision Tree Plotting in Scikit-learn**: Offers built-in functions to visualize trees directly.
 
 
-4. **[Random Forest]** ( 5 min)
+4. **C.4 [Random Forest]** ( 5 min)
      
 #  Random Forest
 
@@ -580,11 +578,10 @@ Random Forest is a versatile machine learning algorithm that excels in both clas
 
 ---
 
-6. **[Support Vector Machine (SVM)]** (5 mins)
+ **C.5 [Support Vector Machine (SVM)]** (5 mins)
    
 #  Support Vector Machine (SVM)
 
-## Overview
 Support Vector Machine (SVM) is a supervised machine learning algorithm used for classification, regression, and outlier detection tasks. It is known for its effectiveness in high-dimensional spaces and its ability to handle non-linear decision boundaries using kernel functions.
 
 ---
@@ -645,7 +642,7 @@ Support Vector Machine (SVM) is a supervised machine learning algorithm used for
 4. **degree**: Degree of the polynomial kernel (if used).
 
 ---
-8. **[K-Nearest Neighbors (KNN)]**(5 mins)
+**C 6 [K-Nearest Neighbors (KNN)]**(5 mins)
    
 # K-Nearest Neighbors (KNN) Algorithm
 
@@ -745,7 +742,7 @@ K-Nearest Neighbors is a powerful yet simple algorithm that relies on the princi
 
 
 
-9 . **[Naive Bayes]**(5 min)
+7. **[Naive Bayes]**(5 min)
    
 # Naive Bayes Algorithm
 
@@ -871,7 +868,7 @@ Naive Bayes is a foundational algorithm in machine learning that balances simpli
 
 ---
 
-**Activity: Personalized Product Recommendations**
+**D. Activity: Personalized Product Recommendations**
 
 **Objective:** Apply supervised learning concepts to a real-world scenario by exploring personalized product recommendations.
 
@@ -905,7 +902,7 @@ Your company operates an e-commerce platform, and you want to implement a system
 
 ---
 
-### B. Unsupervised Machine Learning
+## III. Unsupervised Machine Learning
 
 
 
@@ -913,7 +910,7 @@ Unsupervised Machine Learning is a type of machine learning technique where mode
 
 ---
 
-#### 1. Key Features of Unsupervised Learning
+## A. Key Features of Unsupervised Learning
 
 - **No Labels Required:** Works on unlabeled data.
 - **Pattern Discovery:** Identifies hidden patterns or intrinsic structures in input data.
@@ -922,21 +919,192 @@ Unsupervised Machine Learning is a type of machine learning technique where mode
 
 ---
 
-#### 2. Clustering
+## B. Clustering
 
 Clustering algorithms partition data into groups based on similarity. Examples include:
 
-- **[K-Means Clustering](https://git.generalassemb.ly/modular-curriculum-all-courses/quick-refresher-for-ml/blob/main/microlesson-01/K-Means_Clustering.md)**
-  - Assigns data points to clusters iteratively to minimize intra-cluster variance.
-  - Requires the number of clusters (`k`) to be predefined.
+- **[K-Means Clustering]**
+  
+K-Means is a widely-used unsupervised learning algorithm designed for clustering tasks. It partitions a dataset into `k` clusters, each represented by its centroid. The goal is to minimize the within-cluster variance by iteratively assigning data points to clusters and recalculating centroids.
 
-- **[Hierarchical Clustering](https://git.generalassemb.ly/modular-curriculum-all-courses/quick-refresher-for-ml/blob/main/microlesson-01/Extended_Hierarchical_Clustering.md)**
-  - Builds a tree of clusters using either a bottom-up or top-down approach.
-  - Does not require the number of clusters beforehand.
-    
 ---
 
-#### 3. Use Cases of Unsupervised Learning
+## How K-Means Works?
+
+### Steps of the Algorithm
+
+1. **Initialization**:
+   - Select `k` initial centroids, either randomly or using specialized methods like K-Means++.
+
+2. **Assignment Step**:
+   - Assign each data point to the nearest centroid using a distance metric, typically Euclidean distance.
+
+3. **Update Step**:
+   - Recalculate the centroids by computing the mean of all points assigned to each cluster.
+
+4. **Iteration**:
+   - Repeat the Assignment and Update steps until centroids stabilize or a maximum number of iterations is reached.
+
+---
+
+## Key Concepts
+
+### Centroids
+- Each cluster is represented by a single centroid, which is the mean of the data points in that cluster.
+
+### Number of Clusters (`k`)
+- The user predefines the number of clusters (`k`), which significantly influences the results.
+
+### Distance Metrics
+- Common distance metrics include Euclidean distance, Manhattan distance, and others, depending on the nature of the data.
+
+### Convergence
+- The algorithm converges when the centroids do not change significantly between iterations or a specified iteration limit is reached.
+
+---
+
+## Applications
+
+1. **Customer Segmentation**:
+   - Grouping customers for targeted marketing strategies.
+2. **Image Segmentation**:
+   - Dividing an image into meaningful regions.
+3. **Document Clustering**:
+   - Organizing text documents by topics.
+4. **Anomaly Detection**:
+   - Identifying data points that deviate significantly from cluster norms.
+5. **Healthcare**:
+   - Grouping patients with similar health conditions for better treatment plans.
+
+---
+
+## Advantages
+
+1. **Simple and Intuitive**:
+   - Easy to implement and interpret.
+2. **Efficient**:
+   - Performs well for moderate-sized datasets.
+3. **Versatile**:
+   - Applicable to a variety of domains and data types.
+
+---
+
+## Limitations
+
+1. **Fixed Number of Clusters (`k`)**:
+   - The user must define the number of clusters, which may not always be known.
+2. **Initialization Sensitivity**:
+   - Poorly chosen initial centroids can lead to suboptimal clustering.
+3. **Cluster Shape Assumption**:
+   - Assumes clusters are spherical and equally sized, which may not align with real-world data.
+4. **Outlier Sensitivity**:
+   - Outliers can significantly skew results by pulling centroids toward them.
+
+---
+
+## Techniques to Improve K-Means
+
+1. **K-Means++**:
+   - Improves the selection of initial centroids to enhance convergence.
+2. **Elbow Method**:
+   - Determines the optimal number of clusters by plotting within-cluster variance versus `k`.
+3. **Silhouette Score**:
+   - Measures the quality of clustering by evaluating how well data points fit their assigned clusters.
+
+---
+
+
+
+
+**[Hierarchical Clustering]**
+
+## Overview
+
+Hierarchical clustering is an unsupervised learning algorithm used for clustering tasks. Unlike partitioning methods like K-Means, hierarchical clustering builds a hierarchy of clusters, represented as a tree structure called a dendrogram. This approach does not require the user to specify the number of clusters in advance.
+
+---
+
+## Types of Hierarchical Clustering
+
+1. **Agglomerative (Bottom-Up)**:
+   - Starts with each data point as an individual cluster.
+   - Iteratively merges the closest clusters until all points belong to a single cluster.
+
+2. **Divisive (Top-Down)**:
+   - Starts with all data points in a single cluster.
+   - Recursively splits clusters until each point is its own cluster.
+
+---
+
+## How Hierarchical Clustering Works
+
+### Steps for Agglomerative Clustering:
+1. **Initialization**:
+   - Treat each data point as an individual cluster.
+2. **Distance Calculation**:
+   - Compute pairwise distances between all clusters.
+3. **Merging Clusters**:
+   - Merge the two clusters with the smallest distance.
+4. **Update Distance Matrix**:
+   - Recalculate distances between the newly formed cluster and remaining clusters.
+5. **Repeat**:
+   - Continue merging clusters until only one cluster remains.
+
+### Linkage Criteria:
+- **Single Linkage**:
+  - Distance between two clusters is the shortest distance between their points.
+- **Complete Linkage**:
+  - Distance between two clusters is the longest distance between their points.
+- **Average Linkage**:
+  - Distance is the average of all pairwise distances between points in the two clusters.
+- **Ward’s Method**:
+  - Minimizes the increase in variance within clusters.
+
+---
+
+## Applications
+
+1. **Gene Expression Analysis**:
+   - Group genes with similar expression patterns.
+2. **Document Clustering**:
+   - Organize documents by topic for information retrieval.
+3. **Market Segmentation**:
+   - Identify customer segments based on purchasing behavior.
+4. **Image Segmentation**:
+   - Group pixels into meaningful regions.
+---
+
+## Advantages
+
+1. **No Predefined k**:
+   - Does not require the user to specify the number of clusters beforehand.
+2. **Dendrogram Representation**:
+   - Provides a detailed view of the clustering hierarchy.
+3. **Flexible**:
+   - Works well with various distance metrics and linkage criteria.
+
+---
+
+## Limitations
+
+1. **Computational Complexity**:
+   - Expensive for large datasets due to the need to calculate and update pairwise distances.
+2. **Sensitivity to Noise**:
+   - Outliers can distort cluster formation.
+3. **Non-Scalable**:
+   - Struggles with datasets containing thousands of points.
+4. **Irreversibility**:
+   - Once a cluster is merged or split, it cannot be undone.
+
+---
+
+## Conclusion
+
+Hierarchical clustering is a versatile algorithm for discovering data structures and relationships. Its dendrogram representation offers valuable insights into the clustering process. While it is computationally intensive and sensitive to noise, preprocessing techniques and hybrid approaches can address these limitations, making it suitable for a variety of applications.
+
+---
+
+## C. Use Cases of Unsupervised Learning
 
 - 🧑‍🤝‍🧑 **Market Segmentation:** Identifying customer groups with similar behavior.
 - 🚨 **Anomaly Detection:** Spotting unusual patterns in datasets for fraud detection or system monitoring.
@@ -947,7 +1115,7 @@ Clustering algorithms partition data into groups based on similarity. Examples i
 
 ---
 
-**Activity: Market Segmentation for a Retail Business**
+**D. Activity: Market Segmentation for a Retail Business**
 
 **Objective:** Leverage unsupervised learning to perform market segmentation and identify distinct customer groups for a retail business.
 
@@ -987,7 +1155,7 @@ A retail chain wants to optimize its marketing campaigns by understanding the di
 
 ---
 
-### C. Reinforcement Machine Learning
+## IV. Reinforcement Machine Learning
 
 ![Rainforcement Machine Learning](https://git.generalassemb.ly/modular-courses/ai-solution-architect-deloitte-ENT/blob/main/_images/Screenshot%202025-01-15%20095101.png)
 
@@ -997,7 +1165,7 @@ Reinforcement Machine Learning is a type of machine learning where an agent lear
 
 ---
 
-#### 1. Key Features of Reinforcement Learning
+#### A . Key Features of Reinforcement Learning
 
 - **Agent-Environment Interaction:** The agent learns by interacting with the environment.
 - **Exploration vs. Exploitation:** The agent explores new actions while exploiting known rewards.
@@ -1006,7 +1174,7 @@ Reinforcement Machine Learning is a type of machine learning where an agent lear
 
 ---
 
-#### 2. Terminology
+#### B. Terminology
 
 - **Agent:** The decision-maker.
 - **Environment:** The system with which the agent interacts.
@@ -1018,7 +1186,7 @@ Reinforcement Machine Learning is a type of machine learning where an agent lear
 
 ---
 
-#### 3. Common Algorithms**
+#### C. Common Algorithms**
 
 **1. Model-Free Methods**
 
@@ -1038,7 +1206,7 @@ Reinforcement Machine Learning is a type of machine learning where an agent lear
 
 ---
 
-#### 4. Use Cases of Reinforcement Learning
+#### D. Use Cases of Reinforcement Learning
 
 - 🎮 **Gaming:** Mastering complex games like chess, Go, and video games.
 - 🤖 **Robotics:** Training robots to perform tasks such as navigation and manipulation.
@@ -1049,7 +1217,7 @@ Reinforcement Machine Learning is a type of machine learning where an agent lear
 
 ---
 
-**Activity: Designing a Reinforcement Learning Agent for a Smart Traffic System**
+**E Discussion : Designing a Reinforcement Learning Agent for a Smart Traffic System**
 
 **Objective:** Apply reinforcement learning concepts to design and evaluate an agent for optimizing traffic flow in a smart traffic system.
 
