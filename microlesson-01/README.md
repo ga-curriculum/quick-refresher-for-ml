@@ -173,9 +173,6 @@ Supervised learning is a type of machine learning where the model is trained on 
 ---
 #### 1. Two Types of Supervised Machine Learning
 
-![Supervised ML](https://git.generalassemb.ly/modular-courses/ai-solution-architect-deloitte-ENT/blob/main/_images/Screenshot%202025-01-15%20102119.png)
-
-[Source](https://www.researchgate.net/publication/378622301_Integrating_machine_learning_and_genome_editing_for_crop_improvement)
 
 Supervised Machine Learning is a foundational approach in artificial intelligence, where algorithms are trained to map input data to output labels using a labeled dataset. The process involves identifying patterns and relationships within the data to make predictions or decisions. There are two primary types of tasks in supervised learning:
 
@@ -190,7 +187,7 @@ Supervised learning is widely used due to its effectiveness and reliability in s
 
 This section describes 10 major supervised machine learning algorithms, along with their key characteristics and applications:
 
- # Linear Regression
+# Linear Regression
 
 Linear Regression is a fundamental supervised learning algorithm used for predicting continuous outcomes. It is widely used in statistics and machine learning for modeling relationships between variables. Linear regression offers a simple yet powerful approach to understanding and predicting numerical data by examining the relationships between dependent and independent variables.
 
@@ -964,9 +961,7 @@ Your company operates an e-commerce platform, and you want to implement a system
 
 ### B. Unsupervised Machine Learning
 
-![Unsupervised Machine Learning](https://git.generalassemb.ly/modular-courses/ai-solution-architect-deloitte-ENT/blob/main/_images/Screenshot%202025-01-15%20103627.png)
 
-[Source](https://www.researchgate.net/publication/378622301_Integrating_machine_learning_and_genome_editing_for_crop_improvement)
 
 Unsupervised Machine Learning is a type of machine learning technique where models are trained on datasets without labeled responses. The algorithm tries to learn the inherent structure, patterns, or distributions in the data to derive meaningful insights.
 
