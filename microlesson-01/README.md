@@ -90,7 +90,7 @@ Machine learning (ML) is a subset of artificial intelligence (AI) that enables s
 | **Interpretability**   | High with simpler models, challenging for deep models. | Often low; results require domain knowledge to analyze.| Policy outcomes interpretable; underlying process opaque. |
 
 
-##Scope of Supervised, Unsupervised and Reinforcement Learning
+##Scope of Supervised, Unsupervised and Reinforcement Learning (5 Mins)
 
 ## 1. Supervised Learning
 
@@ -159,10 +159,7 @@ Reinforcement learning (RL) involves an agent learning to make decisions by inte
 
 ---
 
-
-
-
-### A. Supervised Machine Learning
+### A. Supervised Machine Learning (5 min )
 
 Supervised Machine Learning involves building models that learn from labeled datasets to make predictions or decisions. This repository provides an introduction to supervised learning with examples of both classification and regression tasks.
 
@@ -187,7 +184,7 @@ Supervised learning is widely used due to its effectiveness and reliability in s
 
 This section describes 10 major supervised machine learning algorithms, along with their key characteristics and applications:
 
-# Linear Regression
+# Linear Regression ( 10 min )
 
 Linear Regression is a fundamental supervised learning algorithm used for predicting continuous outcomes. It is widely used in statistics and machine learning for modeling relationships between variables. Linear regression offers a simple yet powerful approach to understanding and predicting numerical data by examining the relationships between dependent and independent variables.
 
@@ -288,7 +285,7 @@ Logistic Regression is a supervised machine learning algorithm used for classifi
 
 ## Key Concepts
 
-### 1. **Logistic Function (Sigmoid Function)**
+### 1. **Logistic Function (Sigmoid Function)** ( 10 mins)
 
 The sigmoid function is the cornerstone of logistic regression. It is used to map real-valued input into a range between 0 and 1, which is essential for probability estimation. The sigmoid function ensures that no matter how large or small the input values are, the output will always fall within the probability range of 0 to 1.
 
@@ -408,7 +405,7 @@ Logistic Regression is a robust and versatile algorithm for binary classificatio
 
   
 
-3. **[Decision Tree]**
+3. **[Decision Tree]** (5 min)
    
 # Decision Tree 
 
@@ -461,23 +458,14 @@ A decision tree is a supervised machine learning algorithm used for both classif
 
 ### Gini Impurity
 - Measures the likelihood of incorrect classification of a randomly chosen element.
-- Formula:
-  \[ Gini = 1 - \sum_{i=1}^n (p_i)^2 \]
-  where \( p_i \) is the probability of a data point belonging to class \( i \).
 
 ### Entropy and Information Gain
 - **Entropy** measures impurity or disorder in a dataset:
-  \[ Entropy = - \sum_{i=1}^n p_i \log_2(p_i) \]
+
 - **Information Gain** quantifies the reduction in entropy achieved by splitting the data on a specific attribute.
-  \[ Information Gain = Entropy(parent) - \sum_{k=1}^m \left( \frac{|D_k|}{|D|} \times Entropy(D_k) \right) \]
-  where \( D_k \) is a subset of data after the split.
 
 ### Reduction in Variance (Regression)
 - Used for regression trees to measure the quality of a split.
-- Formula:
-  \[ Reduction\ in\ Variance = Variance(parent) - \sum_{k=1}^m \left( \frac{|D_k|}{|D|} \times Variance(D_k) \right) \]
-
----
 
 ## 4. Pruning Techniques
 Pruning is essential to prevent overfitting by simplifying the decision tree structure.
@@ -508,22 +496,6 @@ Pruning is essential to prevent overfitting by simplifying the decision tree str
 - **Instability**: Small changes in the data can lead to drastically different trees.
 - **Bias towards Features with More Levels**: Attributes with more unique values may dominate splits.
 - **Limited Scalability**: Computationally expensive for large datasets.
-
----
-
-## 6. Evaluation Metrics
-
-### For Classification:
-- **Accuracy**: Proportion of correctly predicted instances.
-- **Precision**: Measure of the accuracy of positive predictions.
-- **Recall**: Ability of the model to identify all relevant instances.
-- **F1-score**: Harmonic mean of precision and recall.
-
-### For Regression:
-- **Mean Absolute Error (MAE)**: Average of absolute differences between predicted and actual values.
-- **Root Mean Square Error (RMSE)**: Square root of the average squared differences.
-- **R-squared**: Proportion of variance explained by the model.
-
 ---
 
 ## 7. Real-world Applications
@@ -559,7 +531,7 @@ Visualization is a key feature of decision trees. Tools and libraries like Sciki
 - **Decision Tree Plotting in Scikit-learn**: Offers built-in functions to visualize trees directly.
 
 
-4. **[Random Forest]
+4. **[Random Forest]** ( 5 min)
      
 #  Random Forest
 
@@ -626,7 +598,7 @@ Random Forest is a versatile machine learning algorithm that excels in both clas
 
 ---
 
-6. **[Support Vector Machine (SVM)]
+6. **[Support Vector Machine (SVM)]** (5 mins)
    
 #  Support Vector Machine (SVM)
 
@@ -691,13 +663,7 @@ Support Vector Machine (SVM) is a supervised machine learning algorithm used for
 4. **degree**: Degree of the polynomial kernel (if used).
 
 ---
-
-## Evaluation Metrics
-- **Classification**: Accuracy, Precision, Recall, F1 Score.
-
-
-
-8. **[K-Nearest Neighbors (KNN)]
+8. **[K-Nearest Neighbors (KNN)]**(5 mins)
    
 # K-Nearest Neighbors (KNN) Algorithm
 
@@ -797,7 +763,7 @@ K-Nearest Neighbors is a powerful yet simple algorithm that relies on the princi
 
 
 
-10. **[Naive Bayes]
+9 . **[Naive Bayes]**(5 min)
    
 # Naive Bayes Algorithm
 
@@ -1173,46 +1139,3 @@ Machine Learning (ML) has revolutionized various fields by enabling machines to 
 
 Machine learning has immense potential but is not without its limitations. To overcome these challenges, practitioners must focus on improving data quality, enhancing interpretability, addressing ethical concerns, and developing robust deployment pipelines. Acknowledging these limitations helps set realistic expectations and ensures that ML systems are deployed responsibly and effectively.
 
-**References on Machine Learning Paradigms**
-
-**Supervised Learning**
-
-1. **A Review of Supervised Machine Learning Algorithms**  
-   *Authors*: S. B. Kotsiantis, I. Zaharakis, P. Pintelas  
-   *Published in*: Proceedings of the 2007 Conference on Emerging Artificial Intelligence Applications in Computer Engineering  
-   *Summary*: This paper provides a comprehensive overview of various supervised machine learning algorithms, discussing their applicability, advantages, and limitations in different problem domains.  
-   *Link*: [https://datajobs.com/data-science-repo/Supervised-Learning-%5BSB-Kotsiantis%5D.pdf](https://datajobs.com/data-science-repo/Supervised-Learning-%5BSB-Kotsiantis%5D.pdf)
-
-2. **Supervised Machine Learning: A Survey**  
-   *Authors*: S. B. Kotsiantis  
-   *Published in*: Informatica, 2007  
-   *Summary*: This survey delves into various supervised learning techniques, providing insights into their theoretical foundations and practical applications.  
-   *Link*: [https://ieeexplore.ieee.org/document/9641998](https://ieeexplore.ieee.org/document/9641998)
-
-## Unsupervised Learning
-
-1. **Feature Selection for Unsupervised Learning**  
-   *Authors*: J. Dy and C. Brodley  
-   *Published in*: Journal of Machine Learning Research, 2004  
-   *Summary*: This paper explores methods for feature selection in unsupervised learning scenarios, aiming to improve clustering performance by identifying relevant features.  
-   *Link*: [https://jmlr.org/papers/volume5/dy04a/dy04a.pdf](https://jmlr.org/papers/volume5/dy04a/dy04a.pdf)
-
-2. **Unsupervised Learning by Program Synthesis**  
-   *Authors*: K. Ellis, D. Ritchie, A. Solar-Lezama, J. Tenenbaum  
-   *Published in*: Advances in Neural Information Processing Systems (NeurIPS), 2018  
-   *Summary*: This work introduces an approach where unsupervised learning is achieved through program synthesis, enabling the discovery of interpretable representations from data.  
-   *Link*: [https://dspace.mit.edu/bitstream/handle/1721.1/113870/Solar-Lezama_Unsupervised%20learning.pdf](https://dspace.mit.edu/bitstream/handle/1721.1/113870/Solar-Lezama_Unsupervised%20learning.pdf)
-
-## Reinforcement Learning
-
-1. **Reinforcement Learning: An Overview**  
-   *Author*: K. Murphy  
-   *Published in*: arXiv preprint, 2024  
-   *Summary*: This manuscript provides a comprehensive overview of the field of (deep) reinforcement learning and sequential decision making, covering value-based RL, policy-gradient methods, model-based methods, and various other topics.  
-   *Link*: [https://arxiv.org/abs/2412.05265](https://arxiv.org/abs/2412.05265)
-
-2. **Reinforcement Learning Algorithms: An Overview and Classification**  
-   *Authors*: M. Arulkumaran, M. P. Deisenroth, M. Brundage, A. A. Bharath  
-   *Published in*: arXiv preprint, 2017  
-   *Summary*: This paper provides an overview and classification of various reinforcement learning algorithms, discussing their theoretical foundations and practical applications.  
-   *Link*: [https://arxiv.org/pdf/2209.14940](https://arxiv.org/pdf/2209.14940)
