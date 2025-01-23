@@ -66,12 +66,6 @@ By the end of this course, you will be able to:
 - **Analyze reinforcement learning frameworks**, emphasizing policy-based and reward-driven decision-making systems.
 - **Apply refreshed ML concepts** to real-world use cases to contextualize learning.
 - **Prepare to explore advanced AI topics**, building a foundational understanding for subsequent modules.
-# Table of Contents
-
-- [I. Machine Learning](#i-machine-learning)
-    - [A. Comparative Analysis of Learning Types](#a-comparative-analysis-of-learning-types)
-    - [B. Importance of Machine Learning in Real-World Applications](#b-importance-of-machine-learning-in-real-world-applications)
-    - [C. Scope of Supervised, Unsupervised, and Reinforcement Learning](#c-scope-of-supervised-unsupervised-and-reinforcement-learning)
 
 ---
 
