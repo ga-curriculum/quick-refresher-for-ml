@@ -232,7 +232,7 @@ Linear Regression is a fundamental supervised learning algorithm used for predic
 
 
 
-**c.1.2.Key Concepts in Variable Selection:**
+**C.1.2.Key Concepts in Variable Selection:**
 
 1. **Relevance:**
    - Independent variables should significantly influence the dependent variable.
@@ -263,7 +263,7 @@ Linear Regression is a fundamental supervised learning algorithm used for predic
 
 
 
-**c.1.4.Applications of Independent and Dependent Variables:**
+**C.1.4.Applications of Independent and Dependent Variables:**
 
 1. **Healthcare:**
    - Independent Variables: Patient age, treatment type.
@@ -285,23 +285,28 @@ Linear Regression is a fundamental supervised learning algorithm used for predic
 
 Linear Regression provides a mathematical framework for understanding and predicting relationships between variables. A deep understanding of independent and dependent variables is essential for designing accurate models, engineering meaningful features, and driving informed decisions across domains like healthcare, retail, and finance.
 
+### **Linear Regression in ShopSmart**
+
+ShopSmart uses linear regression to predict sales revenue (*dependent variable*) based on factors like advertising budget, seasonal trends, and user reviews (*independent variables*). For instance, increasing ad spend by 10% may lead to a proportional sales increase, helping ShopSmart optimize marketing strategies and forecast revenue more accurately.  
+
+
 ---
 
  **C.2[Logistic Regression]**
 Logistic Regression is a supervised machine learning algorithm used for classification tasks. Despite its name, it is not a regression algorithm in the traditional sense; instead, it predicts probabilities and uses these probabilities to classify data into discrete categories.
 
----
 
-## Key Concepts
 
-### 1. **Logistic Function (Sigmoid Function)** ( 10 mins)
+## 2.1 Key Concepts
+
+### 2.1.1. **Logistic Function (Sigmoid Function)** ( 10 mins)
 
 The sigmoid function is the cornerstone of logistic regression. It is used to map real-valued input into a range between 0 and 1, which is essential for probability estimation. The sigmoid function ensures that no matter how large or small the input values are, the output will always fall within the probability range of 0 to 1.
 
 The function is mathematically represented as:
 
 
-#### Properties of the Sigmoid Function:
+#### 2.1.1.1.Properties of the Sigmoid Function:
 
 1. **Range:**
    - The output of the sigmoid function is always between 0 and 1.
@@ -325,26 +330,26 @@ The function is mathematically represented as:
 - In logistic regression, the sigmoid function transforms the linear combination of input features into a probability score.
 
 
-### 2. **Binary Classification**
+### 2.1.2 **Binary Classification**
 - Logistic Regression is primarily used for binary classification problems where the output has two classes, typically represented as 0 and 1.
 - The model outputs the probability of a data point belonging to the positive class (1). A threshold (commonly 0.5) is applied to determine the final class.
 
-### 3. **Decision Boundary**
+### 2.1.3. **Decision Boundary**
 - The decision boundary is the threshold that separates the classes.
 - For example, if the threshold is 0.5, any input with a probability ≥ 0.5 is classified as 1; otherwise, it is classified as 0.
 
----
 
-## Assumptions of Logistic Regression
+
+## 2.2.Assumptions of Logistic Regression
 
 1. **Binary Outcome:** The dependent variable should be binary (0/1).
 2. **Independence:** Observations should be independent of each other.
 3. **Linearity of Predictors and Log Odds:** Predictors are linearly related to the log of odds.
 4. **No Multicollinearity:** Predictors should not be highly correlated with each other.
 
----
 
-## Applications of Logistic Regression
+
+## 2.3 Applications of Logistic Regression
 
 1. **Medical Diagnosis:**
    - Predicting the presence or absence of a disease (e.g., cancer detection).
@@ -361,9 +366,9 @@ The function is mathematically represented as:
 5. **Customer Churn:**
    - Determining the likelihood of a customer leaving a service.
 
----
 
-## Advantages of Logistic Regression
+
+## 2.4 Advantages of Logistic Regression
 
 1. **Simplicity:** Easy to implement and interpret.
 2. **Efficiency:** Computationally less expensive.
@@ -371,16 +376,14 @@ The function is mathematically represented as:
 4. **Versatility:** Can be extended to multiclass classification using techniques like One-vs-All.
 5. **Well-Studied:** Has a solid theoretical foundation.
 
----
 
-## Limitations of Logistic Regression
+## 2.5 Limitations of Logistic Regression
 
 1. **Linear Boundaries:** Assumes a linear relationship between predictors and the log odds, which may not hold for complex data.
 2. **Feature Engineering:** Requires careful preprocessing and feature selection.
 3. **Imbalanced Data:** Performs poorly on highly imbalanced datasets unless techniques like resampling are used.
 4. **Outlier Sensitivity:** Susceptible to outliers, which can skew results.
 
----
 
 ## Variants of Logistic Regression
 
@@ -393,37 +396,35 @@ The function is mathematically represented as:
 3. **Regularized Logistic Regression:**
    - Includes L1 (Lasso) or L2 (Ridge) regularization to prevent overfitting.
 
----
 
-  
+---
 
 3. **C.3 [Decision Tree]** (5 min)
    
 # Decision Tree 
 
-## 1. Introduction to Decision Trees
+## 3.1.1. Introduction to Decision Trees
 A decision tree is a supervised machine learning algorithm used for both classification and regression tasks. It works by splitting the dataset into subsets based on feature values, resulting in a tree-like structure of decisions that can be easily visualized and interpreted.
 
-### Types of Decision Trees:
+### 3.1.2 Types of Decision Trees:
 1. **Classification Tree**: Used to predict categorical outcomes. The goal is to assign data to one of several predefined classes.
 2. **Regression Tree**: Used to predict continuous outcomes. It approximates real-valued functions.
 
-### Why Use Decision Trees?
+### 3.1.3.Why Use Decision Trees?
 - Intuitive structure that mirrors human decision-making processes.
 - Handles both numerical and categorical data effectively.
 - Requires minimal data preprocessing (e.g., no need for normalization).
 
-### How Decision Trees Work
+### 3.1.4 How Decision Trees Work
 - **Root Node**: Represents the entire dataset and initiates the splitting process.
 - **Decision Nodes**: Intermediate nodes where the data is further split based on conditions.
 - **Leaf Nodes**: Final nodes that represent a decision or outcome.
 - **Branches**: Connections between nodes that represent the flow of data through conditions.
 
----
 
-## 2. Building a Decision Tree
+## 3.2. Building a Decision Tree
 
-### Steps to Build a Decision Tree:
+### 3.2.1 Steps to Build a Decision Tree:
 1. **Select the Best Attribute for Splitting**:
    - Choose the feature that maximizes the homogeneity of the resulting subsets. This can be determined using metrics like Gini Impurity or Information Gain.
 2. **Split the Dataset**:
@@ -431,12 +432,12 @@ A decision tree is a supervised machine learning algorithm used for both classif
 3. **Repeat the Process**:
    - Recursively apply the splitting criteria to each subset until a stopping condition is met.
 
-### Stopping Conditions:
+### 3.2.2 Stopping Conditions:
 - Reaching a predefined maximum depth.
 - Having a minimum number of samples in each leaf node.
 - Observing no significant improvement in split quality.
 
-### Common Splitting Algorithms:
+### 3.2.3 Common Splitting Algorithms:
 1. **CART (Classification and Regression Trees)**:
    - Uses Gini Impurity for classification tasks and Mean Squared Error for regression tasks.
 2. **ID3 (Iterative Dichotomiser 3)**:
@@ -444,38 +445,36 @@ A decision tree is a supervised machine learning algorithm used for both classif
 3. **C4.5**:
    - An extension of ID3 that handles continuous attributes and missing values.
 
----
-
-## 3. Splitting Criteria
+### 3.2.3.1 Splitting Criteria
 
 ### Gini Impurity
 - Measures the likelihood of incorrect classification of a randomly chosen element.
 
-### Entropy and Information Gain
+### 3.2.3.2 Entropy and Information Gain
 - **Entropy** measures impurity or disorder in a dataset:
 
 - **Information Gain** quantifies the reduction in entropy achieved by splitting the data on a specific attribute.
 
-### Reduction in Variance (Regression)
+### 3.2.3.1 Reduction in Variance (Regression)
 - Used for regression trees to measure the quality of a split.
 
-## 4. Pruning Techniques
+### 3.2.3.2 Pruning Techniques
 Pruning is essential to prevent overfitting by simplifying the decision tree structure.
 
-### Pre-pruning (Early Stopping)
+### 3.2.3.1 Pre-pruning (Early Stopping)
 - Applies constraints during the tree-building process:
   - Set a maximum tree depth.
   - Specify a minimum number of samples per split.
   - Define a minimum improvement in split quality.
 
-### Post-pruning (Simplification After Growth)
+### 3.2.3.1 Post-pruning (Simplification After Growth)
 - Removes branches that have little impact on prediction accuracy after the tree is fully grown. This is typically done by cross-validation to ensure optimal tree size.
 - **Cost Complexity Pruning**:
   - Balances tree complexity and accuracy by minimizing a cost function that penalizes larger trees.
 
----
 
-## 5. Advantages and Disadvantages
+
+## 4. Advantages and Disadvantages
 
 ### Advantages:
 - **Interpretability**: Easy to visualize and explain to non-technical stakeholders.
@@ -483,14 +482,14 @@ Pruning is essential to prevent overfitting by simplifying the decision tree str
 - **Non-parametric**: Does not assume a linear relationship between features and target variables.
 - **Feature Selection**: Automatically performs feature selection by choosing the most important attributes for splits.
 
-### Disadvantages:
+### 5.Disadvantages:
 - **Overfitting**: Deep trees may model noise in the data.
 - **Instability**: Small changes in the data can lead to drastically different trees.
 - **Bias towards Features with More Levels**: Attributes with more unique values may dominate splits.
 - **Limited Scalability**: Computationally expensive for large datasets.
 ---
 
-## 7. Real-world Applications
+## 6. Real-world Applications
 - **Fraud Detection**: Identifying fraudulent transactions in financial data.
 - **Customer Segmentation**: Grouping customers based on purchasing behaviors.
 - **Predicting Housing Prices**: Estimating property values based on features like location, size, and amenities.
@@ -498,29 +497,9 @@ Pruning is essential to prevent overfitting by simplifying the decision tree str
 - **Churn Prediction**: Identifying customers likely to leave a subscription-based service.
 - **Supply Chain Optimization**: Forecasting demand and managing inventory efficiently.
 
----
-
-## 8. Optimizations and Enhancements
-
-### Ensemble Methods:
-- **Random Forest**: Builds multiple decision trees and combines their outputs to improve accuracy and reduce overfitting.
-- **Gradient Boosting**: Sequentially builds trees where each tree corrects errors of the previous one.
-- **AdaBoost**: Focuses on correcting errors made by previous models by assigning higher weights to misclassified instances.
-
-### Hyperparameter Tuning:
-- **Grid Search**: Systematically explores hyperparameter combinations to find the best configuration.
-- **Randomized Search**: Randomly samples hyperparameters for a quicker search.
-- **Automated Tools**: Libraries like Optuna or Hyperopt automate the search for optimal hyperparameters.
 
 ---
 
-## 9. Visualizing Decision Trees
-Visualization is a key feature of decision trees. Tools and libraries like Scikit-learn provide easy-to-use functions to plot trees for better understanding.
-
-### Tools for Visualization:
-- **Graphviz**: Produces high-quality tree visualizations.
-- **Matplotlib**: Generates simple and interactive plots.
-- **Decision Tree Plotting in Scikit-learn**: Offers built-in functions to visualize trees directly.
 
 
 4. **C.4 [Random Forest]** ( 5 min)
