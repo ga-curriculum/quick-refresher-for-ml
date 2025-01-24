@@ -306,7 +306,7 @@ The sigmoid function is the cornerstone of logistic regression. It is used to ma
 The function is mathematically represented as:
 
 
-#### 2.1.1.1.Properties of the Sigmoid Function:
+#### 2.1.1.1. Properties of the Sigmoid Function:
 
 1. **Range:**
    - The output of the sigmoid function is always between 0 and 1.
@@ -340,7 +340,7 @@ The function is mathematically represented as:
 
 
 
-## 2.2.Assumptions of Logistic Regression
+## 2.2. Assumptions of Logistic Regression
 
 1. **Binary Outcome:** The dependent variable should be binary (0/1).
 2. **Independence:** Observations should be independent of each other.
@@ -385,7 +385,7 @@ The function is mathematically represented as:
 4. **Outlier Sensitivity:** Susceptible to outliers, which can skew results.
 
 
-## Variants of Logistic Regression
+## 2.6 Variants of Logistic Regression
 
 1. **Multinomial Logistic Regression:**
    - Handles multiclass classification problems (more than two classes).
