@@ -83,7 +83,7 @@ By the end of this course, you will be able to:
 
 ShopSmart is a platform designed to make your online shopping smarter and more efficient. It offers tools and insights that help you save time, find the best deals, and keep track of your purchases.
 
-## Key Features
+### Key Features
 - **Personalized Recommendations**: Discover items tailored to your interests.  
 - **Price Alerts**: Set alerts to catch price drops and get the best deals.  
 - **Spending Insights**: Stay on top of your shopping habits and budgeting.  
