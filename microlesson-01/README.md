@@ -402,11 +402,11 @@ ShopSmart uses logistic regression to classify whether a user will purchase a pr
 
 ---
 
-3. #### C.3 . Decision Tree (5 mins)* (5 min)
+ ## C.3 . Decision Tree (5 mins)* (5 min)
    
 ---
 
-## 3.1.1. Introduction to Decision Trees
+### 3.1.1. Introduction to Decision Trees
 A decision tree is a supervised machine learning algorithm used for both classification and regression tasks. It works by splitting the dataset into subsets based on feature values, resulting in a tree-like structure of decisions that can be easily visualized and interpreted.
 
 ### 3.1.2 Types of Decision Trees:
