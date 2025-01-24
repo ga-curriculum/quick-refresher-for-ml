@@ -203,7 +203,7 @@ Supervised learning is widely used due to its effectiveness and reliability in s
 Linear Regression is a fundamental supervised learning algorithm used for predicting continuous outcomes. It is widely used in statistics and machine learning for modeling relationships between variables. Linear regression offers a simple yet powerful approach to understanding and predicting numerical data by examining the relationships between dependent and independent variables.
 
 
-**Key Concepts:**
+**C.1.1 Key Concepts:**
 
 - **1.Independent Variable (Feature):**
   1. Represents factors presumed to influence or explain changes in the dependent variable.
@@ -232,7 +232,7 @@ Linear Regression is a fundamental supervised learning algorithm used for predic
 
 
 
-**Key Concepts in Variable Selection:**
+**c.1.2.Key Concepts in Variable Selection:**
 
 1. **Relevance:**
    - Independent variables should significantly influence the dependent variable.
@@ -250,7 +250,7 @@ Linear Regression is a fundamental supervised learning algorithm used for predic
 
 
 
-**Importance of Understanding Variables:**
+**C.1.3.Importance of Understanding Variables:**
 
 1. **Model Design:**
    - Accurate predictor selection improves model accuracy and interpretability.
@@ -261,9 +261,9 @@ Linear Regression is a fundamental supervised learning algorithm used for predic
 3. **Hypothesis Testing:**
    - Validates assumptions about variable relationships.
 
----
 
-**Applications of Independent and Dependent Variables:**
+
+**c.1.4.Applications of Independent and Dependent Variables:**
 
 1. **Healthcare:**
    - Independent Variables: Patient age, treatment type.
