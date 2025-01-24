@@ -20,27 +20,27 @@
         - [1. Classification](#1-classification)
         - [2. Regression](#2-regression)
     - [C. Major Algorithms in Supervised Learning](#c-major-algorithms-in-supervised-learning)
-        - [1. Linear Regression](#1-linear-regression)(5 Mins)
-        - [2. Logistic Regression](#2-logistic-regression)(5 Mins)
-        - [3. Decision Tree](#3-decision-tree)(5 Mins)
-        - [4. Random Forest](#4-random-forest)(5 Mins)
-        - [5. Support Vector Machine (SVM)](#5-support-vector-machine-svm)(5Mins)
-        - [6. K-Nearest Neighbors (KNN)](#6-K-Nearest-neighbors-(knn))(5 Mins)
+        - [1. Linear Regression](#1-linear-regression)
+        - [2. Logistic Regression](#2-logistic-regression)
+        - [3. Decision Tree](#3-decision-tree)
+        - [4. Random Forest](#4-random-forest)
+        - [5. Support Vector Machine (SVM)](#5-support-vector-machine-svm)
+        - [6. K-Nearest Neighbors (KNN)](#6-K-Nearest-neighbors-(knn))
         - [7. Naive Bayes](#7-naive-bayes)(5 Mins)
     - [D. Activity: Personalized Product Recommendations](#d-activity-personalized-product-recommendations)
 
 ---
--
+
 - [III. Unsupervised Machine Learning](#iii-unsupervised-machine-learning)(20 Mins)
     - [A. Key Features of Unsupervised Learning](#a-key-features-of-unsupervised-learning)
     - [B. Clustering Techniques](#b-clustering-techniques)
-        - [1. K-Means Clustering](#1-k-means-clustering)(5 mins)
-        - [2. Hierarchical Clustering](#2-hierarchical-clustering)(5 Mins)
+        - [1. K-Means Clustering](#1-k-means-clustering)
+        - [2. Hierarchical Clustering](#2-hierarchical-clustering)
     - [C. Use Cases of Unsupervised Learning](#c-use-cases-of-unsupervised-learning)
     - [D. Activity: Market Segmentation for a Retail Business](#d-activity-market-segmentation-for-a-retail-business)
 
 ---
--
+
 - [IV. Reinforcement Machine Learning](#iv-reinforcement-machine-learning)(20 Mins)
     - [A. Key Features of Reinforcement Learning](#a-key-features-of-reinforcement-learning)
     - [B. Important Terminology](#b-important-terminology)
@@ -78,6 +78,19 @@ By the end of this course, you will be able to:
 - **Analyze reinforcement learning frameworks**, emphasizing policy-based and reward-driven decision-making systems.
 - **Apply refreshed ML concepts** to real-world use cases to contextualize learning.
 - **Prepare to explore advanced AI topics**, building a foundational understanding for subsequent modules.
+
+## Welcome to ShopSmart
+
+ShopSmart is a platform designed to make your online shopping smarter and more efficient. It offers tools and insights that help you save time, find the best deals, and keep track of your purchases.
+
+## Key Features
+- **Personalized Recommendations**: Discover items tailored to your interests.  
+- **Price Alerts**: Set alerts to catch price drops and get the best deals.  
+- **Spending Insights**: Stay on top of your shopping habits and budgeting.  
+- **Product Reviews**: Read and trust verified product reviews to make informed decisions.
+
+Throughout this course, we’ll introduce each of these features step-by-step, and we’ll revisit them as you progress. By the end, you’ll have a deep understanding of how to get the most out of ShopSmart. Let’s get started!
+
 
 ---
 
