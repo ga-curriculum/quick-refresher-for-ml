@@ -128,7 +128,7 @@ Machine learning (ML) is a subset of artificial intelligence (AI) that enables s
 
 ---
 
-### **Scope of Supervised, Unsupervised, and Reinforcement Machine Learning**
+### C.**Scope of Supervised, Unsupervised, and Reinforcement Machine Learning**
 
 1. **Supervised Machine Learning**  
    - Used for tasks with labeled data like classification (spam detection) and regression (price prediction).  
