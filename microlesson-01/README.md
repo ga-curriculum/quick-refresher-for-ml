@@ -12,8 +12,6 @@
     - [B. Importance of Machine Learning in Real-World Applications](#b-importance-of-machine-learning-in-real-world-applications)
     - [c. Scope of Supervised ,Unsupervised and Rainforcement Machine Learning](#c-scope-of-supervised-unsupervised-and-rainforcement-machine-learning)
 
----
-
 - [II. Supervised Machine Learning](#ii-supervised-machine-learning)(40 Mins)
     - [A. Introduction to Supervised Learning](#a-introduction-to-supervised-learning)
     - [B. Types of Supervised Learning](#b-types-of-supervised-learning)
@@ -29,8 +27,6 @@
         - [7. Naive Bayes](#7-naive-bayes)(5 Mins)
     - [D. Activity: Personalized Product Recommendations](#d-activity-personalized-product-recommendations)
 
----
-
 - [III. Unsupervised Machine Learning](#iii-unsupervised-machine-learning)(20 Mins)
     - [A. Key Features of Unsupervised Learning](#a-key-features-of-unsupervised-learning)
     - [B. Clustering Techniques](#b-clustering-techniques)
@@ -38,8 +34,6 @@
         - [2. Hierarchical Clustering](#2-hierarchical-clustering)
     - [C. Use Cases of Unsupervised Learning](#c-use-cases-of-unsupervised-learning)
     - [D. Activity: Market Segmentation for a Retail Business](#d-activity-market-segmentation-for-a-retail-business)
-
----
 
 - [IV. Reinforcement Machine Learning](#iv-reinforcement-machine-learning)(20 Mins)
     - [A. Key Features of Reinforcement Learning](#a-key-features-of-reinforcement-learning)
@@ -51,8 +45,6 @@
     - [D. Use Cases of Reinforcement Learning](#d-use-cases-of-reinforcement-learning)
     - [E. Discussion: Smart Traffic System Agent](#e-activity-smart-traffic-system-agent)
 
----
-
 -  [V. Limitations of Machine Learning](#v-limitations-of-machine-learning)(5 Mins)
     - [A. Data-Dependent Nature](#a-data-dependent-nature)
     - [B. Interpretability and Explainability](#b-interpretability-and-explainability)
@@ -61,8 +53,6 @@
     - [E. Ethical Concerns](#e-ethical-concerns)
     - [F. Limited Generalization](#f-limited-generalization)
     - [G. Real-World Deployment Challenges](#g-real-world-deployment-challenges)
-
----
 
 - [VI. Conclusion](#vi-conclusion)(5 Mins)
     - [A. Recap of Key Points](#a-recap-of-key-points)
