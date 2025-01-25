@@ -194,7 +194,8 @@ Linear Regression is a supervised learning algorithm used to predict continuous 
 
 ---
 
-### Key Concepts in Linear Regression
+- Key Concepts in Linear Regression
+  
 - Linear Regression predicts the dependent variable as a linear combination of independent variables plus an intercept.
 - It assumes a linear relationship between the dependent and independent variables.
 - The model works for both simple (single variable) and multiple (multi-variable) regression scenarios.
@@ -206,7 +207,8 @@ Linear Regression is a supervised learning algorithm used to predict continuous 
 
 ---
 
-### Core Assumptions of Linear Regression
+- Core Assumptions of Linear Regression
+  
 - The relationship between variables is linear.
 - Observations are independent of each other.
 - The variance of residuals (errors) is constant across all levels of independent variables (homoscedasticity).
@@ -214,7 +216,7 @@ Linear Regression is a supervised learning algorithm used to predict continuous 
 - Independent variables are not highly correlated (no multicollinearity).
 
 
-## Types of Linear Regression with ShopSmart Examples
+- Types of Linear Regression with ShopSmart Examples
 
 ### **1. Simple Linear Regression**
 - **Objective**: Predict the total monthly revenue based on advertising spend.  
@@ -254,7 +256,7 @@ Linear Regression is a supervised learning algorithm used to predict continuous 
 
 ---
 
-## L1 and L2 Regularization in Depth
+- L1 and L2 Regularization in Depth
 
 ### **L1 Regularization (Lasso Regression)**
 - Adds the absolute values of the coefficients as a penalty to the loss function.
@@ -279,14 +281,16 @@ Linear Regression is a supervised learning algorithm used to predict continuous 
 
 ---
 
-## Common Challenges
+- Common Challenges
+  
 - **Outliers** can heavily influence the regression line and distort predictions.
 - **Multicollinearity** makes it difficult to determine the true effect of independent variables.
 - **Overfitting** occurs when the model performs well on training data but poorly on unseen data.
 
 ---
 
-## Applications
+- Applications
+  
 - Predicting recovery time in healthcare based on age and treatment type.
 - Forecasting stock prices in finance using historical data and market trends.
 - Estimating house prices in real estate based on location, size, and features.
@@ -295,14 +299,14 @@ Linear Regression is a supervised learning algorithm used to predict continuous 
 
 ---
 
-## Advantages of Linear Regression
+- Advantages of Linear Regression
 - Simple and interpretable.
 - Easy to implement and computationally efficient.
 - Provides insights into the relationships between variables.
 
 ---
 
-## Limitations of Linear Regression
+- Limitations of Linear Regression
 - Assumes a linear relationship between variables.
 - Sensitive to outliers, which can distort results.
 - Struggles with multicollinearity, leading to unreliable coefficients.
