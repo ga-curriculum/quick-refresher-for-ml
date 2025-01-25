@@ -217,7 +217,7 @@ Linear Regression is a supervised learning algorithm used to predict continuous 
 
 ---
  
- **Types of Linear Regression with ShopSmart Examples**
+ ### Types of Linear Regression with ShopSmart Examples
 
 #### **1. Simple Linear Regression**
 - **Objective**: Predict the total monthly revenue based on advertising spend.  
