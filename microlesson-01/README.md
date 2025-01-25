@@ -12,7 +12,7 @@
     - [B. Importance of Machine Learning in Real-World Applications](#b-importance-of-machine-learning-in-real-world-applications)
     - [c. Scope of Supervised ,Unsupervised and Rainforcement Machine Learning](#c-scope-of-supervised-unsupervised-and-rainforcement-machine-learning)
 
-- [II. Supervised Machine Learning](#ii-supervised-machine-learning)(40 Mins)
+- [II. Supervised Machine Learning](#ii-supervised-machine-learning)(50 Mins)
     - [A. Introduction to Supervised Learning](#a-introduction-to-supervised-learning)
     - [B. Types of Supervised Learning](#b-types-of-supervised-learning)
         - [1. Classification](#1-classification)
@@ -35,7 +35,7 @@
     - [C. Use Cases of Unsupervised Learning](#c-use-cases-of-unsupervised-learning)
     - [D. Activity: Market Segmentation for a Retail Business](#d-activity-market-segmentation-for-a-retail-business)
 
-- [IV. Reinforcement Machine Learning](#iv-reinforcement-machine-learning)(20 Mins)
+- [IV. Reinforcement Machine Learning](#iv-reinforcement-machine-learning)(10 Mins)
     - [A. Key Features of Reinforcement Learning](#a-key-features-of-reinforcement-learning)
     - [B. Important Terminology](#b-important-terminology)
     - [C. Common Algorithms in Reinforcement Learning](#c-common-algorithms-in-reinforcement-learning)
