@@ -275,6 +275,7 @@ Linear Regression is a supervised learning algorithm used to predict continuous 
 
 - **L1 and L2 Regularization in Depth**
 
+
 - **L1 Regularization (Lasso Regression)**
   
 - Adds the absolute values of the coefficients as a penalty to the loss function.
@@ -283,6 +284,7 @@ Linear Regression is a supervised learning algorithm used to predict continuous 
 - Best for datasets where only a few features are important.
 
 - **L2 Regularization (Ridge Regression)**
+
   
 - Adds the squared values of the coefficients as a penalty to the loss function.
 - Shrinks coefficients closer to zero but does not eliminate them.
