@@ -7,7 +7,7 @@
 
 - [Learning Objectives](#learning-objectives)
 
-- [I Machine Learning](#machine-learning)(10 Mins)
+- [I Machine Learning](#machine-learning)(5 Mins)
     - [A. Comparative Analysis of Learning Types](#a-comparative-analysis-of-learning-types)
     - [B. Importance of Machine Learning in Real-World Applications](#b-importance-of-machine-learning-in-real-world-applications)
     - [c. Scope of Supervised ,Unsupervised and Rainforcement Machine Learning](#c-scope-of-supervised-unsupervised-and-rainforcement-machine-learning)
