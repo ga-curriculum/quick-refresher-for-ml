@@ -716,7 +716,7 @@ ShopSmart uses decision trees to classify whether a user is likely to click on a
 
   --- 
 
-- **K-Nearest Neighbors (KNN) in ShopSmart**  
+- **K-Nearest Neighbors(KNN)in ShopSmart**
 - **Product Recommendation**: ShopSmart uses KNN to recommend products based on user browsing and purchase history. For example, if a user views "Wireless Headphones," KNN identifies similar users and suggests products they purchased, like "Bluetooth Speakers" or "Earbud Cases."  
 - **Customer Segmentation**: KNN clusters users into segments by analyzing shopping frequency, average cart value, and preferred product categories. For instance, a user who frequently purchases electronics is grouped with similar users, enabling personalized marketing campaigns.  
 - **Shopping Behavior Prediction**: KNN predicts a user’s next likely purchase by analyzing patterns in browsing and purchase history of similar users, enabling ShopSmart to provide tailored suggestions at the right time.  
