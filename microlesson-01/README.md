@@ -1037,7 +1037,7 @@ A ShopSmart wants to optimize its marketing campaigns by understanding the disti
 
 ---
 
-- ## B .Hierarchical Clustering
+ ## B .Hierarchical Clustering
 
 ---
 - Hierarchical clustering is an unsupervised learning algorithm used for clustering tasks.  
