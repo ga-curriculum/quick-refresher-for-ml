@@ -331,113 +331,114 @@ ShopSmart uses linear regression to predict sales revenue (*dependent variable*)
 
 #### C.2. Logistic Regression (5 mins)
 
-Logistic Regression is a supervised machine learning algorithm used for classification tasks. Despite its name, it is not a regression algorithm in the traditional sense; instead, it predicts probabilities and uses these probabilities to classify data into discrete categories.
+# C.2. Logistic Regression: A Deeper Dive
 
-
-## 2.1 Key Concepts
-
-### 2.1.1. **Logistic Function (Sigmoid Function)** ( 10 mins)
-
-The sigmoid function is the cornerstone of logistic regression. It is used to map real-valued input into a range between 0 and 1, which is essential for probability estimation. The sigmoid function ensures that no matter how large or small the input values are, the output will always fall within the probability range of 0 to 1.
-
-The function is mathematically represented as:
-
-
-#### 2.1.1.1. Properties of the Sigmoid Function:
-
-1. **Range:**
-   - The output of the sigmoid function is always between 0 and 1.
-   - This makes it suitable for modeling probabilities.
-
-2. **Monotonicity:**
-   - The function is monotonically increasing, meaning larger inputs produce larger outputs.
-
-3. **Asymptotic Behavior:**
-   - For very large positive inputs, the function approaches 1.
-   - For very large negative inputs, the function approaches 0.
-
-4. **Symmetry:**
-   - The function is symmetric around the point \( x = 0 \), where \( \sigma(0) = 0.5 \).
-
-5. **S-Shaped Curve:**
-   - The sigmoid function has an S-shaped curve (also called a logistic curve), which transitions smoothly from 0 to 1.
-
-#### Intuition:
-
-- In logistic regression, the sigmoid function transforms the linear combination of input features into a probability score.
-
-
-### 2.1.2 **Binary Classification**
-- Logistic Regression is primarily used for binary classification problems where the output has two classes, typically represented as 0 and 1.
-- The model outputs the probability of a data point belonging to the positive class (1). A threshold (commonly 0.5) is applied to determine the final class.
-
-### 2.1.3. **Decision Boundary**
-- The decision boundary is the threshold that separates the classes.
-- For example, if the threshold is 0.5, any input with a probability ≥ 0.5 is classified as 1; otherwise, it is classified as 0.
-
-
-
-## 2.2. Assumptions of Logistic Regression
-
-1. **Binary Outcome:** The dependent variable should be binary (0/1).
-2. **Independence:** Observations should be independent of each other.
-3. **Linearity of Predictors and Log Odds:** Predictors are linearly related to the log of odds.
-4. **No Multicollinearity:** Predictors should not be highly correlated with each other.
-
-
-
-## 2.3 Applications of Logistic Regression
-
-1. **Medical Diagnosis:**
-   - Predicting the presence or absence of a disease (e.g., cancer detection).
-
-2. **Credit Scoring:**
-   - Assessing the likelihood of a customer defaulting on a loan.
-
-3. **Spam Detection:**
-   - Classifying emails as spam or non-spam.
-
-4. **Marketing:**
-   - Predicting whether a customer will buy a product.
-
-5. **Customer Churn:**
-   - Determining the likelihood of a customer leaving a service.
-
-
-
-## 2.4 Advantages of Logistic Regression
-
-1. **Simplicity:** Easy to implement and interpret.
-2. **Efficiency:** Computationally less expensive.
-3. **Probability Outputs:** Provides probabilities for predictions, aiding decision-making.
-4. **Versatility:** Can be extended to multiclass classification using techniques like One-vs-All.
-5. **Well-Studied:** Has a solid theoretical foundation.
-
-
-## 2.5 Limitations of Logistic Regression
-
-1. **Linear Boundaries:** Assumes a linear relationship between predictors and the log odds, which may not hold for complex data.
-2. **Feature Engineering:** Requires careful preprocessing and feature selection.
-3. **Imbalanced Data:** Performs poorly on highly imbalanced datasets unless techniques like resampling are used.
-4. **Outlier Sensitivity:** Susceptible to outliers, which can skew results.
-
-
-## 2.6 Variants of Logistic Regression
-
-1. **Multinomial Logistic Regression:**
-   - Handles multiclass classification problems (more than two classes).
-
-2. **Ordinal Logistic Regression:**
-   - Used when the dependent variable is ordinal (ordered categories).
-
-3. **Regularized Logistic Regression:**
-   - Includes L1 (Lasso) or L2 (Ridge) regularization to prevent overfitting.
-
-### **Logistic Regression in ShopSmart**
-  
-ShopSmart uses logistic regression to classify whether a user will purchase a product (*dependent variable*: 0 = No, 1 = Yes) based on features like browsing time, product price, and discount percentage (*independent variables*). For instance, if the probability of purchase exceeds 0.5, the model predicts the user is likely to buy, enabling targeted promotions.
+Logistic Regression is a supervised machine learning algorithm used for classification tasks. It predicts the probability of an event occurring and uses this probability to classify data into discrete categories. Despite its name, Logistic Regression is not a regression algorithm in the traditional sense but a classification technique.
 
 ---
+
+## Key Concepts
+
+- Logistic Regression uses the sigmoid function to map any real-valued input into a range between 0 and 1, making it suitable for probability estimation. The sigmoid function ensures predictions remain within valid probability limits.
+- Logistic Regression transforms the linear combination of input features into a probability score. This score is then used to determine class membership based on a threshold (commonly 0.5).
+- Logistic Regression is primarily used for binary classification problems, where the dependent variable has two classes (e.g., 0 and 1). The output is the probability of belonging to the positive class.
+- The decision boundary is a threshold that separates classes. Inputs with probabilities above the threshold are classified into one class (e.g., 1), while those below it belong to the other class.
+- Logistic Regression assumes that the relationship between the independent variables and the log odds of the dependent variable is linear.
+
+---
+
+## Assumptions of Logistic Regression
+
+- The dependent variable is binary or categorical.
+- Observations are independent, with no dependencies between data points.
+- Predictors are linearly related to the log of odds.
+- Predictors should not exhibit high multicollinearity to avoid unreliable coefficient estimation.
+- Outliers should be minimal as they can distort the decision boundary.
+
+---
+
+## Applications of Logistic Regression
+
+- **Medical Diagnosis**: Predicting the presence or absence of diseases (e.g., cancer detection, heart disease classification).
+- **Credit Scoring**: Determining the likelihood of a customer defaulting on a loan or credit card payment.
+- **Spam Detection**: Classifying emails as spam or non-spam based on features like subject lines and sender reputation.
+- **Marketing**: Predicting whether a customer will respond to a promotional campaign or buy a product.
+- **Customer Churn**: Analyzing customer behavior to determine the likelihood of leaving a service or subscription.
+- **Fraud Detection**: Identifying fraudulent transactions based on behavioral patterns and historical data.
+
+---
+
+## Advantages of Logistic Regression
+
+- Logistic Regression is simple and easy to implement, making it an excellent choice for baseline classification tasks.
+- It provides interpretable results by offering insights into the relationship between predictors and the likelihood of outcomes.
+- It is computationally efficient, making it suitable for large datasets.
+- Logistic Regression outputs probabilities, allowing for more nuanced decision-making beyond binary classifications.
+- It is versatile and can handle both binary and multiclass classification problems with extensions like multinomial logistic regression.
+
+---
+
+## Limitations of Logistic Regression
+
+- Logistic Regression assumes a linear relationship between predictors and the log odds, which may not hold for complex or non-linear data.
+- It is sensitive to outliers, which can significantly affect the decision boundary and model coefficients.
+- Logistic Regression struggles with imbalanced datasets, as the majority class can dominate predictions without resampling or weighting techniques.
+- It requires careful feature engineering and preprocessing, as irrelevant or noisy predictors can reduce model performance.
+
+---
+
+## Variants of Logistic Regression
+
+- **Multinomial Logistic Regression**: Extends logistic regression to handle multiclass classification problems (e.g., predicting one of several product categories).
+- **Ordinal Logistic Regression**: Used for ordered categorical variables, where the order of categories carries meaning (e.g., customer satisfaction ratings like low, medium, high).
+- **Regularized Logistic Regression**:
+  - Includes L1 regularization (Lasso) to perform feature selection by shrinking some coefficients to zero.
+  - Includes L2 regularization (Ridge) to reduce overfitting by penalizing large coefficients.
+  - Elastic Net combines L1 and L2 regularization for a balanced approach.
+
+---
+
+## Logistic Regression in ShopSmart
+
+ShopSmart uses Logistic Regression to classify whether a user will purchase a product based on behavioral and pricing data. Here’s how Logistic Regression is applied:
+
+- **Problem**: Predict whether a user will purchase a product (dependent variable: 0 = No, 1 = Yes).
+- **Features**:
+  - Browsing time on the product page.
+  - Product price.
+  - Discount percentage.
+- **Approach**:
+  - Logistic Regression calculates the probability of purchase based on these features.
+  - If the probability exceeds 0.5, the model predicts that the user is likely to buy the product.
+  - ShopSmart uses this information for targeted marketing campaigns and personalized offers.
+
+---
+
+## Deep Insights into ShopSmart Use Case
+
+- **Threshold Optimization**: ShopSmart can adjust the decision threshold (e.g., from 0.5 to 0.7) to prioritize high-confidence predictions, improving the effectiveness of targeted promotions.
+- **Regularization**: Regularized Logistic Regression helps ShopSmart handle correlated features like product price and discount percentage by shrinking or removing less significant coefficients.
+- **Multinomial Extension**: ShopSmart can use Multinomial Logistic Regression to classify users into multiple categories, such as "unlikely to purchase," "neutral," or "likely to purchase."
+
+---
+
+## Practical Challenges and Solutions
+
+- **Imbalanced Data**:
+  - ShopSmart may encounter imbalanced datasets where most users do not purchase products.
+  - Solutions include oversampling the minority class, undersampling the majority class, or using techniques like SMOTE (Synthetic Minority Oversampling Technique).
+- **Outliers**:
+  - Extreme values, such as unusually high browsing times, can distort predictions.
+  - Address this by removing or capping outliers during preprocessing.
+- **Feature Scaling**:
+  - Normalize continuous features like browsing time and product price to ensure all features contribute equally to the model.
+
+---
+
+## Summary
+
+Logistic Regression is a robust and versatile classification algorithm that provides both interpretability and predictive power. By leveraging concepts like the sigmoid function and decision boundaries, it enables accurate classification for binary and multiclass problems. ShopSmart’s use case highlights its practical applications, from predicting user behavior to enabling personalized marketing. A thorough understanding of its assumptions, limitations, and regularization techniques is essential for maximizing its effectiveness.
+
 
  ## C.3 . Decision Tree (5 mins)* (5 min)
    
