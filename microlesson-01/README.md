@@ -319,9 +319,9 @@ ShopSmart uses linear regression to predict sales revenue (*dependent variable*)
 
 ---
 
-#### C.2. Logistic Regression (5 mins)
+#### 2. Logistic Regression (5 mins)
 
-# C.2. Logistic Regression: A Deeper Dive
+# C.2. Logistic Regression: A Deeper Dive with ShopSmart
 
 Logistic Regression is a supervised machine learning algorithm used for classification tasks. It predicts the probability of an event occurring and uses this probability to classify data into discrete categories. Despite its name, Logistic Regression is not a regression algorithm in the traditional sense but a classification technique.
 
@@ -425,9 +425,8 @@ ShopSmart uses Logistic Regression to classify whether a user will purchase a pr
 
 ---
 
-## Summary
-
-Logistic Regression is a robust and versatile classification algorithm that provides both interpretability and predictive power. By leveraging concepts like the sigmoid function and decision boundaries, it enables accurate classification for binary and multiclass problems. ShopSmart’s use case highlights its practical applications, from predicting user behavior to enabling personalized marketing. A thorough understanding of its assumptions, limitations, and regularization techniques is essential for maximizing its effectiveness.
+-Logistic Regression in ShopSmart 
+ShopSmart uses Logistic Regression to predict whether a user will purchase a product (0 = No, 1 = Yes) based on browsing time, product price, and discount percentage. If the probability of purchase exceeds 0.5, the model predicts a purchase, enabling ShopSmart to personalize marketing campaigns and target high-potential customers effectively.
 
 
  ## C.3 . Decision Tree (5 mins)* (5 min)
