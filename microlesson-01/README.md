@@ -351,7 +351,7 @@ Logistic Regression is a supervised machine learning algorithm used for classifi
 
 ---
 
- **Applications of Logistic Regression**
+- **Applications of Logistic Regression**
 
 - **Medical Diagnosis**: Predicting the presence or absence of diseases (e.g., cancer detection, heart disease classification).
 - **Credit Scoring**: Determining the likelihood of a customer defaulting on a loan or credit card payment.
@@ -362,7 +362,7 @@ Logistic Regression is a supervised machine learning algorithm used for classifi
 
 ---
 
- **Advantages of Logistic Regression**
+- **Advantages of Logistic Regression**
 
 - Logistic Regression is simple and easy to implement, making it an excellent choice for baseline classification tasks.
 - It provides interpretable results by offering insights into the relationship between predictors and the likelihood of outcomes.
@@ -372,7 +372,7 @@ Logistic Regression is a supervised machine learning algorithm used for classifi
 
 ---
 
-**Limitations of Logistic Regression**
+- **Limitations of Logistic Regression**
 
 - Logistic Regression assumes a linear relationship between predictors and the log odds, which may not hold for complex or non-linear data.
 - It is sensitive to outliers, which can significantly affect the decision boundary and model coefficients.
@@ -381,7 +381,7 @@ Logistic Regression is a supervised machine learning algorithm used for classifi
 
 ---
 
-**Variants of Logistic Regression**
+- **Variants of Logistic Regression**
 
 - **Multinomial Logistic Regression**: Extends logistic regression to handle multiclass classification problems (e.g., predicting one of several product categories).
 - **Ordinal Logistic Regression**: Used for ordered categorical variables, where the order of categories carries meaning (e.g., customer satisfaction ratings like low, medium, high).
@@ -392,7 +392,7 @@ Logistic Regression is a supervised machine learning algorithm used for classifi
 
 ---
 
-**Logistic Regression in ShopSmart**
+- **Logistic Regression in ShopSmart**
 
 ShopSmart uses Logistic Regression to classify whether a user will purchase a product based on behavioral and pricing data. Here’s how Logistic Regression is applied:
 
@@ -408,7 +408,7 @@ ShopSmart uses Logistic Regression to classify whether a user will purchase a pr
 
 ---
 
-** Deep Insights into ShopSmart Use Case**
+- **Deep Insights into ShopSmart Use Case**
 
 - **Threshold Optimization**: ShopSmart can adjust the decision threshold (e.g., from 0.5 to 0.7) to prioritize high-confidence predictions, improving the effectiveness of targeted promotions.
 - **Regularization**: Regularized Logistic Regression helps ShopSmart handle correlated features like product price and discount percentage by shrinking or removing less significant coefficients.
@@ -427,7 +427,7 @@ ShopSmart uses Logistic Regression to classify whether a user will purchase a pr
 
 ---
 
--**Logistic Regression in ShopSmart** 
+- **Logistic Regression in ShopSmart** 
 ShopSmart uses Logistic Regression to predict whether a user will purchase a product (0 = No, 1 = Yes) based on browsing time, product price, and discount percentage. If the probability of purchase exceeds 0.5, the model predicts a purchase, enabling ShopSmart to personalize marketing campaigns and target high-potential customers effectively.
 
 
