@@ -203,7 +203,7 @@ Supervised learning is widely used due to its effectiveness and reliability in s
 Linear Regression is a fundamental supervised learning algorithm used for predicting continuous outcomes. It is widely used in statistics and machine learning for modeling relationships between variables. Linear regression offers a simple yet powerful approach to understanding and predicting numerical data by examining the relationships between dependent and independent variables.
 
 
-# Linear Regression: A Deep Dive with ShopSmart Examples
+## Linear Regression: A Deep Dive with ShopSmart Examples
 
 Linear Regression is a supervised learning algorithm used to predict continuous outcomes by modeling the relationship between one or more independent variables (features) and a dependent variable (target). It serves as a foundation for many machine learning models and provides insights into the relationships between variables. Using ShopSmart, an e-commerce company, as a case study, we can explore its applications and variations.
 
