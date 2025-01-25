@@ -195,8 +195,7 @@ Linear Regression is a supervised learning algorithm used to predict continuous 
 ---
 
 - **Key Concepts in Linear Regression**
-  
-- Linear Regression predicts the dependent variable as a linear combination of independent variables plus an intercept.
+  - Linear Regression predicts the dependent variable as a linear combination of independent variables plus an intercept.
 - It assumes a linear relationship between the dependent and independent variables.
 - The model works for both simple (single variable) and multiple (multi-variable) regression scenarios.
 - In simple linear regression, the relationship is represented as a straight line.
@@ -208,7 +207,6 @@ Linear Regression is a supervised learning algorithm used to predict continuous 
 ---
 
 - **Core Assumptions of Linear Regression**
-  
 - The relationship between variables is linear.
 - Observations are independent of each other.
 - The variance of residuals (errors) is constant across all levels of independent variables (homoscedasticity).
@@ -220,7 +218,6 @@ Linear Regression is a supervised learning algorithm used to predict continuous 
 ### Types of Linear Regression with ShopSmart Examples
 
 - **Simple Linear Regression**
-  
 - **Objective**: Predict the total monthly revenue based on advertising spend.  
 - **Independent Variable (Feature)**: Advertising spend (in USD).  
 - **Dependent Variable (Target)**: Total monthly revenue (in USD).  
@@ -229,7 +226,6 @@ Linear Regression is a supervised learning algorithm used to predict continuous 
 ---
 
 - **Multiple Linear Regression**
-  
 - **Objective**: Predict total monthly revenue based on multiple factors.  
 - **Independent Variables (Features)**: Advertising spend, number of website visits, and discount rates.  
 - **Dependent Variable (Target)**: Total monthly revenue (in USD).  
@@ -238,7 +234,6 @@ Linear Regression is a supervised learning algorithm used to predict continuous 
 ---
 
 - **Polynomial Regression**
-
 - **Objective**: Model the non-linear relationship between website traffic and total monthly revenue.  
 - **Independent Variable (Feature)**: Number of website visits (with polynomial terms like squared or cubed visits).  
 - **Dependent Variable (Target)**: Total monthly revenue (in USD).  
@@ -247,7 +242,6 @@ Linear Regression is a supervised learning algorithm used to predict continuous 
 ---
 
 - **Ridge Regression (L2 Regularization)**
-  
 - **Objective**: Predict sales across product categories while addressing multicollinearity.  
 - **Independent Variables (Features)**: Prices of similar products, advertising spend, product reviews, and seasonal trends.  
 - **Dependent Variable (Target)**: Sales (units sold).  
@@ -256,7 +250,6 @@ Linear Regression is a supervised learning algorithm used to predict continuous 
 ---
 
 - **Lasso Regression (L1 Regularization)**
-  
 - **Objective**: Identify the most important factors influencing customer retention.  
 - **Independent Variables (Features)**: Customer demographics, purchase frequency, average cart size, loyalty points earned, and product reviews.  
 - **Dependent Variable (Target)**: Customer retention rate (percentage).  
@@ -265,7 +258,6 @@ Linear Regression is a supervised learning algorithm used to predict continuous 
 ---
 
 - **Elastic Net Regression**
-  
 - **Objective**: Predict delivery times for orders with a mix of relevant and correlated features.
 - **Independent Variables (Features)**: Warehouse location, distance to customer, product weight, courier type, and delivery traffic patterns.  
 - **Dependent Variable (Target)**: Delivery time (in hours).  
@@ -273,19 +265,14 @@ Linear Regression is a supervised learning algorithm used to predict continuous 
 
 ---
 
-- **L1 and L2 Regularization in Depth**
-
-
 - **L1 Regularization (Lasso Regression)**
-  
-- Adds the absolute values of the coefficients as a penalty to the loss function.
+  - Adds the absolute values of the coefficients as a penalty to the loss function.
 - Shrinks some coefficients to zero, effectively performing feature selection.
 - Useful for building sparse models by removing irrelevant or redundant features.
 - Best for datasets where only a few features are important.
 
-- **L2 Regularization (Ridge Regression)**
 
-  
+- **L2 Regularization (Ridge Regression)**
 - Adds the squared values of the coefficients as a penalty to the loss function.
 - Shrinks coefficients closer to zero but does not eliminate them.
 - Reduces the impact of multicollinearity by spreading the effect across features.
@@ -303,15 +290,13 @@ Linear Regression is a supervised learning algorithm used to predict continuous 
 ---
 
 - **Common Challenges**
-  
-- **Outliers** can heavily influence the regression line and distort predictions.
+  - **Outliers** can heavily influence the regression line and distort predictions.
 - **Multicollinearity** makes it difficult to determine the true effect of independent variables.
 - **Overfitting** occurs when the model performs well on training data but poorly on unseen data.
 
 ---
 
 - **Applications**
-  
 - Predicting recovery time in healthcare based on age and treatment type.
 - Forecasting stock prices in finance using historical data and market trends.
 - Estimating house prices in real estate based on location, size, and features.
@@ -335,15 +320,11 @@ Linear Regression is a supervised learning algorithm used to predict continuous 
 
 ---
 
-
-
 - **Linear Regression in ShopSmart**
 
 ShopSmart uses linear regression to predict sales revenue (*dependent variable*) based on factors like advertising budget, seasonal trends, and user reviews (*independent variables*). For instance, increasing ad spend by 10% may lead to a proportional sales increase, helping ShopSmart optimize marketing strategies and forecast revenue more accurately.  
 
-
 ---
-
 
 ## 2. Logistic Regression: A Deeper Dive with ShopSmart
 
@@ -352,7 +333,6 @@ Logistic Regression is a supervised machine learning algorithm used for classifi
 ---
 
 - **Key Concepts of Logistic Regression**
-
 - Logistic Regression uses the sigmoid function to map any real-valued input into a range between 0 and 1, making it suitable for probability estimation. The sigmoid function ensures predictions remain within valid probability limits.
 - Logistic Regression transforms the linear combination of input features into a probability score. This score is then used to determine class membership based on a threshold (commonly 0.5).
 - Logistic Regression is primarily used for binary classification problems, where the dependent variable has two classes (e.g., 0 and 1). The output is the probability of belonging to the positive class.
@@ -362,7 +342,6 @@ Logistic Regression is a supervised machine learning algorithm used for classifi
 ---
 
 - **Assumptions of Logistic Regression**
-  
 - The dependent variable is binary or categorical.
 - Observations are independent, with no dependencies between data points.
 - Predictors are linearly related to the log of odds.
@@ -372,7 +351,6 @@ Logistic Regression is a supervised machine learning algorithm used for classifi
 ---
 
 - **Applications of Logistic Regression**
-
 - **Medical Diagnosis**: Predicting the presence or absence of diseases (e.g., cancer detection, heart disease classification).
 - **Credit Scoring**: Determining the likelihood of a customer defaulting on a loan or credit card payment.
 - **Spam Detection**: Classifying emails as spam or non-spam based on features like subject lines and sender reputation.
@@ -383,7 +361,6 @@ Logistic Regression is a supervised machine learning algorithm used for classifi
 ---
 
 - **Advantages of Logistic Regression**
-
 - Logistic Regression is simple and easy to implement, making it an excellent choice for baseline classification tasks.
 - It provides interpretable results by offering insights into the relationship between predictors and the likelihood of outcomes.
 - It is computationally efficient, making it suitable for large datasets.
@@ -393,7 +370,6 @@ Logistic Regression is a supervised machine learning algorithm used for classifi
 ---
 
 - **Limitations of Logistic Regression**
-
 - Logistic Regression assumes a linear relationship between predictors and the log odds, which may not hold for complex or non-linear data.
 - It is sensitive to outliers, which can significantly affect the decision boundary and model coefficients.
 - Logistic Regression struggles with imbalanced datasets, as the majority class can dominate predictions without resampling or weighting techniques.
@@ -402,7 +378,6 @@ Logistic Regression is a supervised machine learning algorithm used for classifi
 ---
 
 - **Variants of Logistic Regression**
-
 - **Multinomial Logistic Regression**: Extends logistic regression to handle multiclass classification problems (e.g., predicting one of several product categories).
 - **Ordinal Logistic Regression**: Used for ordered categorical variables, where the order of categories carries meaning (e.g., customer satisfaction ratings like low, medium, high).
 - **Regularized Logistic Regression**:
@@ -413,7 +388,6 @@ Logistic Regression is a supervised machine learning algorithm used for classifi
 ---
 
 - **Logistic Regression in ShopSmart**
-
 ShopSmart uses Logistic Regression to classify whether a user will purchase a product based on behavioral and pricing data. Here’s how Logistic Regression is applied:
 
 - **Problem**: Predict whether a user will purchase a product (dependent variable: 0 = No, 1 = Yes).
@@ -570,11 +544,9 @@ ShopSmart uses Logistic Regression to predict whether a user will purchase a pro
 ---
 
 - **Decision Tree @ShopSmart Example**
-
 ShopSmart uses decision trees to classify whether a user is likely to click on a product advertisement (*classification tree*). The tree splits data based on features like product category, user browsing history, and discount percentage. For example, users browsing electronics with a discount >20% may have a high likelihood of clicking the ad, enabling targeted campaigns.  
 
 ---
-
 
 ## 3. Random Forest : A Deeper Dive with ShopSmart
 
