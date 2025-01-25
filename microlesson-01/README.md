@@ -220,7 +220,7 @@ Linear Regression is a supervised learning algorithm used to predict continuous 
 ### Types of Linear Regression with ShopSmart Examples
 
 - **Simple Linear Regression**
-- 
+  
 - **Objective**: Predict the total monthly revenue based on advertising spend.  
 - **Independent Variable (Feature)**: Advertising spend (in USD).  
 - **Dependent Variable (Target)**: Total monthly revenue (in USD).  
@@ -228,7 +228,7 @@ Linear Regression is a supervised learning algorithm used to predict continuous 
 
 
 - **Multiple Linear Regression**
-- 
+  
 - **Objective**: Predict total monthly revenue based on multiple factors.  
 - **Independent Variables (Features)**: Advertising spend, number of website visits, and discount rates.  
 - **Dependent Variable (Target)**: Total monthly revenue (in USD).  
@@ -244,7 +244,7 @@ Linear Regression is a supervised learning algorithm used to predict continuous 
 
 
 - **Ridge Regression (L2 Regularization)**
-- 
+  
 - **Objective**: Predict sales across product categories while addressing multicollinearity.  
 - **Independent Variables (Features)**: Prices of similar products, advertising spend, product reviews, and seasonal trends.  
 - **Dependent Variable (Target)**: Sales (units sold).  
@@ -252,7 +252,7 @@ Linear Regression is a supervised learning algorithm used to predict continuous 
   
 
 - **Lasso Regression (L1 Regularization)**
-- 
+  
 - **Objective**: Identify the most important factors influencing customer retention.  
 - **Independent Variables (Features)**: Customer demographics, purchase frequency, average cart size, loyalty points earned, and product reviews.  
 - **Dependent Variable (Target)**: Customer retention rate (percentage).  
