@@ -184,7 +184,7 @@ Supervised learning is widely used due to its effectiveness and reliability in s
 
 ---
 
-### C. Major Algorithms in Supervised Learning
+## C. Major Algorithms in Supervised Learning
 
 ---
 
