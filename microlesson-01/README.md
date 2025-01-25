@@ -990,7 +990,7 @@ By integrating K-Means Clustering, ShopSmart uncovers valuable patterns, boosts 
 
    ---
 
-**C. Activity: Market Segmentation for a Retail Business**
+## C. Activity: Market Segmentation for a Retail Business
 
 **Objective:** Leverage unsupervised learning to perform market segmentation and identify distinct customer groups for a retail business.
 
