@@ -24,7 +24,7 @@
         - [4. Random Forest](#4-random-forest)
         - [5. Support Vector Machine (SVM)](#5-support-vector-machine-svm)
         - [6. K-Nearest Neighbors (KNN)](#6-K-Nearest-neighbors-(knn))
-        - [7. Naive Bayes](#7-naive-bayes)(5 Mins)
+        - [7. Naive Bayes](#7-naive-bayes)
     - [D. Activity: Personalized Product Recommendations](#d-activity-personalized-product-recommendations)
 
 - [III. Unsupervised Machine Learning](#iii-unsupervised-machine-learning)(20 Mins)
