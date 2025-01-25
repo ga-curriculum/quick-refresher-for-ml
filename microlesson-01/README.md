@@ -265,7 +265,7 @@ Linear Regression is a supervised learning algorithm used to predict continuous 
 ---
 
 - **Elastic Net Regression**
-- 
+  
 - **Objective**: Predict delivery times for orders with a mix of relevant and correlated features.
 - **Independent Variables (Features)**: Warehouse location, distance to customer, product weight, courier type, and delivery traffic patterns.  
 - **Dependent Variable (Target)**: Delivery time (in hours).  
@@ -273,15 +273,17 @@ Linear Regression is a supervised learning algorithm used to predict continuous 
 
 ---
 
--**L1 and L2 Regularization in Depth**
+- **L1 and L2 Regularization in Depth**
 
 - **L1 Regularization (Lasso Regression)**
+  
 - Adds the absolute values of the coefficients as a penalty to the loss function.
 - Shrinks some coefficients to zero, effectively performing feature selection.
 - Useful for building sparse models by removing irrelevant or redundant features.
 - Best for datasets where only a few features are important.
 
 - **L2 Regularization (Ridge Regression)**
+  
 - Adds the squared values of the coefficients as a penalty to the loss function.
 - Shrinks coefficients closer to zero but does not eliminate them.
 - Reduces the impact of multicollinearity by spreading the effect across features.
