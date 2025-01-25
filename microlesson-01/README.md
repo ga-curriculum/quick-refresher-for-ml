@@ -33,7 +33,7 @@
         - [1. K-Means Clustering](#1-k-means-clustering)
         - [2. Hierarchical Clustering](#2-hierarchical-clustering)
     - [C. Use Cases of Unsupervised Learning](#c-use-cases-of-unsupervised-learning)
-    - [D.Customer Segmentation ]
+    - [D.Customer Segmentation](#Customer Segmentation) 
 
 - [IV. Reinforcement Machine Learning](#iv-reinforcement-machine-learning)
     - [A. Key Features of Reinforcement Learning](#a-key-features-of-reinforcement-learning)
