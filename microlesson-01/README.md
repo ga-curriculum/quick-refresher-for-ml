@@ -452,7 +452,7 @@ ShopSmart uses Logistic Regression to predict whether a user will purchase a pro
 
 ---
 
-## 2. Decision Tree: A Deeper Dive with ShopSmart
+## 3. Decision Tree: A Deeper Dive with ShopSmart
 
 - A decision tree is a supervised machine learning algorithm used for both classification and regression tasks.  
 - It builds a hierarchical tree structure by recursively splitting the dataset into subsets based on feature values.  
