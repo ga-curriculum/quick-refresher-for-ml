@@ -265,7 +265,8 @@ Linear Regression is a supervised learning algorithm used to predict continuous 
 ---
 
 - **Elastic Net Regression**
-- **Objective**: Predict delivery times for orders with a mix of relevant and correlated features.  
+- 
+- **Objective**: Predict delivery times for orders with a mix of relevant and correlated features.
 - **Independent Variables (Features)**: Warehouse location, distance to customer, product weight, courier type, and delivery traffic patterns.  
 - **Dependent Variable (Target)**: Delivery time (in hours).  
 - **Use Case**: ShopSmart has both irrelevant features and multicollinearity in the data. Elastic Net balances L1 (feature selection) and L2 (regularization) to build a robust model.
@@ -446,79 +447,7 @@ ShopSmart uses Logistic Regression to classify whether a user will purchase a pr
 ShopSmart uses Logistic Regression to predict whether a user will purchase a product (0 = No, 1 = Yes) based on browsing time, product price, and discount percentage. If the probability of purchase exceeds 0.5, the model predicts a purchase, enabling ShopSmart to personalize marketing campaigns and target high-potential customers effectively.
 
 
- ## C.3 . Decision Tree (5 mins)* (5 min)
-   
----
-
-### 3.1.1. Introduction to Decision Trees
-A decision tree is a supervised machine learning algorithm used for both classification and regression tasks. It works by splitting the dataset into subsets based on feature values, resulting in a tree-like structure of decisions that can be easily visualized and interpreted.
-
-### 3.1.2 Types of Decision Trees:
-1. **Classification Tree**: Used to predict categorical outcomes. The goal is to assign data to one of several predefined classes.
-2. **Regression Tree**: Used to predict continuous outcomes. It approximates real-valued functions.
-
-### 3.1.3.Why Use Decision Trees?
-- Intuitive structure that mirrors human decision-making processes.
-- Handles both numerical and categorical data effectively.
-- Requires minimal data preprocessing (e.g., no need for normalization).
-
-### 3.1.4 How Decision Trees Work
-- **Root Node**: Represents the entire dataset and initiates the splitting process.
-- **Decision Nodes**: Intermediate nodes where the data is further split based on conditions.
-- **Leaf Nodes**: Final nodes that represent a decision or outcome.
-- **Branches**: Connections between nodes that represent the flow of data through conditions.
-
-
-## 3.2. Building a Decision Tree
-
-### 3.2.1 Steps to Build a Decision Tree:
-1. **Select the Best Attribute for Splitting**:
-   - Choose the feature that maximizes the homogeneity of the resulting subsets. This can be determined using metrics like Gini Impurity or Information Gain.
-2. **Split the Dataset**:
-   - Partition the data into subsets based on the selected feature’s values.
-3. **Repeat the Process**:
-   - Recursively apply the splitting criteria to each subset until a stopping condition is met.
-
-### 3.2.2 Stopping Conditions:
-- Reaching a predefined maximum depth.
-- Having a minimum number of samples in each leaf node.
-- Observing no significant improvement in split quality.
-
-### 3.2.3 Common Splitting Algorithms:
-1. **CART (Classification and Regression Trees)**:
-   - Uses Gini Impurity for classification tasks and Mean Squared Error for regression tasks.
-2. **ID3 (Iterative Dichotomiser 3)**:
-   - Uses Information Gain to determine splits.
-3. **C4.5**:
-   - An extension of ID3 that handles continuous attributes and missing values.
-
-### 3.2.3.1 Splitting Criteria
-
-### Gini Impurity
-- Measures the likelihood of incorrect classification of a randomly chosen element.
-
-### 3.2.3.2 Entropy and Information Gain
-- **Entropy** measures impurity or disorder in a dataset:
-
-- **Information Gain** quantifies the reduction in entropy achieved by splitting the data on a specific attribute.
-
-### 3.2.3.1 Reduction in Variance (Regression)
-- Used for regression trees to measure the quality of a split.
-
-### 3.2.3.2 Pruning Techniques
-Pruning is essential to prevent overfitting by simplifying the decision tree structure.
-
-### 3.2.3.1 Pre-pruning (Early Stopping)
-- Applies constraints during the tree-building process:
-  - Set a maximum tree depth.
-  - Specify a minimum number of samples per split.
-  - Define a minimum improvement in split quality.
-
-### 3.2.3.1 Post-pruning (Simplification After Growth)
-- Removes branches that have little impact on prediction accuracy after the tree is fully grown. This is typically done by cross-validation to ensure optimal tree size.
-- **Cost Complexity Pruning**:
-  - Balances tree complexity and accuracy by minimizing a cost function that penalizes larger trees.
-
+ 
 
 
 ## 4. Advantages and Disadvantages
@@ -543,6 +472,101 @@ Pruning is essential to prevent overfitting by simplifying the decision tree str
 - **Medical Diagnosis**: Assisting in classifying diseases based on symptoms and test results.
 - **Churn Prediction**: Identifying customers likely to leave a subscription-based service.
 - **Supply Chain Optimization**: Forecasting demand and managing inventory efficiently.
+
+---
+
+## 2. Logistic Regression: A Deeper Dive with ShopSmart
+
+- A decision tree is a supervised machine learning algorithm used for both classification and regression tasks.  
+- It builds a hierarchical tree structure by recursively splitting the dataset into subsets based on feature values.  
+- **ShopSmart Example**: ShopSmart uses decision trees to predict whether a customer will purchase a product based on features like browsing time, product price, and discount percentage.  
+
+- **Types of Decision Trees**  
+- Classification Trees predict discrete outcomes and are used in tasks like spam detection or disease diagnosis.  
+- Regression Trees predict continuous outcomes and are useful for forecasting problems like house price prediction.  
+- Hybrid Trees can handle mixed data types, predicting both continuous and categorical outcomes in a single model.  
+- **ShopSmart Example**: ShopSmart uses a classification tree to determine if a customer is likely to buy (Yes/No) and a regression tree to predict the total revenue from a customer based on their browsing history.  
+
+- **Why Use Decision Trees**  
+- Decision trees can handle both numerical and categorical features without requiring feature scaling or normalization.  
+- They are robust to missing values and can handle datasets with high levels of noise.  
+- They are capable of capturing non-linear relationships between features and the target variable.  
+- **ShopSmart Example**: ShopSmart finds decision trees useful as they can easily handle categorical features like product categories and numerical features like discount percentages, without extensive preprocessing.  
+
+- **How Decision Trees Work**  
+- The Root Node contains the entire dataset and starts the recursive splitting process.  
+- Decision Nodes represent splits in the dataset based on the values of specific features.  
+- Leaf Nodes contain the final outcomes or predictions for the dataset.  
+- Branches represent the conditions under which data flows from one node to another.  
+- **ShopSmart Example**: The root node could represent all website visitors, decision nodes split customers based on browsing time, product price, and discount percentage, and leaf nodes predict purchase likelihood.  
+
+- **Steps to Build a Decision Tree**  
+- Define the objective, whether it is classification or regression.  
+- Select the splitting criterion, such as Gini Impurity, Entropy, or Reduction in Variance.  
+- Recursively split the dataset by choosing the feature and threshold that best improve the split quality.  
+- Stop the splitting process based on predefined stopping conditions.  
+- **ShopSmart Example**: The objective could be to classify customers into buyers and non-buyers, with splits based on features like browsing time or discount percentage.  
+
+- **Stopping Conditions**  
+- Stop splitting when the tree reaches a maximum depth to prevent overfitting.  
+- Stop when the number of samples in a leaf node falls below a minimum threshold.  
+- Stop when further splits do not significantly improve the model's performance.  
+- **ShopSmart Example**: ShopSmart stops splitting when adding more branches does not significantly improve the prediction accuracy for customer purchases.  
+
+- **Common Splitting Algorithms**  
+- CART (Classification and Regression Trees) is widely used for its efficiency and ability to handle both classification and regression tasks.  
+- ID3 (Iterative Dichotomiser 3) uses Information Gain to decide splits but is limited to categorical data.  
+- C4.5 improves on ID3 by handling continuous data and missing values, making it more versatile.  
+- CHAID (Chi-Square Automatic Interaction Detector) splits data based on statistical significance using chi-square tests.  
+- **ShopSmart Example**: ShopSmart uses CART to classify customers into buyers or non-buyers based on features like discount percentage and browsing time.  
+
+- **Gini Impurity and Entropy**  
+- Gini Impurity measures the likelihood of incorrectly classifying a randomly chosen element from the dataset. A lower Gini Impurity indicates a more homogeneous split.  
+- Entropy measures the level of impurity or disorder in a dataset. It is used with Information Gain to determine the best split, where higher Information Gain corresponds to a larger reduction in entropy.  
+- Both metrics aim to improve the purity of the subsets created by splitting the data.  
+- **ShopSmart Example**: ShopSmart uses Gini Impurity to split customers into groups that are as homogeneous as possible, such as those likely to purchase versus those unlikely to purchase.  
+
+- **Advanced Splitting Criteria**  
+- Gini Impurity is favored for its computational efficiency and works well for large datasets.  
+- Entropy and Information Gain provide a more nuanced evaluation of impurity reduction, making them suitable for datasets with complex patterns.  
+- Reduction in Variance is specific to regression trees and evaluates how well a split minimizes variance within subsets.  
+- Surrogate Splits handle missing values by selecting alternative features to guide splits when the primary feature is unavailable.  
+- **ShopSmart Example**: If browsing time is missing for some customers, ShopSmart might use surrogate splits like product price or category to guide the decision-making process.  
+
+- **Pruning Techniques**  
+- Pre-pruning constrains tree growth by setting parameters like maximum depth or minimum samples per node during the tree-building process.  
+- Post-pruning reduces tree complexity after it is fully grown by removing branches that contribute little to model performance.  
+- Cost Complexity Pruning balances the complexity and accuracy of the tree by penalizing overly large trees with a cost function.  
+- **ShopSmart Example**: ShopSmart uses cost complexity pruning to avoid overfitting while ensuring the decision tree remains interpretable for predicting customer purchases.  
+
+- **Handling Overfitting**  
+- Limit tree depth to avoid overfitting smaller, irrelevant patterns in the data.  
+- Use regularization techniques like minimum samples per split or minimum leaf size to control the size of the tree.  
+- Employ ensemble methods like Random Forest or Gradient Boosted Trees to average multiple trees and improve generalization.  
+- **ShopSmart Example**: ShopSmart uses Random Forest to combine multiple decision trees, improving the robustness and accuracy of customer purchase predictions.  
+
+- **Advantages of Decision Trees**  
+- Decision trees are interpretable and allow for transparent decision-making.  
+- They work well on datasets with non-linear relationships and mixed data types.  
+- They require minimal data preprocessing, handling missing values and outliers naturally.  
+- **ShopSmart Example**: ShopSmart benefits from the interpretability of decision trees, as they provide clear insights into how features like discount percentage influence customer behavior.  
+
+- **Limitations of Decision Trees**  
+- Decision trees are prone to overfitting, especially when they grow too deep.  
+- They are sensitive to small changes in data, which can lead to significantly different tree structures.  
+- They can struggle with imbalanced datasets unless appropriate weighting or sampling techniques are used.  
+- **ShopSmart Example**: If most customers do not purchase products, ShopSmart addresses this imbalance by applying sampling techniques or using ensemble methods.  
+
+- **Applications of Decision Trees**  
+- In healthcare, decision trees are used for diagnosing diseases or predicting patient outcomes.  
+- In finance, they are employed for credit scoring, risk assessment, and fraud detection.  
+- In marketing, they help segment customers and predict purchasing behavior.  
+- In operations, they are used for optimizing processes and supply chain management.  
+- **ShopSmart Example**: ShopSmart applies decision trees for targeted marketing campaigns, predicting product demand, and optimizing inventory management based on customer purchasing patterns.  
+
+
+
+
 
 ### **Decision Trees in ShopSmart**
 
