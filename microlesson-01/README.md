@@ -458,17 +458,23 @@ ShopSmart uses Logistic Regression to predict whether a user will purchase a pro
 - It builds a hierarchical tree structure by recursively splitting the dataset into subsets based on feature values.  
 - **ShopSmart Example**: ShopSmart uses decision trees to predict whether a customer will purchase a product based on features like browsing time, product price, and discount percentage.  
 
+---
+
 - **Types of Decision Trees**  
 - Classification Trees predict discrete outcomes and are used in tasks like spam detection or disease diagnosis.  
 - Regression Trees predict continuous outcomes and are useful for forecasting problems like house price prediction.  
 - Hybrid Trees can handle mixed data types, predicting both continuous and categorical outcomes in a single model.  
 - **ShopSmart Example**: ShopSmart uses a classification tree to determine if a customer is likely to buy (Yes/No) and a regression tree to predict the total revenue from a customer based on their browsing history.  
 
+---
+
 - **Why Use Decision Trees**  
 - Decision trees can handle both numerical and categorical features without requiring feature scaling or normalization.  
 - They are robust to missing values and can handle datasets with high levels of noise.  
 - They are capable of capturing non-linear relationships between features and the target variable.  
 - **ShopSmart Example**: ShopSmart finds decision trees useful as they can easily handle categorical features like product categories and numerical features like discount percentages, without extensive preprocessing.  
+
+---
 
 - **How Decision Trees Work**  
 - The Root Node contains the entire dataset and starts the recursive splitting process.  
@@ -477,6 +483,8 @@ ShopSmart uses Logistic Regression to predict whether a user will purchase a pro
 - Branches represent the conditions under which data flows from one node to another.  
 - **ShopSmart Example**: The root node could represent all website visitors, decision nodes split customers based on browsing time, product price, and discount percentage, and leaf nodes predict purchase likelihood.  
 
+---
+
 - **Steps to Build a Decision Tree**  
 - Define the objective, whether it is classification or regression.  
 - Select the splitting criterion, such as Gini Impurity, Entropy, or Reduction in Variance.  
@@ -484,11 +492,15 @@ ShopSmart uses Logistic Regression to predict whether a user will purchase a pro
 - Stop the splitting process based on predefined stopping conditions.  
 - **ShopSmart Example**: The objective could be to classify customers into buyers and non-buyers, with splits based on features like browsing time or discount percentage.  
 
+---
+
 - **Stopping Conditions**  
 - Stop splitting when the tree reaches a maximum depth to prevent overfitting.  
 - Stop when the number of samples in a leaf node falls below a minimum threshold.  
 - Stop when further splits do not significantly improve the model's performance.  
 - **ShopSmart Example**: ShopSmart stops splitting when adding more branches does not significantly improve the prediction accuracy for customer purchases.  
+
+---
 
 - **Common Splitting Algorithms**  
 - CART (Classification and Regression Trees) is widely used for its efficiency and ability to handle both classification and regression tasks.  
@@ -497,11 +509,15 @@ ShopSmart uses Logistic Regression to predict whether a user will purchase a pro
 - CHAID (Chi-Square Automatic Interaction Detector) splits data based on statistical significance using chi-square tests.  
 - **ShopSmart Example**: ShopSmart uses CART to classify customers into buyers or non-buyers based on features like discount percentage and browsing time.  
 
+---
+
 - **Gini Impurity and Entropy**  
 - Gini Impurity measures the likelihood of incorrectly classifying a randomly chosen element from the dataset. A lower Gini Impurity indicates a more homogeneous split.  
 - Entropy measures the level of impurity or disorder in a dataset. It is used with Information Gain to determine the best split, where higher Information Gain corresponds to a larger reduction in entropy.  
 - Both metrics aim to improve the purity of the subsets created by splitting the data.  
 - **ShopSmart Example**: ShopSmart uses Gini Impurity to split customers into groups that are as homogeneous as possible, such as those likely to purchase versus those unlikely to purchase.  
+
+---
 
 - **Advanced Splitting Criteria**  
 - Gini Impurity is favored for its computational efficiency and works well for large datasets.  
@@ -522,6 +538,8 @@ ShopSmart uses Logistic Regression to predict whether a user will purchase a pro
 - Employ ensemble methods like Random Forest or Gradient Boosted Trees to average multiple trees and improve generalization.  
 - **ShopSmart Example**: ShopSmart uses Random Forest to combine multiple decision trees, improving the robustness and accuracy of customer purchase predictions.  
 
+---
+
 - **Advantages of Decision Trees**  
 - Decision trees are interpretable and allow for transparent decision-making.  
 - They work well on datasets with non-linear relationships and mixed data types.  
@@ -541,12 +559,10 @@ ShopSmart uses Logistic Regression to predict whether a user will purchase a pro
 - In operations, they are used for optimizing processes and supply chain management.  
 - **ShopSmart Example**: ShopSmart applies decision trees for targeted marketing campaigns, predicting product demand, and optimizing inventory management based on customer purchasing patterns.  
 
+
 - **ShopSmart**
 
 ShopSmart uses decision trees to classify whether a user is likely to click on a product advertisement (*classification tree*). The tree splits data based on features like product category, user browsing history, and discount percentage. For example, users browsing electronics with a discount >20% may have a high likelihood of clicking the ad, enabling targeted campaigns.  
-
-For regression tasks (*regression tree*), ShopSmart predicts a user’s total spending by analyzing factors like product prices, shopping frequency, and seasonal trends, helping forecast revenue and optimize marketing efforts.
-
 
 ---
 
