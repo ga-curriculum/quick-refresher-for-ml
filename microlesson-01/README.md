@@ -226,6 +226,7 @@ Linear Regression is a supervised learning algorithm used to predict continuous 
 - **Dependent Variable (Target)**: Total monthly revenue (in USD).  
 - **Use Case**: ShopSmart wants to evaluate how changes in advertising budget directly impact revenue.
 
+---
 
 - **Multiple Linear Regression**
   
@@ -234,6 +235,7 @@ Linear Regression is a supervised learning algorithm used to predict continuous 
 - **Dependent Variable (Target)**: Total monthly revenue (in USD).  
 - **Use Case**: ShopSmart aims to understand how a combination of factors, such as marketing efforts, website traffic, and discounts, contribute to revenue generation.
 
+---
 
 - **Polynomial Regression**
 
@@ -242,6 +244,7 @@ Linear Regression is a supervised learning algorithm used to predict continuous 
 - **Dependent Variable (Target)**: Total monthly revenue (in USD).  
 - **Use Case**: ShopSmart observes that revenue initially increases with traffic but plateaus after reaching a certain threshold. Polynomial regression captures this non-linear trend.
 
+---
 
 - **Ridge Regression (L2 Regularization)**
   
@@ -250,6 +253,7 @@ Linear Regression is a supervised learning algorithm used to predict continuous 
 - **Dependent Variable (Target)**: Sales (units sold).  
 - **Use Case**: ShopSmart has highly correlated features (e.g., prices and discounts). Ridge regression helps control for multicollinearity without excluding any features.
   
+---
 
 - **Lasso Regression (L1 Regularization)**
   
@@ -257,7 +261,8 @@ Linear Regression is a supervised learning algorithm used to predict continuous 
 - **Independent Variables (Features)**: Customer demographics, purchase frequency, average cart size, loyalty points earned, and product reviews.  
 - **Dependent Variable (Target)**: Customer retention rate (percentage).  
 - **Use Case**: ShopSmart wants to simplify the model by automatically eliminating irrelevant features (e.g., loyalty points may not have a strong impact).
-  
+
+---
 
 - **6. Elastic Net Regression**
 - **Objective**: Predict delivery times for orders with a mix of relevant and correlated features.  
