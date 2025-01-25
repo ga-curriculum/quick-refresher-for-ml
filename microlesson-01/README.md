@@ -447,25 +447,23 @@ ShopSmart uses Logistic Regression to classify whether a user will purchase a pr
 ShopSmart uses Logistic Regression to predict whether a user will purchase a product (0 = No, 1 = Yes) based on browsing time, product price, and discount percentage. If the probability of purchase exceeds 0.5, the model predicts a purchase, enabling ShopSmart to personalize marketing campaigns and target high-potential customers effectively.
 
 
- 
 
+- **Advantages and Disadvantages**
 
-## 4. Advantages and Disadvantages
-
-### Advantages:
 - **Interpretability**: Easy to visualize and explain to non-technical stakeholders.
 - **Flexibility**: Can handle a mix of categorical and numerical data.
 - **Non-parametric**: Does not assume a linear relationship between features and target variables.
 - **Feature Selection**: Automatically performs feature selection by choosing the most important attributes for splits.
 
-### 5.Disadvantages:
+  
 - **Overfitting**: Deep trees may model noise in the data.
 - **Instability**: Small changes in the data can lead to drastically different trees.
 - **Bias towards Features with More Levels**: Attributes with more unique values may dominate splits.
 - **Limited Scalability**: Computationally expensive for large datasets.
 ---
 
-## 6. Real-world Applications
+- **Real-world Applications**
+- 
 - **Fraud Detection**: Identifying fraudulent transactions in financial data.
 - **Customer Segmentation**: Grouping customers based on purchasing behaviors.
 - **Predicting Housing Prices**: Estimating property values based on features like location, size, and amenities.
@@ -475,7 +473,7 @@ ShopSmart uses Logistic Regression to predict whether a user will purchase a pro
 
 ---
 
-## 2. Logistic Regression: A Deeper Dive with ShopSmart
+## 2. Decision Tree: A Deeper Dive with ShopSmart
 
 - A decision tree is a supervised machine learning algorithm used for both classification and regression tasks.  
 - It builds a hierarchical tree structure by recursively splitting the dataset into subsets based on feature values.  
@@ -564,11 +562,7 @@ ShopSmart uses Logistic Regression to predict whether a user will purchase a pro
 - In operations, they are used for optimizing processes and supply chain management.  
 - **ShopSmart Example**: ShopSmart applies decision trees for targeted marketing campaigns, predicting product demand, and optimizing inventory management based on customer purchasing patterns.  
 
-
-
-
-
-### **Decision Trees in ShopSmart**
+- **ShopSmart**
 
 ShopSmart uses decision trees to classify whether a user is likely to click on a product advertisement (*classification tree*). The tree splits data based on features like product category, user browsing history, and discount percentage. For example, users browsing electronics with a discount >20% may have a high likelihood of clicking the ad, enabling targeted campaigns.  
 
@@ -576,6 +570,7 @@ For regression tasks (*regression tree*), ShopSmart predicts a user’s total sp
 
 
 ---
+
 
 4. **C.4 [Random Forest]** ( 5 min)
      
