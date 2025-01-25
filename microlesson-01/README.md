@@ -832,7 +832,7 @@ Unsupervised Machine Learning is a type of machine learning technique where mode
 
 
 
-## A. Key Features of Unsupervised Learning
+#### A. Key Features of Unsupervised Learning
 
 - **No Labels Required:** Works on unlabeled data.
 - **Pattern Discovery:** Identifies hidden patterns or intrinsic structures in input data.
@@ -840,14 +840,14 @@ Unsupervised Machine Learning is a type of machine learning technique where mode
 - **Clustering:** Groups data points based on similarities.
 
 
-## B. Clustering
+#### B. Clustering
 
 Clustering algorithms partition data into groups based on similarity. 
 
 ---
 
-- **1. [K-Means Clustering]**
-  
+## 1. K-Means Clustering
+
 ---
 
 - **K-Means Clustering**  
