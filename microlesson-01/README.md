@@ -622,12 +622,14 @@ ShopSmart uses decision trees to classify whether a user is likely to click on a
 
 ---
 
-- **Applications of Random Forest in ShopSmart**  
+- **Applications of Random Forest in ShopSmart**
+  
 - **Classification Task**: ShopSmart uses Random Forest to predict user behavior, such as cart abandonment or purchase intent. By considering features like browsing time, product price, user reviews, and personalized recommendations, it identifies users likely to abandon carts. Proactive measures like targeted promotions or notifications are triggered for these users.  
 - **Regression Task**: ShopSmart employs Random Forest to forecast total daily sales revenue by analyzing trends in user activity, seasonal discounts, and average cart value. Spending insights and price alerts enhance these forecasts, optimizing inventory and sales strategies.  
 - **Feature Importance**: Random Forest helps ShopSmart identify key features driving purchases, such as the impact of discounts or user engagement with reviews, allowing them to refine their recommendation algorithms and promotional strategies.  
 
 ---
+
 ## 4. Support Vector Mechine(SVM): A Deeper Dive with ShopSmart
 
 - Support Vector Machine (SVM) is a sophisticated supervised learning algorithm ideal for classification, regression, and anomaly detection.  
