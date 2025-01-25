@@ -1037,7 +1037,9 @@ A ShopSmart wants to optimize its marketing campaigns by understanding the disti
 
 ---
 
-- ## Hierarchical Clustering**  
+- ## B .Hierarchical Clustering
+
+---
 - Hierarchical clustering is an unsupervised learning algorithm used for clustering tasks.  
 - Unlike partitioning methods like K-Means, hierarchical clustering builds a hierarchy of clusters, represented as a tree structure called a dendrogram.  
 - This approach does not require the user to specify the number of clusters in advance.  
