@@ -165,13 +165,13 @@ ShopSmart leverages supervised learning to deliver smarter shopping tools and a 
 
 ---
 
-### A. Introduction to Supervised Learning
+## A. Introduction to Supervised Learning
 
 Supervised learning is a type of machine learning where the model is trained on labeled data. In this context, "labeled data" means that each training example is paired with an output label. The model uses this data to learn the mapping function from inputs to outputs, enabling it to make predictions on new, unseen data.
 
 ---
 
-### B. Types of Supervised Learning
+## B. Types of Supervised Learning
 
 Supervised Machine Learning is a foundational approach in artificial intelligence, where algorithms are trained to map input data to output labels using a labeled dataset. The process involves identifying patterns and relationships within the data to make predictions or decisions. There are two primary types of tasks in supervised learning:
 
@@ -194,7 +194,7 @@ Linear Regression is a supervised learning algorithm used to predict continuous 
 
 ---
 
-## Key Concepts in Linear Regression
+-**Key Concepts in Linear Regression**
 - Linear Regression predicts the dependent variable as a linear combination of independent variables plus an intercept.
 - It assumes a linear relationship between the dependent and independent variables.
 - The model works for both simple (single variable) and multiple (multi-variable) regression scenarios.
@@ -206,7 +206,7 @@ Linear Regression is a supervised learning algorithm used to predict continuous 
 
 ---
 
-## Core Assumptions of Linear Regression
+### Core Assumptions of Linear Regression
 - The relationship between variables is linear.
 - Observations are independent of each other.
 - The variance of residuals (errors) is constant across all levels of independent variables (homoscedasticity).
