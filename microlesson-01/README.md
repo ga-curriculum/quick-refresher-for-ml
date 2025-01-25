@@ -194,7 +194,7 @@ Linear Regression is a supervised learning algorithm used to predict continuous 
 
 ---
 
--**Key Concepts in Linear Regression**
+  **Key Concepts in Linear Regression**
   
 - Linear Regression predicts the dependent variable as a linear combination of independent variables plus an intercept.
 - It assumes a linear relationship between the dependent and independent variables.
@@ -207,7 +207,7 @@ Linear Regression is a supervised learning algorithm used to predict continuous 
 
 ---
 
--**Core Assumptions of Linear Regression**
+ **Core Assumptions of Linear Regression**
   
 - The relationship between variables is linear.
 - Observations are independent of each other.
@@ -216,7 +216,7 @@ Linear Regression is a supervised learning algorithm used to predict continuous 
 - Independent variables are not highly correlated (no multicollinearity).
 
 
-- ***Types of Linear Regression with ShopSmart Examples**
+ ***Types of Linear Regression with ShopSmart Examples**
 
 #### **1. Simple Linear Regression**
 - **Objective**: Predict the total monthly revenue based on advertising spend.  
@@ -256,7 +256,7 @@ Linear Regression is a supervised learning algorithm used to predict continuous 
 
 ---
 
-- **L1 and L2 Regularization in Depth**
+**L1 and L2 Regularization in Depth**
 
 #### **L1 Regularization (Lasso Regression)**
 - Adds the absolute values of the coefficients as a penalty to the loss function.
@@ -281,7 +281,7 @@ Linear Regression is a supervised learning algorithm used to predict continuous 
 
 ---
 
-- **Common Challenges**
+ **Common Challenges**
   
 - **Outliers** can heavily influence the regression line and distort predictions.
 - **Multicollinearity** makes it difficult to determine the true effect of independent variables.
@@ -289,7 +289,7 @@ Linear Regression is a supervised learning algorithm used to predict continuous 
 
 ---
 
-- **Applications**
+ **Applications**
   
 - Predicting recovery time in healthcare based on age and treatment type.
 - Forecasting stock prices in finance using historical data and market trends.
