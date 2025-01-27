@@ -184,7 +184,7 @@ Supervised learning is widely used due to its effectiveness and reliability in s
 
 ---
 
-## 1.Linear Regression: A Deep Dive with ShopSmart Examples
+## 1. Linear Regression: A Deep Dive with ShopSmart Examples
 
 Linear Regression is a supervised learning algorithm used to predict continuous outcomes by modeling the relationship between one or more independent variables (features) and a dependent variable (target). It serves as a foundation for many machine learning models and provides insights into the relationships between variables. Using ShopSmart, an e-commerce company, as a case study, we can explore its applications and variations.
 
