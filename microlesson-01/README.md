@@ -9,8 +9,7 @@
 
 - [I Machine Learning](#machine-learning)
     - [A. Comparative Analysis of Learning Types](#a-comparative-analysis-of-learning-types)
-    - [B. Importance of Machine Learning in Real-World Applications](#b-importance-of-machine-learning-in-real-world-applications)
-    - [c. Scope of Supervised ,Unsupervised and Rainforcement Machine Learning](#c-scope-of-supervised-unsupervised-and-rainforcement-machine-learning)
+    - [B. Scope of Supervised ,Unsupervised and Rainforcement Machine Learning](#B-scope-of-supervised-unsupervised-and-rainforcement-machine-learning)
 
 - [II. Supervised Machine Learning](#ii-supervised-machine-learning)
     - [A. Introduction to Supervised Learning](#a-introduction-to-supervised-learning)
@@ -106,15 +105,7 @@ Machine learning (ML) is a subset of artificial intelligence (AI) that enables s
 
 ---
 
-### B. Importance of Machine Learning in Real-World Applications
-
-1. Revolutionizes industries like healthcare, finance, and retail.
-2. Provides data-driven insights for decision-making.
-3. Powers emerging technologies like autonomous vehicles and AI assistants.
-
----
-
-### C. **Scope of Supervised, Unsupervised, and Reinforcement Machine Learning**
+### B. **Applications of Supervised, Unsupervised, and Reinforcement Machine Learning**
 
 1. **Supervised Machine Learning**  
    - Used for tasks with labeled data like classification (spam detection) and regression (price prediction).  
@@ -132,7 +123,6 @@ Machine learning (ML) is a subset of artificial intelligence (AI) that enables s
    - Effective in supply chain optimization and personalized recommendations.  
 
 ---
-
 
 ## II. Supervised Machine Learning (60 Mins)
 
