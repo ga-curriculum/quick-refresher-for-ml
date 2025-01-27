@@ -960,7 +960,7 @@ Reinforcement Machine Learning is a type of machine learning where an agent lear
 
 ---
 
-# V . Limitations of Machine Learning (5 Mins)
+# V. Limitations of Machine Learning (5 Mins)
 
 - Machine learning, despite its remarkable capabilities, has several limitations that can affect its performance and applicability in real-world scenarios.  
 
