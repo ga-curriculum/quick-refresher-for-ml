@@ -134,7 +134,7 @@ Machine learning (ML) is a subset of artificial intelligence (AI) that enables s
 ---
 
 
-## II. Supervised Machine Learning (50 Mins)
+## II. Supervised Machine Learning (60 Mins)
 
 Supervised Machine Learning involves building models that learn from labeled datasets to make predictions or decisions. This repository provides an introduction to supervised learning with examples of both classification and regression tasks.
 
@@ -824,9 +824,9 @@ This activity empowers ShopSmart to deliver a highly personalized shopping exper
 
 ---
 
-## III. Unsupervised Machine Learning (20 Mins)
+## III. Unsupervised Machine Learning (10 Mins)
 
----
+###### Detailed will be Eleborated on Day 2 
 
 Unsupervised Machine Learning is a type of machine learning technique where models are trained on datasets without labeled responses. The algorithm tries to learn the inherent structure, patterns, or distributions in the data to derive meaningful insights.
 
@@ -855,24 +855,6 @@ Clustering algorithms partition data into groups based on similarity.
 - It partitions a dataset into `k` clusters, each represented by its centroid.  
 - The goal is to minimize the within-cluster variance by iteratively assigning data points to clusters and recalculating centroids.  
 
----
-
-- **Steps of the Algorithm**  
-- **Initialization**: Select `k` initial centroids, either randomly or using methods like K-Means++.  
-- **Assignment Step**: Assign each data point to the nearest centroid using a distance metric (e.g., Euclidean distance).  
-- **Update Step**: Recalculate the centroids by computing the mean of all points assigned to each cluster.  
-- **Iteration**: Repeat the Assignment and Update steps until centroids stabilize or a maximum number of iterations is reached.  
-
----
-
-- **Key Concepts of K-Means**  
-- **Centroids**: Each cluster is represented by a single centroid, which is the mean of the data points in that cluster.  
-- **Number of Clusters (`k`)**: The user predefines the number of clusters (`k`), which significantly influences the results.  
-- **Distance Metrics**: Common distance metrics include Euclidean, Manhattan, and others, depending on the nature of the data.  
-- **Convergence**: The algorithm converges when the centroids do not change significantly between iterations or a specified iteration limit is reached.  
-
----
-
 - **Applications of K-Means**  
 - **Customer Segmentation**: Grouping customers for targeted marketing strategies.  
 - **Image Segmentation**: Dividing an image into meaningful regions.  
@@ -882,57 +864,6 @@ Clustering algorithms partition data into groups based on similarity.
 
 ---
 
-- **Advantages of K-Means**  
-- **Simple and Intuitive**: Easy to implement and interpret.  
-- **Efficient**: Performs well for moderate-sized datasets.  
-- **Versatile**: Applicable to a variety of domains and data types.  
-
----
-
-- **Limitations of K-Means**  
-- **Fixed Number of Clusters (`k`)**: The user must define the number of clusters, which may not always be known.  
-- **Initialization Sensitivity**: Poorly chosen initial centroids can lead to suboptimal clustering.  
-- **Cluster Shape Assumption**: Assumes clusters are spherical and equally sized, which may not align with real-world data.  
-- **Outlier Sensitivity**: Outliers can significantly skew results by pulling centroids toward them.  
-
----
-
-- **Techniques to Improve K-Means**  
-- **K-Means++**: Improves the selection of initial centroids to enhance convergence.  
-- **Elbow Method**: Determines the optimal number of clusters by plotting within-cluster variance versus `k`.  
-- **Silhouette Score**: Measures the quality of clustering by evaluating how well data points fit their assigned clusters.  
----
-
-- **K-Means Clustering in ShopSmart**  
-- ShopSmart leverages unsupervised machine learning to uncover hidden patterns in user behavior and optimize customer experiences.  
-
-- **Clustering Examples in ShopSmart**  
-- **Customer Segmentation**:  
-  ShopSmart uses K-Means to group customers into segments based on features like purchase frequency, spending habits, and product preferences.  
-  - **Cluster 1**: High-spending electronics buyers.  
-  - **Cluster 2**: Budget-conscious grocery shoppers.  
-  - **Cluster 3**: Seasonal buyers during holidays.  
-  This segmentation allows ShopSmart to deliver targeted marketing campaigns and personalized promotions.  
-
-- **Product Categorization**:  
-  K-Means organizes products into clusters based on attributes like price, popularity, and ratings.  
-  - **Cluster 1**: Premium electronics.  
-  - **Cluster 2**: Everyday essentials.  
-  - **Cluster 3**: Discounted items.  
-  This helps ShopSmart enhance product recommendations and optimize inventory placement.  
-
-- **Anomaly Detection**:  
-  ShopSmart identifies unusual user behavior, such as a sudden spike in purchases of a rarely bought product.  
-  This helps detect fraud or uncover trending items that require immediate attention.  
-
-- **Benefits for ShopSmart**  
-- **Personalized Offers**: Target specific customer clusters with relevant deals.  
-- **Efficient Inventory Management**: Understand product clusters to adjust stock levels accordingly.  
-- **Enhanced User Experience**: Use insights from clusters to improve website layout and recommendations.  
-
-By integrating K-Means Clustering, ShopSmart uncovers valuable patterns, boosts customer satisfaction, and drives sales.  
-
----
 
  ## 2. Hierarchical Clustering
 
@@ -959,37 +890,6 @@ By integrating K-Means Clustering, ShopSmart uncovers valuable patterns, boosts 
 
 ---
 
-- **Linkage Criteria**  
-- **Single Linkage**: Distance between two clusters is the shortest distance between their points.  
-- **Complete Linkage**: Distance between two clusters is the longest distance between their points.  
-- **Average Linkage**: Distance is the average of all pairwise distances between points in the two clusters.  
-- **Ward’s Method**: Minimizes the increase in variance within clusters.
-
----
-
-- **Applications of Hierarchical Clustering**  
-- **Gene Expression Analysis**: Group genes with similar expression patterns.  
-- **Document Clustering**: Organize documents by topic for information retrieval.  
-- **Market Segmentation**: Identify customer segments based on purchasing behavior.  
-- **Image Segmentation**: Group pixels into meaningful regions.
-
-  ---
-
-- **Advantages of Hierarchical Clustering**  
-- **No Predefined k**: Does not require the user to specify the number of clusters beforehand.  
-- **Dendrogram Representation**: Provides a detailed view of the clustering hierarchy.  
-- **Flexible**: Works well with various distance metrics and linkage criteria.
-
-  ---
-
-- **Limitations of Hierarchical Clustering**  
-- **Computational Complexity**: Expensive for large datasets due to the need to calculate and update pairwise distances.  
-- **Sensitivity to Noise**: Outliers can distort cluster formation.  
-- **Non-Scalable**: Struggles with datasets containing thousands of points.  
-- **Irreversibility**: Once a cluster is merged or split, it cannot be undone.  
-
----
-
 ## D.Shot Recap of  Use Cases of Unsupervised Learning
 
 - 🧑‍🤝‍🧑 **Market Segmentation:** Identifying customer groups with similar behavior.
@@ -1004,9 +904,6 @@ By integrating K-Means Clustering, ShopSmart uncovers valuable patterns, boosts 
 Unsupervised machine learning helps ShopSmart group customers into meaningful segments by analyzing purchasing patterns, demographics, and behaviors without predefined labels. Techniques like clustering (e.g., K-Means) uncover insights for personalized marketing, optimized product recommendations, and improved customer retention, enabling ShopSmart to enhance customer satisfaction and drive business growth effectively.
 
 ---
-
-
-
 
 ## IV. Reinforcement Machine Learning (10 Mins)
 
@@ -1061,9 +958,7 @@ Reinforcement Machine Learning is a type of machine learning where an agent lear
 - 💰 **Finance:** Portfolio optimization and automated trading.
 - 🏥 **Healthcare:** Personalized treatment planning and drug discovery.
 
-
 ---
-
 
 # V . Limitations of Machine Learning (5 Mins)
 
