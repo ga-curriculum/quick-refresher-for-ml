@@ -1,5 +1,5 @@
 <h1>
-  <span class="headline">[Quick Refresher to Machine Learning]</span>
+  <span class="headline">Quick Refresher to Machine Learning</span>
   <span class="subhead">Supervised, Unsupervised, and Reinforcement Machine Learning </span>
 </h1>
 
