@@ -87,8 +87,6 @@ Machine learning (ML) is a subset of artificial intelligence (AI) that enables s
 - Make decisions
 - Solve problems based on input data
 
----
-
 ### A. Comparative Analysis of Learning Types
 
 | **Category**           | **Supervised Learning**                                   | **Unsupervised Learning**                                | **Reinforcement Learning**                            |
@@ -102,8 +100,6 @@ Machine learning (ML) is a subset of artificial intelligence (AI) that enables s
 | **Scalability**        | Scales well with distributed training (e.g., GPUs).     | Limited by algorithm complexity (e.g., clustering).    | Resource-heavy; often requires simulation setups.    |
 | **Learning Type**      | Predictive (maps inputs to outputs).                    | Descriptive (finds structure in data).                 | Prescriptive (takes actions for optimal results).    |
 | **Interpretability**   | High with simpler models, challenging for deep models. | Often low; results require domain knowledge to analyze.| Policy outcomes interpretable; underlying process opaque. |
-
----
 
 ### B. **Applications of Supervised, Unsupervised, and Reinforcement Machine Learning**
 
@@ -128,59 +124,30 @@ Machine learning (ML) is a subset of artificial intelligence (AI) that enables s
 
 Supervised Machine Learning involves building models that learn from labeled datasets to make predictions or decisions. This repository provides an introduction to supervised learning with examples of both classification and regression tasks.
 
-### **Supervised Learning in ShopSmart**
-
-ShopSmart utilizes supervised learning in several key features to enhance the user experience. Here are some examples:
-
-- **Personalized Recommendations**  
-   - Predicts user preferences for products like clothing, electronics, or groceries based on labeled purchase history and browsing behavior.
-
-- **Fraud Detection**  
-   - Identifies unusual patterns in user activity, such as suspicious transactions or account logins, using labeled fraud and non-fraud data.
-
-- **Price Prediction**  
-   - Predicts future price drops for specific products by analyzing historical price trends and labeled datasets.
-
-- **Customer Support Chatbot**  
-   - Classifies customer queries (e.g., "Track my order" or "Refund request") and provides accurate, pre-trained responses.
-
-- **Spending Insights**  
-   - Categorizes user spending (e.g., groceries, luxury items) using labeled data to provide detailed budget reports.
-
-ShopSmart leverages supervised learning to deliver smarter shopping tools and a seamless user experience.
-
----
-
-## A. Introduction to Supervised Learning
-
 Supervised learning is a type of machine learning where the model is trained on labeled data. In this context, "labeled data" means that each training example is paired with an output label. The model uses this data to learn the mapping function from inputs to outputs, enabling it to make predictions on new, unseen data.
 
 ---
 
-## B. Types of Supervised Learning
+## A. Types of Supervised Learning
 
 Supervised Machine Learning is a foundational approach in artificial intelligence, where algorithms are trained to map input data to output labels using a labeled dataset. The process involves identifying patterns and relationships within the data to make predictions or decisions. There are two primary types of tasks in supervised learning:
 
 #### 1. Classification: 
-Involves predicting categorical labels. Examples include spam detection, image recognition, and disease diagnosis.
+- Involves predicting categorical labels. Examples include spam detection, image recognition, and disease diagnosis.
 #### 2. Regression: 
-Involves predicting continuous values. Examples include house price prediction, stock price forecasting, and weather prediction.
+- Involves predicting continuous values. Examples include house price prediction, stock price forecasting, and weather prediction.
 
-Supervised learning is widely used due to its effectiveness and reliability in solving real-world problems such as fraud detection, customer segmentation, and predictive maintenance.
+Supervised learning is widely used due to its effectiveness and reliability in solving real-world problems such as **fraud detection, customer segmentation, and predictive maintenance**.
 
----
+## B. Major Algorithms in Supervised Learning
 
-## C. Major Algorithms in Supervised Learning
 
----
-
-## 1. Linear Regression: A Deep Dive with ShopSmart Examples
+## 1. Linear Regression
 
 Linear Regression is a supervised learning algorithm used to predict continuous outcomes by modeling the relationship between one or more independent variables (features) and a dependent variable (target). It serves as a foundation for many machine learning models and provides insights into the relationships between variables. Using ShopSmart, an e-commerce company, as a case study, we can explore its applications and variations.
 
----
 
-- **Key Concepts in Linear Regression**
+**Key Concepts in Linear Regression**
   - Linear Regression predicts the dependent variable as a linear combination of independent variables plus an intercept.
 - It assumes a linear relationship between the dependent and independent variables.
 - The model works for both simple (single variable) and multiple (multi-variable) regression scenarios.
@@ -190,9 +157,7 @@ Linear Regression is a supervised learning algorithm used to predict continuous 
 - It identifies the contribution of each independent variable through coefficients (weights).
 - Linear Regression is sensitive to outliers, which can distort predictions.
 
----
-
-- **Core Assumptions of Linear Regression**
+**Core Assumptions of Linear Regression**
 - The relationship between variables is linear.
 - Observations are independent of each other.
 - The variance of residuals (errors) is constant across all levels of independent variables (homoscedasticity).
@@ -201,82 +166,29 @@ Linear Regression is a supervised learning algorithm used to predict continuous 
 
 ---
  
-### Types of Linear Regression with ShopSmart Examples
+### Types of Linear Regression
 
-- **Simple Linear Regression**
-- **Objective**: Predict the total monthly revenue based on advertising spend.  
-- **Independent Variable (Feature)**: Advertising spend (in USD).  
-- **Dependent Variable (Target)**: Total monthly revenue (in USD).  
-- **Use Case**: ShopSmart wants to evaluate how changes in advertising budget directly impact revenue.
+**Simple Linear Regression**
+- Models the relationship between one independent variable (feature) and one dependent variable (target).
+**Multiple Linear Regression**
+- Extends simple linear regression to include multiple independent variables.
+**Polynomial Regression**
+- Models a non-linear relationship between the independent variable(s) and the dependent variable by incorporating polynomial terms (e.g., squared or cubed variables).
+**Ridge Regression (L2 Regularization)**
+- Penalizes large coefficients in the regression model to reduce overfitting, especially when features are highly correlated (multicollinearity).
+**Lasso Regression (L1 Regularization)**
+- Shrinks some coefficients to zero, effectively selecting only the most important features for the model.
+**Elastic Net Regression**
+- Combines Ridge (L2) and Lasso (L1) regularization to balance feature selection and model robustness.
 
+### Discussion: Linear Regression
+As a class or in small groups via breakout rooms, discuss the following questions. Be prepared to share your ideas!
+  1. How could ShopSmart use each type of linear regression to analyze and optimize different product features, such as pricing, customer behavior, and inventory management?
+  2. Can you think of specific scenarios where each regression type would be most effective?
 ---
 
-- **Multiple Linear Regression**
-- **Objective**: Predict total monthly revenue based on multiple factors.  
-- **Independent Variables (Features)**: Advertising spend, number of website visits, and discount rates.  
-- **Dependent Variable (Target)**: Total monthly revenue (in USD).  
-- **Use Case**: ShopSmart aims to understand how a combination of factors, such as marketing efforts, website traffic, and discounts, contribute to revenue generation.
-
----
-
-- **Polynomial Regression**
-- **Objective**: Model the non-linear relationship between website traffic and total monthly revenue.  
-- **Independent Variable (Feature)**: Number of website visits (with polynomial terms like squared or cubed visits).  
-- **Dependent Variable (Target)**: Total monthly revenue (in USD).  
-- **Use Case**: ShopSmart observes that revenue initially increases with traffic but plateaus after reaching a certain threshold. Polynomial regression captures this non-linear trend.
-
----
-
-- **Ridge Regression (L2 Regularization)**
-- **Objective**: Predict sales across product categories while addressing multicollinearity.  
-- **Independent Variables (Features)**: Prices of similar products, advertising spend, product reviews, and seasonal trends.  
-- **Dependent Variable (Target)**: Sales (units sold).  
-- **Use Case**: ShopSmart has highly correlated features (e.g., prices and discounts). Ridge regression helps control for multicollinearity without excluding any features.
-  
----
-
-- **Lasso Regression (L1 Regularization)**
-- **Objective**: Identify the most important factors influencing customer retention.  
-- **Independent Variables (Features)**: Customer demographics, purchase frequency, average cart size, loyalty points earned, and product reviews.  
-- **Dependent Variable (Target)**: Customer retention rate (percentage).  
-- **Use Case**: ShopSmart wants to simplify the model by automatically eliminating irrelevant features (e.g., loyalty points may not have a strong impact).
-
----
-
-- **Elastic Net Regression**
-- **Objective**: Predict delivery times for orders with a mix of relevant and correlated features.
-- **Independent Variables (Features)**: Warehouse location, distance to customer, product weight, courier type, and delivery traffic patterns.  
-- **Dependent Variable (Target)**: Delivery time (in hours).  
-- **Use Case**: ShopSmart has both irrelevant features and multicollinearity in the data. Elastic Net balances L1 (feature selection) and L2 (regularization) to build a robust model.
-
----
-
-- **L1 Regularization (Lasso Regression)**
-  - Adds the absolute values of the coefficients as a penalty to the loss function.
-- Shrinks some coefficients to zero, effectively performing feature selection.
-- Useful for building sparse models by removing irrelevant or redundant features.
-- Best for datasets where only a few features are important.
-
-
-- **L2 Regularization (Ridge Regression)**
-- Adds the squared values of the coefficients as a penalty to the loss function.
-- Shrinks coefficients closer to zero but does not eliminate them.
-- Reduces the impact of multicollinearity by spreading the effect across features.
-- Retains all features but reduces their influence.
-
-- **Key Differences**:
-- L1 regularization removes irrelevant features, while L2 keeps all features but shrinks their impact.
-- L1 is better for feature selection; L2 is better for datasets with multicollinearity.
-
-- **Elastic Net**:
-- Combines L1 and L2 regularization.
-- Balances feature selection (L1) with smooth regularization (L2).
-- Suitable for complex datasets where some features need to be removed and others need their impact reduced.
-
----
-
-- **Common Challenges**
-  - **Outliers** can heavily influence the regression line and distort predictions.
+- **Common Challenges with Linear Regression**
+- **Outliers** can heavily influence the regression line and distort predictions.
 - **Multicollinearity** makes it difficult to determine the true effect of independent variables.
 - **Overfitting** occurs when the model performs well on training data but poorly on unseen data.
 
@@ -312,7 +224,7 @@ ShopSmart uses linear regression to predict sales revenue (*dependent variable*)
 
 ---
 
-## 2. Logistic Regression: A Deeper Dive with ShopSmart
+## 2. Logistic Regression
 
 Logistic Regression is a supervised machine learning algorithm used for classification tasks. It predicts the probability of an event occurring and uses this probability to classify data into discrete categories. Despite its name, Logistic Regression is not a regression algorithm in the traditional sense but a classification technique.
 
