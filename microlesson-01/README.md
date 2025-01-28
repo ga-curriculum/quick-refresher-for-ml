@@ -179,7 +179,9 @@ Linear Regression is a supervised learning algorithm used to predict continuous 
   
 #### **Elastic Net Regression**
 - Combines Ridge (L2) and Lasso (L1) regularization to balance feature selection and model robustness.
+
 ---
+
 ### Discussion: Linear Regression
 As a class or in small groups via breakout rooms, discuss the following questions. Be prepared to share your ideas!
   1. How could ShopSmart use each type of linear regression to analyze and optimize different product features, such as pricing, customer behavior, and inventory management?
