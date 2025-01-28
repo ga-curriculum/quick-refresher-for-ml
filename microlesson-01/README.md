@@ -79,7 +79,7 @@ Throughout this course, we’ll introduce each of these features step-by-step, a
 
 ---
 
-## I. Machine Learning (ML)(5 Mins)
+## I. Machine Learning (ML)
 
 Machine learning (ML) is a subset of artificial intelligence (AI) that enables systems to automatically learn from data and improve their performance over time without being explicitly programmed. It focuses on creating algorithms that can:
 
