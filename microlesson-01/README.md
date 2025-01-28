@@ -6,52 +6,46 @@
 ## Table of Contents
 
 - [Learning Objectives](#learning-objectives)
-
-- [I Machine Learning](#machine-learning)
-    - [A. Comparative Analysis of Learning Types](#a-comparative-analysis-of-learning-types)
-    - [B. Scope of Supervised ,Unsupervised and Rainforcement Machine Learning](#B-scope-of-supervised-unsupervised-and-rainforcement-machine-learning)
-
+- [I. Machine Learning](#i-machine-learning)
+  - [A. Comparative Analysis of Learning Types](#a-comparative-analysis-of-learning-types)
+  - [B. Applications of Supervised, Unsupervised, and Reinforcement Machine Learning](#b-applications-of-supervised-unsupervised-and-reinforcement-machine-learning)
 - [II. Supervised Machine Learning](#ii-supervised-machine-learning)
-    - [A. Introduction to Supervised Learning](#a-introduction-to-supervised-learning)
-    - [B. Types of Supervised Learning](#b-types-of-supervised-learning)
-        - [1. Classification](#1-classification)
-        - [2. Regression](#2-regression)
-    - [C. Major Algorithms in Supervised Learning](#c-major-algorithms-in-supervised-learning)
-        - [1. Linear Regression](#1-linear-regression)
-        - [2. Logistic Regression](#2-logistic-regression)
-        - [3. Decision Tree](#3-decision-tree)
-        - [4. Random Forest](#4-random-forest)
-        - [5. Support Vector Machine (SVM)](#5-support-vector-machine-svm)
-        - [6. K-Nearest Neighbors (KNN)](#6-K-Nearest-neighbors-(knn))
-        - [7. Naive Bayes](#7-naive-bayes)
-    - [D. Discission : Personalized Product Recommendations](#d-activity-personalized-product-recommendations)
-
+  - [A. Introduction to Supervised Learning](#a-introduction-to-supervised-learning)
+  - [B. Types of Supervised Learning](#b-types-of-supervised-learning)
+    - [1. Classification](#1-classification)
+    - [2. Regression](#2-regression)
+  - [C. Major Algorithms in Supervised Learning](#c-major-algorithms-in-supervised-learning)
+    - [1. Linear Regression](#1-linear-regression)
+    - [2. Logistic Regression](#2-logistic-regression)
+    - [3. Decision Trees](#3-decision-trees)
+    - [4. Random Forest](#4-random-forest)
+    - [5. Support Vector Machine (SVM)](#5-support-vector-machine-svm)
+    - [6. K-Nearest Neighbors (KNN)](#6-k-nearest-neighbors-knn)
+    - [7. Naive Bayes](#7-naive-bayes)
+  - [D. Activity: Communicating Supervised Learning Concepts to Clients](#d-activity-communicating-supervised-learning-concepts-to-clients)
 - [III. Unsupervised Machine Learning](#iii-unsupervised-machine-learning)
-    - [A. Key Features of Unsupervised Learning](#a-key-features-of-unsupervised-learning)
-    - [B. Clustering Techniques](#b-clustering-techniques)
-        - [1. K-Means Clustering](#1-k-means-clustering)
-        - [2. Hierarchical Clustering](#2-hierarchical-clustering)
-    - [C. Use Cases of Unsupervised Learning](#c-use-cases-of-unsupervised-learning)
-    - [D.Customer Segmentation](#Customer-Segmentation) 
-
+  - [A. Key Features of Unsupervised Learning](#a-key-features-of-unsupervised-learning)
+  - [B. Clustering Techniques](#b-clustering-techniques)
+    - [1. K-Means Clustering](#1-k-means-clustering)
+    - [2. Hierarchical Clustering](#2-hierarchical-clustering)
+  - [C. Use Cases of Unsupervised Learning](#c-use-cases-of-unsupervised-learning)
+  - [D. Discussion on Customer Segmentation](#d-discussion-on-customer-segmentation)
 - [IV. Reinforcement Machine Learning](#iv-reinforcement-machine-learning)
-    - [A. Key Features of Reinforcement Learning](#a-key-features-of-reinforcement-learning)
-    - [B. Important Terminology](#b-important-terminology)
-    - [C. Common Algorithms in Reinforcement Learning](#c-common-algorithms-in-reinforcement-learning)
-        - [1. Q-Learning](#1-q-learning)
-        - [2. SARSA](#2-sarsa)
-        - [3. Policy Gradient Methods](#3-policy-gradient-methods)
-    - [D. Use Cases of Reinforcement Learning](#d-use-cases-of-reinforcement-learning)
-   
-
--  [V. Limitations of Machine Learning](#v-limitations-of-machine-learning)
-    - [A. Data-Dependent Nature](#a-data-dependent-nature)
-    - [B. Interpretability and Explainability](#b-interpretability-and-explainability)
-    - [C. Overfitting and Underfitting](#c-overfitting-and-underfitting)
-    - [D. Computational Costs](#d-computational-costs)
-    - [E. Ethical Concerns](#e-ethical-concerns)
-    - [F. Limited Generalization](#f-limited-generalization)
-    - [G. Real-World Deployment Challenges](#g-real-world-deployment-challenges)
+  - [A. Key Features of Reinforcement Learning](#a-key-features-of-reinforcement-learning)
+  - [B. Important Terminology](#b-important-terminology)
+  - [C. Common Algorithms in Reinforcement Learning](#c-common-algorithms-in-reinforcement-learning)
+    - [1. Q-Learning](#1-q-learning)
+    - [2. SARSA](#2-sarsa)
+    - [3. Policy Gradient Methods](#3-policy-gradient-methods)
+  - [D. Use Cases of Reinforcement Learning](#d-use-cases-of-reinforcement-learning)
+- [V. Limitations of Machine Learning](#v-limitations-of-machine-learning)
+  - [A. Data-Dependent Nature](#a-data-dependent-nature)
+  - [B. Interpretability and Explainability](#b-interpretability-and-explainability)
+  - [C. Overfitting and Underfitting](#c-overfitting-and-underfitting)
+  - [D. Computational Costs](#d-computational-costs)
+  - [E. Ethical Concerns](#e-ethical-concerns)
+  - [F. Limited Generalization](#f-limited-generalization)
+  - [G. Real-World Deployment Challenges](#g-real-world-deployment-challenges)
 
 
 ## Learning Objectives
@@ -401,7 +395,7 @@ As a class or in small groups via breakout rooms, discuss the following question
 
 * * * * *
 
-**How Decision Trees Work**
+### **How Decision Trees Work**
 
 -   **Root Node**: Represents the entire dataset and begins the recursive splitting process.
 
@@ -411,7 +405,7 @@ As a class or in small groups via breakout rooms, discuss the following question
 
 -   **Splitting Criteria**: Measures like Gini Impurity, Entropy, or Reduction in Variance are used to evaluate the quality of splits.
 
-**Steps to Build a Decision Tree**
+### **Steps to Build a Decision Tree**
 
 1.  Define the objective (classification or regression).
 
@@ -512,7 +506,7 @@ As a class or in small groups via breakout rooms, discuss the following question
 
 * * * * *
 
-**How Random Forest Works**
+### **How Random Forest Works**
 
 -   **Bootstrapping**: Generates random subsets of the training data with replacement to train each tree independently.
 
@@ -524,7 +518,7 @@ As a class or in small groups via breakout rooms, discuss the following question
 
     -   Regression: Computes the mean prediction across all trees.
 
-**Steps to Build a Random Forest**
+### **Steps to Build a Random Forest**
 
 1.  Create multiple bootstrap samples from the dataset.
 
@@ -629,7 +623,7 @@ As a class or in small groups via breakout rooms, discuss the following question
 
 * * * * *
 
-**How SVM Works**
+### **How SVM Works**
 
 -   **Hyperplane**: Constructs a line or plane that separates classes with the maximum margin.
 
@@ -647,7 +641,7 @@ As a class or in small groups via breakout rooms, discuss the following question
 
     -   **Sigmoid**: Often used in neural network-like scenarios.
 
-**Steps to Build an SVM Model**
+### **Steps to Build an SVM Model**
 
 1.  Define the objective (classification or regression).
 
@@ -762,7 +756,7 @@ As a class or in small groups via breakout rooms, discuss the following question
 
 * * * * *
 
-**How KNN Works**
+### **How KNN Works**
 
 -   **Training Phase**: KNN does not involve explicit training. Instead, the entire dataset is stored as a reference.
 
@@ -776,7 +770,7 @@ As a class or in small groups via breakout rooms, discuss the following question
 
     -   For regression, calculate the average (or weighted average) of the neighbors' values.
 
-**Steps to Build a KNN Model**
+### **Steps to Build a KNN Model**
 
 1.  Choose the value of `k` based on the dataset's characteristics.
 
@@ -893,7 +887,7 @@ As a class or in small groups via breakout rooms, discuss the following question
 
 * * * * *
 
-**How Naive Bayes Works**
+### **How Naive Bayes Works**
 
 -   **Training Phase**:
 
@@ -995,7 +989,7 @@ Unsupervised Machine Learning is a type of machine learning technique where mode
 
 
 
-#### A. Key Features of Unsupervised Learning
+## A. Key Features of Unsupervised Learning
 
 - **No Labels Required:** Works on unlabeled data.
 - **Pattern Discovery:** Identifies hidden patterns or intrinsic structures in input data.
@@ -1003,22 +997,22 @@ Unsupervised Machine Learning is a type of machine learning technique where mode
 - **Clustering:** Groups data points based on similarities.
 
 
-#### B. Clustering
+## B. Clustering
 
 Clustering algorithms partition data into groups based on similarity. 
 
 ---
 
-## 1. K-Means Clustering
+### 1. K-Means Clustering
 
 ---
 
-- **K-Means Clustering**  
+**K-Means Clustering**  
 - K-Means is a widely-used unsupervised learning algorithm designed for clustering tasks.  
 - It partitions a dataset into `k` clusters, each represented by its centroid.  
 - The goal is to minimize the within-cluster variance by iteratively assigning data points to clusters and recalculating centroids.  
 
-- **Applications of K-Means**  
+**Applications of K-Means**  
 - **Customer Segmentation**: Grouping customers for targeted marketing strategies.  
 - **Image Segmentation**: Dividing an image into meaningful regions.  
 - **Document Clustering**: Organizing text documents by topics.  
@@ -1028,7 +1022,7 @@ Clustering algorithms partition data into groups based on similarity.
 ---
 
 
- ## 2. Hierarchical Clustering
+ ### 2. Hierarchical Clustering
 
 ---
    
@@ -1038,13 +1032,13 @@ Clustering algorithms partition data into groups based on similarity.
 
 ---
 
-- **Types of Hierarchical Clustering**  
+### 3. Types of Hierarchical Clustering
 - **Agglomerative (Bottom-Up)**: Starts with each data point as an individual cluster and iteratively merges the closest clusters until all points belong to a single cluster.  
 - **Divisive (Top-Down)**: Starts with all data points in a single cluster and recursively splits clusters until each point is its own cluster.  
 
 ---
 
-- **Steps for Agglomerative Clustering**  
+### 4. Steps for Agglomerative Clustering
 - **Initialization**: Treat each data point as an individual cluster.  
 - **Distance Calculation**: Compute pairwise distances between all clusters.  
 - **Merging Clusters**: Merge the two clusters with the smallest distance.  
@@ -1060,11 +1054,6 @@ Clustering algorithms partition data into groups based on similarity.
 - 🛒 **Recommendation Systems:** Suggesting items to users by finding similar users or products.
 - 🧬 **Genomics:** Understanding genetic data by identifying groups of genes with similar expressions.
 - 🖼️ **Image Compression:** Reducing the size of image data using dimensionality reduction techniques.
-
----
-
-## D .Discussion on Customer Segmentation 
-Unsupervised machine learning helps ShopSmart group customers into meaningful segments by analyzing purchasing patterns, demographics, and behaviors without predefined labels. Techniques like clustering (e.g., K-Means) uncover insights for personalized marketing, optimized product recommendations, and improved customer retention, enabling ShopSmart to enhance customer satisfaction and drive business growth effectively.
 
 ---
 
@@ -1127,32 +1116,32 @@ Reinforcement Machine Learning is a type of machine learning where an agent lear
 
 - Machine learning, despite its remarkable capabilities, has several limitations that can affect its performance and applicability in real-world scenarios.  
 
-- **A. Data-Dependent Nature**  
+**A. Data-Dependent Nature**  
 - Machine learning models rely heavily on the quality and quantity of data.  
 - Poor-quality data, including noise, missing values, or biases, can lead to inaccurate predictions.  
 - The availability of labeled data for supervised learning tasks can be a bottleneck.  
 
-- **B. Interpretability and Explainability**  
+**B. Interpretability and Explainability**  
 - Complex models like deep neural networks lack interpretability, making it difficult to understand their decision-making processes.  
 - This "black-box" nature can reduce trust in critical applications such as healthcare and finance.  
 
-- **C. Overfitting and Underfitting**  
+**C. Overfitting and Underfitting**  
 - Overfitting occurs when a model learns noise or irrelevant patterns in the training data, reducing its performance on unseen data.  
 - Underfitting happens when a model fails to capture the underlying trends in the data, leading to poor performance overall.  
 
-- **D. Computational Costs**  
+**D. Computational Costs**  
 - Machine learning algorithms, especially deep learning, are computationally intensive and require significant hardware resources.  
 - Training large models can take days or weeks, increasing costs and time for deployment.  
 
-- **E. Ethical Concerns**  
+**E. Ethical Concerns**  
 - Bias in training data can result in discriminatory or unfair outcomes, particularly in sensitive applications like hiring or lending.  
 - Ethical dilemmas arise regarding data privacy, security, and informed consent when collecting and using user data.  
 
-- **F. Limited Generalization**  
+**F. Limited Generalization**  
 - Machine learning models struggle with generalizing to unseen scenarios that differ significantly from the training data.  
 - Models often fail in adversarial environments or when the data distribution changes (data drift).  
 
-- **G. Real-World Deployment Challenges**  
+**G. Real-World Deployment Challenges**  
 - Deploying machine learning models in real-world systems requires considerations like integration with existing workflows, monitoring, and maintenance.  
 - Challenges include handling scalability, real-time processing, and ensuring robustness against edge cases or unexpected inputs.  
 
