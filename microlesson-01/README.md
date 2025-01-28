@@ -183,7 +183,7 @@ Linear Regression is a supervised learning algorithm used to predict continuous 
 
 ---
 
-### Discussion: Linear Regression
+### 🗣️ Discussion: Linear Regression
 As a class or in small groups via breakout rooms, discuss the following questions. Be prepared to share your ideas!
   1. How could ShopSmart use each type of linear regression to analyze and optimize different product features, such as pricing, customer behavior, and inventory management?
   2. Can you think of specific scenarios where each regression type would be most effective?
@@ -272,7 +272,7 @@ Logistic Regression is a supervised machine learning algorithm used for classifi
   
 ---
 
-### Discussion: Logistic Regression
+### 🗣️ Discussion: Logistic Regression
 
 As a class or in small groups via breakout rooms, discuss the following questions. Be prepared to share your ideas!
 
@@ -391,7 +391,7 @@ Decision Trees are supervised machine learning algorithms used for both classifi
 
 ---
 
-### Discussion: Decision Trees
+### 🗣️ Discussion: Decision Trees
 
 As a class or in small groups via breakout rooms, discuss the following questions. Be prepared to share your ideas!
 
@@ -502,7 +502,7 @@ Random Forest is a powerful ensemble learning algorithm designed for both classi
   
 * * * * *
 
-### Discussion: Random Forest
+### 🗣️ Discussion: Random Forest
 
 As a class or in small groups via breakout rooms, discuss the following questions. Be prepared to share your ideas!
 
@@ -619,7 +619,7 @@ Support Vector Machine (SVM) is a sophisticated supervised learning algorithm id
 
 * * * * *
 
-### Discussion: Support Vector Machine
+### 🗣️ Discussion: Support Vector Machine
 
 As a class or in small groups via breakout rooms, discuss the following questions. Be prepared to share your ideas!
 
@@ -752,7 +752,7 @@ K-Nearest Neighbors (KNN) is a non-parametric, instance-based machine learning a
 
 * * * * *
 
-### Discussion: K-Nearest Neighbors
+### 🗣️ Discussion: K-Nearest Neighbors
 
 As a class or in small groups via breakout rooms, discuss the following questions. Be prepared to share your ideas!
 
@@ -883,7 +883,7 @@ Naive Bayes is a family of simple yet powerful probabilistic algorithms based on
 
 * * * * *
 
-### Discussion: Naive Bayes
+### 🗣️ Discussion: Naive Bayes
 
 As a class or in small groups via breakout rooms, discuss the following questions. Be prepared to share your ideas!
 
