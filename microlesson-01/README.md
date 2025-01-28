@@ -128,6 +128,7 @@ Supervised Machine Learning is a foundational approach in artificial intelligenc
 
 #### 1. Classification: 
 - Involves predicting categorical labels. Examples include spam detection, image recognition, and disease diagnosis.
+
 #### 2. Regression: 
 - Involves predicting continuous values. Examples include house price prediction, stock price forecasting, and weather prediction.
 
@@ -186,6 +187,7 @@ Linear Regression is a supervised learning algorithm used to predict continuous 
 As a class or in small groups via breakout rooms, discuss the following questions. Be prepared to share your ideas!
   1. How could ShopSmart use each type of linear regression to analyze and optimize different product features, such as pricing, customer behavior, and inventory management?
   2. Can you think of specific scenarios where each regression type would be most effective?
+
 ---
 
 ### **Common Challenges with Linear Regression**
