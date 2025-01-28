@@ -269,7 +269,9 @@ Logistic Regression is a supervised machine learning algorithm used for classifi
 **Regularized Logistic Regression**
 
 -   Incorporates L1 (Lasso) and L2 (Ridge) penalties to prevent overfitting and improve generalization.
+  
 ---
+
 ### Discussion: Logistic Regression
 
 As a class or in small groups via breakout rooms, discuss the following questions. Be prepared to share your ideas!
