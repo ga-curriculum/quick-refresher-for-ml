@@ -168,33 +168,38 @@ Linear Regression is a supervised learning algorithm used to predict continuous 
  
 ### Types of Linear Regression
 
-**Simple Linear Regression**
+#### **Simple Linear Regression**
 - Models the relationship between one independent variable (feature) and one dependent variable (target).
-**Multiple Linear Regression**
-- Extends simple linear regression to include multiple independent variables.
-**Polynomial Regression**
-- Models a non-linear relationship between the independent variable(s) and the dependent variable by incorporating polynomial terms (e.g., squared or cubed variables).
-**Ridge Regression (L2 Regularization)**
-- Penalizes large coefficients in the regression model to reduce overfitting, especially when features are highly correlated (multicollinearity).
-**Lasso Regression (L1 Regularization)**
-- Shrinks some coefficients to zero, effectively selecting only the most important features for the model.
-**Elastic Net Regression**
-- Combines Ridge (L2) and Lasso (L1) regularization to balance feature selection and model robustness.
 
+#### **Multiple Linear Regression**
+- Extends simple linear regression to include multiple independent variables.
+
+#### **Polynomial Regression**
+- Models a non-linear relationship between the independent variable(s) and the dependent variable by incorporating polynomial terms (e.g., squared or cubed variables).
+
+#### **Ridge Regression (L2 Regularization)**
+- Penalizes large coefficients in the regression model to reduce overfitting, especially when features are highly correlated (multicollinearity).
+
+#### **Lasso Regression (L1 Regularization)**
+- Shrinks some coefficients to zero, effectively selecting only the most important features for the model.
+  
+#### **Elastic Net Regression**
+- Combines Ridge (L2) and Lasso (L1) regularization to balance feature selection and model robustness.
+---
 ### Discussion: Linear Regression
 As a class or in small groups via breakout rooms, discuss the following questions. Be prepared to share your ideas!
   1. How could ShopSmart use each type of linear regression to analyze and optimize different product features, such as pricing, customer behavior, and inventory management?
   2. Can you think of specific scenarios where each regression type would be most effective?
 ---
 
-- **Common Challenges with Linear Regression**
+### **Common Challenges with Linear Regression**
 - **Outliers** can heavily influence the regression line and distort predictions.
 - **Multicollinearity** makes it difficult to determine the true effect of independent variables.
 - **Overfitting** occurs when the model performs well on training data but poorly on unseen data.
 
 ---
 
-- **Applications**
+### **Applications**
 - Predicting recovery time in healthcare based on age and treatment type.
 - Forecasting stock prices in finance using historical data and market trends.
 - Estimating house prices in real estate based on location, size, and features.
@@ -203,14 +208,14 @@ As a class or in small groups via breakout rooms, discuss the following question
 
 ---
 
-- **Advantages of Linear Regression**
+### **Advantages of Linear Regression**
 - Simple and interpretable.
 - Easy to implement and computationally efficient.
 - Provides insights into the relationships between variables.
 
 ---
 
-- **Limitations of Linear Regression**
+### **Limitations of Linear Regression**
 - Assumes a linear relationship between variables.
 - Sensitive to outliers, which can distort results.
 - Struggles with multicollinearity, leading to unreliable coefficients.
@@ -218,511 +223,767 @@ As a class or in small groups via breakout rooms, discuss the following question
 
 ---
 
-- **Linear Regression in ShopSmart**
-
-ShopSmart uses linear regression to predict sales revenue (*dependent variable*) based on factors like advertising budget, seasonal trends, and user reviews (*independent variables*). For instance, increasing ad spend by 10% may lead to a proportional sales increase, helping ShopSmart optimize marketing strategies and forecast revenue more accurately.  
-
----
-
 ## 2. Logistic Regression
+-----------------------
 
 Logistic Regression is a supervised machine learning algorithm used for classification tasks. It predicts the probability of an event occurring and uses this probability to classify data into discrete categories. Despite its name, Logistic Regression is not a regression algorithm in the traditional sense but a classification technique.
 
----
+**Key Concepts in Logistic Regression**
 
-- **Key Concepts of Logistic Regression**
-- Logistic Regression uses the sigmoid function to map any real-valued input into a range between 0 and 1, making it suitable for probability estimation. The sigmoid function ensures predictions remain within valid probability limits.
-- Logistic Regression transforms the linear combination of input features into a probability score. This score is then used to determine class membership based on a threshold (commonly 0.5).
-- Logistic Regression is primarily used for binary classification problems, where the dependent variable has two classes (e.g., 0 and 1). The output is the probability of belonging to the positive class.
-- The decision boundary is a threshold that separates classes. Inputs with probabilities above the threshold are classified into one class (e.g., 1), while those below it belong to the other class.
-- Logistic Regression assumes that the relationship between the independent variables and the log odds of the dependent variable is linear.
+-   Logistic Regression uses the sigmoid function to map any real-valued input into a range between 0 and 1, making it suitable for probability estimation. The sigmoid function ensures predictions remain within valid probability limits.
 
----
+-   Logistic Regression transforms the linear combination of input features into a probability score. This score is then used to determine class membership based on a threshold (commonly 0.5).
 
-- **Assumptions of Logistic Regression**
-- The dependent variable is binary or categorical.
-- Observations are independent, with no dependencies between data points.
-- Predictors are linearly related to the log of odds.
-- Predictors should not exhibit high multicollinearity to avoid unreliable coefficient estimation.
-- Outliers should be minimal as they can distort the decision boundary.
+-   Logistic Regression is primarily used for binary classification problems, where the dependent variable has two classes (e.g., 0 and 1). The output is the probability of belonging to the positive class.
 
----
+-   The decision boundary is a threshold that separates classes. Inputs with probabilities above the threshold are classified into one class (e.g., 1), while those below it belong to the other class.
 
-- **Applications of Logistic Regression**
-- **Medical Diagnosis**: Predicting the presence or absence of diseases (e.g., cancer detection, heart disease classification).
-- **Credit Scoring**: Determining the likelihood of a customer defaulting on a loan or credit card payment.
-- **Spam Detection**: Classifying emails as spam or non-spam based on features like subject lines and sender reputation.
-- **Marketing**: Predicting whether a customer will respond to a promotional campaign or buy a product.
-- **Customer Churn**: Analyzing customer behavior to determine the likelihood of leaving a service or subscription.
-- **Fraud Detection**: Identifying fraudulent transactions based on behavioral patterns and historical data.
+-   Logistic Regression assumes that the relationship between the independent variables and the log odds of the dependent variable is linear.
+
+**Core Assumptions of Logistic Regression**
+
+-   The dependent variable is binary or categorical.
+
+-   Observations are independent, with no dependencies between data points.
+
+-   Predictors are linearly related to the log of odds.
+
+-   Predictors should not exhibit high multicollinearity to avoid unreliable coefficient estimation.
+
+-   Outliers should be minimal as they can distort the decision boundary.
 
 ---
 
-- **Advantages of Logistic Regression**
-- Logistic Regression is simple and easy to implement, making it an excellent choice for baseline classification tasks.
-- It provides interpretable results by offering insights into the relationship between predictors and the likelihood of outcomes.
-- It is computationally efficient, making it suitable for large datasets.
-- Logistic Regression outputs probabilities, allowing for more nuanced decision-making beyond binary classifications.
-- It is versatile and can handle both binary and multiclass classification problems with extensions like multinomial logistic regression.
+### Types of Logistic Regression
+
+**Binary Logistic Regression**
+
+-   Used when the dependent variable has two possible outcomes (e.g., yes/no, 0/1).
+
+**Multinomial Logistic Regression**
+
+-   Handles classification problems with three or more categories without any ordinal relationship.
+
+**Ordinal Logistic Regression**
+
+-   Used for dependent variables with ordered categories, such as ratings (e.g., low, medium, high).
+
+**Regularized Logistic Regression**
+
+-   Incorporates L1 (Lasso) and L2 (Ridge) penalties to prevent overfitting and improve generalization.
+---
+### Discussion: Logistic Regression
+
+As a class or in small groups via breakout rooms, discuss the following questions. Be prepared to share your ideas!
+
+1.  How could ShopSmart use logistic regression to predict customer behavior, such as purchase likelihood or churn?
+
+2.  What types of logistic regression might be most useful for different use cases at ShopSmart (e.g., binary for purchase prediction, multinomial for product category preferences)?
 
 ---
 
-- **Limitations of Logistic Regression**
-- Logistic Regression assumes a linear relationship between predictors and the log odds, which may not hold for complex or non-linear data.
-- It is sensitive to outliers, which can significantly affect the decision boundary and model coefficients.
-- Logistic Regression struggles with imbalanced datasets, as the majority class can dominate predictions without resampling or weighting techniques.
-- It requires careful feature engineering and preprocessing, as irrelevant or noisy predictors can reduce model performance.
+### **Common Challenges with Logistic Regression**
+
+-   **Imbalanced Data**: Class imbalance can skew predictions toward the majority class.
+
+-   **Multicollinearity**: Correlated predictors can distort coefficient estimates and reduce model reliability.
+
+-   **Outliers**: Extreme values can disproportionately influence model performance.
+
+-   **Threshold Selection**: Determining the optimal decision threshold is crucial for balancing precision and recall.
 
 ---
 
-- **Variants of Logistic Regression**
-- **Multinomial Logistic Regression**: Extends logistic regression to handle multiclass classification problems (e.g., predicting one of several product categories).
-- **Ordinal Logistic Regression**: Used for ordered categorical variables, where the order of categories carries meaning (e.g., customer satisfaction ratings like low, medium, high).
-- **Regularized Logistic Regression**:
-  - Includes L1 regularization (Lasso) to perform feature selection by shrinking some coefficients to zero.
-  - Includes L2 regularization (Ridge) to reduce overfitting by penalizing large coefficients.
-  - Elastic Net combines L1 and L2 regularization for a balanced approach.
+### **Applications**
+
+-   Predicting customer churn in subscription-based services.
+
+-   Classifying emails as spam or non-spam.
+
+-   Diagnosing diseases based on medical test results.
+
+-   Estimating the likelihood of loan defaults in finance.
+
+-   Identifying fraudulent transactions in e-commerce.
 
 ---
 
-- **Logistic Regression in ShopSmart**
-ShopSmart uses Logistic Regression to classify whether a user will purchase a product based on behavioral and pricing data. Here’s how Logistic Regression is applied:
+### Advantages of Logistic Regression
 
-- **Problem**: Predict whether a user will purchase a product (dependent variable: 0 = No, 1 = Yes).
-- **Features**:
-  - Browsing time on the product page.
-  - Product price.
-  - Discount percentage.
-- **Approach**:
-  - Logistic Regression calculates the probability of purchase based on these features.
-  - If the probability exceeds 0.5, the model predicts that the user is likely to buy the product.
-  - ShopSmart uses this information for targeted marketing campaigns and personalized offers.
+-   Logistic Regression is simple and easy to implement, making it an excellent choice for baseline classification tasks.
 
----
+-   It provides interpretable results by offering insights into the relationship between predictors and the likelihood of outcomes.
 
-- **Deep Insights into ShopSmart Use Case**
+-   It is computationally efficient, making it suitable for large datasets.
 
-- **Threshold Optimization**: ShopSmart can adjust the decision threshold (e.g., from 0.5 to 0.7) to prioritize high-confidence predictions, improving the effectiveness of targeted promotions.
-- **Regularization**: Regularized Logistic Regression helps ShopSmart handle correlated features like product price and discount percentage by shrinking or removing less significant coefficients.
-- **Multinomial Extension**: ShopSmart can use Multinomial Logistic Regression to classify users into multiple categories, such as "unlikely to purchase," "neutral," or "likely to purchase."
+-   Logistic Regression outputs probabilities, allowing for more nuanced decision-making beyond binary classifications.
+
+-   It is versatile and can handle both binary and multiclass classification problems with extensions like multinomial logistic regression.
 
 ---
 
-- **Practical Challenges and Solutions**
+### **Limitations of Logistic Regression**
 
-- **Imbalanced Data**:
-  - ShopSmart may encounter imbalanced datasets where most users do not purchase products.
-  - Solutions include oversampling the minority class, undersampling the majority class, or using techniques like SMOTE (Synthetic Minority Oversampling Technique).
-- **Outliers**:
-  - Extreme values, such as unusually high browsing times, can distort predictions.
-  - Address this by removing or capping outliers during preprocessing.
+-   Logistic Regression assumes a linear relationship between predictors and the log odds, which may not hold for complex or non-linear data.
 
----
+-   It is sensitive to outliers, which can significantly affect the decision boundary and model coefficients.
 
-- **Logistic Regression in ShopSmart** 
-ShopSmart uses Logistic Regression to predict whether a user will purchase a product (0 = No, 1 = Yes) based on browsing time, product price, and discount percentage. If the probability of purchase exceeds 0.5, the model predicts a purchase, enabling ShopSmart to personalize marketing campaigns and target high-potential customers effectively.
+-   Logistic Regression struggles with imbalanced datasets, as the majority class can dominate predictions without resampling or weighting techniques.
+
+-   It requires careful feature engineering and preprocessing, as irrelevant or noisy predictors can reduce model performance.
 
 ---
 
-## 3. Decision Tree: A Deeper Dive with ShopSmart
+### **Variants of Logistic Regression**
 
-- A decision tree is a supervised machine learning algorithm used for both classification and regression tasks.  
-- It builds a hierarchical tree structure by recursively splitting the dataset into subsets based on feature values.  
-- **ShopSmart Example**: ShopSmart uses decision trees to predict whether a customer will purchase a product based on features like browsing time, product price, and discount percentage.  
+-   **Multinomial Logistic Regression**: Extends logistic regression to handle multiclass classification problems (e.g., predicting one of several product categories).
 
----
+-   **Ordinal Logistic Regression**: Used for ordered categorical variables, where the order of categories carries meaning (e.g., customer satisfaction ratings like low, medium, high).
 
-- **Types of Decision Trees**  
-- Classification Trees predict discrete outcomes and are used in tasks like spam detection or disease diagnosis.  
-- Regression Trees predict continuous outcomes and are useful for forecasting problems like house price prediction.  
-- Hybrid Trees can handle mixed data types, predicting both continuous and categorical outcomes in a single model.  
-- **ShopSmart Example**: ShopSmart uses a classification tree to determine if a customer is likely to buy (Yes/No) and a regression tree to predict the total revenue from a customer based on their browsing history.  
+-   **Regularized Logistic Regression**:
 
----
+    -   Includes L1 regularization (Lasso) to perform feature selection by shrinking some coefficients to zero.
 
-- **Why Use Decision Trees**  
-- Decision trees can handle both numerical and categorical features without requiring feature scaling or normalization.  
-- They are robust to missing values and can handle datasets with high levels of noise.  
-- They are capable of capturing non-linear relationships between features and the target variable.  
-- **ShopSmart Example**: ShopSmart finds decision trees useful as they can easily handle categorical features like product categories and numerical features like discount percentages, without extensive preprocessing.  
+    -   Includes L2 regularization (Ridge) to reduce overfitting by penalizing large coefficients.
+
+    -   Elastic Net combines L1 and L2 regularization for a balanced approach.
 
 ---
 
-- **How Decision Trees Work**  
-- The Root Node contains the entire dataset and starts the recursive splitting process.  
-- Decision Nodes represent splits in the dataset based on the values of specific features.  
-- Leaf Nodes contain the final outcomes or predictions for the dataset.  
-- Branches represent the conditions under which data flows from one node to another.  
-- **ShopSmart Example**: The root node could represent all website visitors, decision nodes split customers based on browsing time, product price, and discount percentage, and leaf nodes predict purchase likelihood.  
+## 3. Decision Trees
+------------------
+
+Decision Trees are supervised machine learning algorithms used for both classification and regression tasks. They build a hierarchical tree structure by recursively splitting the dataset into subsets based on feature values. Decision Trees are interpretable and flexible, making them popular for a wide range of applications.
+
+**Key Concepts in Decision Trees**
+
+-   A Decision Tree consists of nodes that split data based on feature values, branches representing decision rules, and leaf nodes containing predictions.
+
+-   The splitting process continues until a stopping condition is met, such as reaching a maximum tree depth or achieving a minimum number of samples in leaf nodes.
+
+-   Decision Trees can handle both numerical and categorical data.
+
+-   They are capable of capturing non-linear relationships and do not require feature scaling.
+
+**Core Assumptions of Decision Trees**
+
+-   Assumes that splits in the data can effectively separate outcomes based on the chosen features.
+
+-   Assumes that features used for splitting have meaningful relationships with the target variable.
+
+-   Decision Trees are prone to overfitting, which requires pruning or regularization techniques to address.
+
+* * * * *
+
+### Types of Decision Trees
+
+**Classification Trees**
+
+-   Predict discrete outcomes or categories (e.g., yes/no).
+
+**Regression Trees**
+
+-   Predict continuous outcomes.
+
+**Hybrid Trees**
+
+-   Handle mixed data types, predicting both categorical and continuous outcomes in a single model.
 
 ---
 
-- **Steps to Build a Decision Tree**  
-- Define the objective, whether it is classification or regression.  
-- Select the splitting criterion, such as Gini Impurity, Entropy, or Reduction in Variance.  
-- Recursively split the dataset by choosing the feature and threshold that best improve the split quality.  
-- Stop the splitting process based on predefined stopping conditions.  
-- **ShopSmart Example**: The objective could be to classify customers into buyers and non-buyers, with splits based on features like browsing time or discount percentage.  
+### Discussion: Decision Trees
+
+As a class or in small groups via breakout rooms, discuss the following questions. Be prepared to share your ideas!
+
+1.  How could ShopSmart use decision trees to improve its marketing strategies?
+
+2.  What types of data and features would be most useful for building an effective decision tree model at ShopSmart?
+
+* * * * *
+
+**How Decision Trees Work**
+
+-   **Root Node**: Represents the entire dataset and begins the recursive splitting process.
+
+-   **Decision Nodes**: Split the data based on feature thresholds or categories.
+
+-   **Leaf Nodes**: Contain the final predictions or outcomes for the data subsets.
+
+-   **Splitting Criteria**: Measures like Gini Impurity, Entropy, or Reduction in Variance are used to evaluate the quality of splits.
+
+**Steps to Build a Decision Tree**
+
+1.  Define the objective (classification or regression).
+
+2.  Select a splitting criterion (e.g., Gini Impurity, Entropy).
+
+3.  Split the dataset iteratively by choosing features that maximize the improvement in the chosen criterion.
+
+4.  Stop splitting based on predefined conditions (e.g., maximum depth, minimum samples per node).
+
+* * * * *
+
+### **Common Challenges with Decision Trees**
+
+-   **Overfitting**: Trees that grow too deep can overfit the training data, reducing generalization performance.
+
+-   **Sensitivity to Small Changes**: Small variations in data can lead to significantly different tree structures.
+
+-   **Imbalanced Data**: Disproportionate class distributions can skew splits toward the majority class.
+
+* * * * *
+
+### **Applications**
+
+-   In healthcare, diagnosing diseases or predicting patient outcomes.
+
+-   In finance, credit scoring, risk assessment, and fraud detection.
+
+-   In marketing, segmenting customers and predicting purchasing behavior.
+
+-   In operations, optimizing processes and supply chain management.
+
+* * * * *
+
+### **Advantages of Decision Trees**
+
+-   Highly interpretable and transparent for decision-making.
+
+-   Handles both numerical and categorical features.
+
+-   Robust to missing values and outliers.
+
+-   Captures non-linear relationships effectively.
+
+### **Limitations of Decision Trees**
+
+-   Prone to overfitting without pruning or regularization.
+
+-   Sensitive to noise and small data variations.
+
+-   Can struggle with imbalanced datasets unless adjustments are made.
 
 ---
 
-- **Stopping Conditions**  
-- Stop splitting when the tree reaches a maximum depth to prevent overfitting.  
-- Stop when the number of samples in a leaf node falls below a minimum threshold.  
-- Stop when further splits do not significantly improve the model's performance.  
-- **ShopSmart Example**: ShopSmart stops splitting when adding more branches does not significantly improve the prediction accuracy for customer purchases.  
+## 4. Random Forest
+-----------------
 
----
+Random Forest is a powerful ensemble learning algorithm designed for both classification and regression tasks. It operates by constructing multiple decision trees during training and aggregating their outputs to enhance accuracy and reduce overfitting. Random Forest introduces randomness by selecting subsets of features and samples, ensuring diversity among trees and improving generalization.
 
-- **Common Splitting Algorithms**  
-- CART (Classification and Regression Trees) is widely used for its efficiency and ability to handle both classification and regression tasks.  
-- ID3 (Iterative Dichotomiser 3) uses Information Gain to decide splits but is limited to categorical data.  
-- C4.5 improves on ID3 by handling continuous data and missing values, making it more versatile.  
-- CHAID (Chi-Square Automatic Interaction Detector) splits data based on statistical significance using chi-square tests.  
-- **ShopSmart Example**: ShopSmart uses CART to classify customers into buyers or non-buyers based on features like discount percentage and browsing time.  
+**Key Concepts in Random Forest**
 
----
+-   Random Forest uses an ensemble approach by combining predictions from multiple trees for robust decision-making.
 
-- **Gini Impurity and Entropy**  
-- Gini Impurity measures the likelihood of incorrectly classifying a randomly chosen element from the dataset. A lower Gini Impurity indicates a more homogeneous split.  
-- Entropy measures the level of impurity or disorder in a dataset. It is used with Information Gain to determine the best split, where higher Information Gain corresponds to a larger reduction in entropy.  
-- Both metrics aim to improve the purity of the subsets created by splitting the data.  
-- **ShopSmart Example**: ShopSmart uses Gini Impurity to split customers into groups that are as homogeneous as possible, such as those likely to purchase versus those unlikely to purchase.  
+-   It employs randomness in both feature selection and data sampling, ensuring diverse tree structures and reducing bias.
 
----
+-   It effectively prevents overfitting by averaging the outputs of many trees, resulting in higher accuracy.
 
-- **Advanced Splitting Criteria**  
-- Gini Impurity is favored for its computational efficiency and works well for large datasets.  
-- Entropy and Information Gain provide a more nuanced evaluation of impurity reduction, making them suitable for datasets with complex patterns.  
-- Reduction in Variance is specific to regression trees and evaluates how well a split minimizes variance within subsets.  
-- Surrogate Splits handle missing values by selecting alternative features to guide splits when the primary feature is unavailable.  
-- **ShopSmart Example**: If browsing time is missing for some customers, ShopSmart might use surrogate splits like product price or category to guide the decision-making process.  
+-   It is highly flexible and can handle a mix of numerical, categorical, and missing data without complex preprocessing.
 
----
+**Core Assumptions of Random Forest**
 
-- **Pruning Techniques**  
-- Pre-pruning constrains tree growth by setting parameters like maximum depth or minimum samples per node during the tree-building process.  
-- Post-pruning reduces tree complexity after it is fully grown by removing branches that contribute little to model performance.  
-- Cost Complexity Pruning balances the complexity and accuracy of the tree by penalizing overly large trees with a cost function.  
-- **ShopSmart Example**: ShopSmart uses cost complexity pruning to avoid overfitting while ensuring the decision tree remains interpretable for predicting customer purchases.
+-   Assumes that individual decision trees can capture meaningful patterns, and their aggregation reduces errors.
 
----
+-   Assumes that randomness in feature selection and sampling improves generalization by reducing overfitting.
 
-- **Handling Overfitting**  
-- Limit tree depth to avoid overfitting smaller, irrelevant patterns in the data.  
-- Use regularization techniques like minimum samples per split or minimum leaf size to control the size of the tree.  
-- Employ ensemble methods like Random Forest or Gradient Boosted Trees to average multiple trees and improve generalization.  
-- **ShopSmart Example**: ShopSmart uses Random Forest to combine multiple decision trees, improving the robustness and accuracy of customer purchase predictions.  
+-   Random Forest requires sufficient computational resources due to its ensemble nature.
 
----
+* * * * *
 
-- **Advantages of Decision Trees**  
-- Decision trees are interpretable and allow for transparent decision-making.  
-- They work well on datasets with non-linear relationships and mixed data types.  
-- They require minimal data preprocessing, handling missing values and outliers naturally.  
-- **ShopSmart Example**: ShopSmart benefits from the interpretability of decision trees, as they provide clear insights into how features like discount percentage influence customer behavior.  
+### Types of Random Forest
 
----
+**Classification Random Forest**
 
-- **Limitations of Decision Trees**  
-- Decision trees are prone to overfitting, especially when they grow too deep.  
-- They are sensitive to small changes in data, which can lead to significantly different tree structures.  
-- They can struggle with imbalanced datasets unless appropriate weighting or sampling techniques are used.  
-- **ShopSmart Example**: If most customers do not purchase products, ShopSmart addresses this imbalance by applying sampling techniques or using ensemble methods.  
+- Used for predicting discrete outcomes or categories, such as whether a customer will purchase an item (yes/no) or whether a transaction is fraudulent (fraud/not fraud).
 
----
+**Regression Random Forest**
 
-- **Applications of Decision Trees**  
-- In healthcare, decision trees are used for diagnosing diseases or predicting patient outcomes.  
-- In finance, they are employed for credit scoring, risk assessment, and fraud detection.  
-- In marketing, they help segment customers and predict purchasing behavior.  
-- In operations, they are used for optimizing processes and supply chain management.  
-- **ShopSmart Example**: ShopSmart applies decision trees for targeted marketing campaigns, predicting product demand, and optimizing inventory management based on customer purchasing patterns.  
-
----
-
-- **Decision Tree @ShopSmart Example**
-ShopSmart uses decision trees to classify whether a user is likely to click on a product advertisement (*classification tree*). The tree splits data based on features like product category, user browsing history, and discount percentage. For example, users browsing electronics with a discount >20% may have a high likelihood of clicking the ad, enabling targeted campaigns.  
-
----
-
-## 4. Random Forest : A Deeper Dive with ShopSmart
-
-- Random Forest is a powerful ensemble learning algorithm designed for both classification and regression tasks.  
-- It operates by constructing multiple decision trees during training and aggregating their outputs to enhance accuracy and reduce overfitting.  
-- Random Forest introduces randomness by selecting subsets of features and samples, ensuring diversity among trees and improving generalization.
-
----
-
-- **Key Features of Random Forest**  
-- Random Forest uses an ensemble approach by combining predictions from multiple trees for robust decision-making.  
-- It employs randomness in both feature selection and data sampling, ensuring diverse tree structures and reducing bias.  
-- It effectively prevents overfitting by averaging the outputs of many trees, resulting in higher accuracy.  
-- It is highly flexible and can handle a mix of numerical, categorical, and missing data without complex preprocessing.
-
-  ---
-
-- **How Random Forest Works**  
-- Bootstrapping generates random subsets of the training data with replacement to train each tree independently.  
-- At each split, Random Forest selects a random subset of features, ensuring that individual trees explore different relationships in the data.  
-- Multiple decision trees are built, each learning a unique representation of the dataset.  
-- Predictions are aggregated: classification tasks use the mode (majority vote), while regression tasks compute the mean of tree predictions.  
-
----
-
-- **Advanced Techniques in Random Forest**  
-- **Feature Importance**: Random Forest evaluates the importance of features based on their contribution to split quality, allowing insights into the key drivers of predictions.  
-- **Out-of-Bag (OOB) Error**: OOB samples (data not included in the bootstrap sample) are used to estimate model performance without needing a separate validation set.  
-- **Weighted Trees**: Trees can be weighted differently during aggregation to prioritize certain decision paths, improving performance on imbalanced datasets.  
-
----
-
-- **Advantages of Random Forest**  
-- Highly robust against overfitting, especially when compared to single decision trees.  
-- Handles large datasets with complex feature interactions effectively.  
-- Reduces sensitivity to noise and outliers in the data.  
-- Can be adapted for feature selection and dimensionality reduction.  
-
----
-
-- **Disadvantages of Random Forest**  
-- Computationally expensive, especially with large datasets and many trees.  
-- Requires significant memory for training and storing multiple trees.  
-- Less interpretable than a single decision tree, making it harder to explain to non-technical stakeholders.  
-
----
-
-- **Applications of Random Forest in ShopSmart**
+- Used for predicting continuous outcomes, such as estimating total sales revenue, predicting customer lifetime value, or forecasting product demand over time.
   
-- **Classification Task**: ShopSmart uses Random Forest to predict user behavior, such as cart abandonment or purchase intent. By considering features like browsing time, product price, user reviews, and personalized recommendations, it identifies users likely to abandon carts. Proactive measures like targeted promotions or notifications are triggered for these users.  
-- **Regression Task**: ShopSmart employs Random Forest to forecast total daily sales revenue by analyzing trends in user activity, seasonal discounts, and average cart value. Spending insights and price alerts enhance these forecasts, optimizing inventory and sales strategies.  
-- **Feature Importance**: Random Forest helps ShopSmart identify key features driving purchases, such as the impact of discounts or user engagement with reviews, allowing them to refine their recommendation algorithms and promotional strategies.  
+* * * * *
+
+### Discussion: Random Forest
+
+As a class or in small groups via breakout rooms, discuss the following questions. Be prepared to share your ideas!
+
+1.  How could ShopSmart use Random Forest to improve its personalized recommendation engine?
+
+2.  What advantages does Random Forest offer compared to a single decision tree in terms of accuracy and generalization?
+
+* * * * *
+
+**How Random Forest Works**
+
+-   **Bootstrapping**: Generates random subsets of the training data with replacement to train each tree independently.
+
+-   **Feature Randomness**: At each split, a random subset of features is selected to ensure diverse decision trees.
+
+-   **Model Aggregation**: Predictions from all decision trees are aggregated to produce the final output:
+
+    -   Classification: Uses majority voting across all trees.
+
+    -   Regression: Computes the mean prediction across all trees.
+
+**Steps to Build a Random Forest**
+
+1.  Create multiple bootstrap samples from the dataset.
+
+2.  Train a decision tree on each bootstrap sample using random subsets of features.
+
+3.  Aggregate predictions from all trees to determine the final output.
+
+* * * * *
+
+### **Common Challenges with Random Forest**
+
+-   **Computational Complexity**: Training and storing multiple trees require significant resources.
+
+-   **Interpretability**: Harder to interpret compared to single decision trees due to the ensemble nature.
+
+-   **Overfitting Risk**: While reduced compared to single trees, overfitting can still occur if the number of trees is too low.
+
+* * * * *
+
+### **Applications**
+
+-   In healthcare, predicting disease risks based on patient data.
+
+-   In finance, detecting fraudulent transactions and assessing credit risk.
+
+-   In marketing, optimizing personalized recommendations and customer segmentation.
+
+-   In operations, forecasting demand and managing inventory levels.
+
+* * * * *
+
+### **Advantages of Random Forest**
+
+-   Robust against overfitting due to aggregation of multiple trees.
+
+-   Handles large datasets and complex feature interactions effectively.
+
+-   Works well with both numerical and categorical data.
+
+-   Naturally evaluates feature importance, providing insights into key predictors.
+
+### **Limitations of Random Forest**
+
+-   Computationally intensive, especially with large datasets and many trees.
+
+-   Requires significant memory for storing and processing multiple trees.
+
+-   Less interpretable compared to a single decision tree.
 
 ---
 
-## 5. Support Vector Mechine(SVM): A Deeper Dive with ShopSmart
+## 5. Support Vector Machine (SVM)
+--------------------------------
 
-- Support Vector Machine (SVM) is a sophisticated supervised learning algorithm ideal for classification, regression, and anomaly detection.  
-- It excels in high-dimensional spaces, efficiently finding the optimal hyperplane to separate data points with maximum margin.  
-- For non-linearly separable data, SVM leverages kernel functions to transform the data into a higher-dimensional space where a linear boundary can be applied.  
+Support Vector Machine (SVM) is a sophisticated supervised learning algorithm ideal for classification, regression, and anomaly detection. It excels in high-dimensional spaces, efficiently finding the optimal hyperplane to separate data points with maximum margin. For non-linearly separable data, SVM leverages kernel functions to transform the data into a higher-dimensional space where a linear boundary can be applied.
 
----
+**Key Concepts in SVM**
 
+-   SVM maximizes the margin between classes, improving generalization and robustness.
 
-- **Key Features of SVM**  
-- SVM maximizes the margin between classes, improving generalization and robustness.  
-- It relies only on support vectors (critical data points) to define the decision boundary, reducing computational overhead.  
-- The kernel trick allows SVM to handle non-linear relationships without explicitly transforming data, enhancing flexibility.  
-- It is versatile, supporting both linear and non-linear problems with various kernel options like polynomial, RBF, and sigmoid.  
+-   It relies only on support vectors (critical data points) to define the decision boundary, reducing computational overhead.
 
----
+-   The kernel trick allows SVM to handle non-linear relationships without explicitly transforming data, enhancing flexibility.
 
-- **How SVM Works**  
-- SVM constructs a hyperplane to separate data points of different classes.  
-- The margin is the distance between the hyperplane and the nearest data points (support vectors) from each class.  
-- Support vectors influence the orientation and position of the hyperplane, making them critical for decision-making.  
-- Kernels like RBF and polynomial are applied to transform data into higher-dimensional spaces for non-linear decision boundaries.  
+-   It is versatile, supporting both linear and non-linear problems with various kernel options like polynomial, RBF, and sigmoid.
 
----
+**Core Assumptions of SVM**
 
-- **Advanced Techniques in SVM**  
-- **Kernel Tuning**: Selecting appropriate kernel functions (e.g., RBF, polynomial) and hyperparameters (e.g., gamma, degree) optimizes SVM performance.  
-- **Soft Margin**: Introduces a tolerance for misclassified data points to balance margin size and misclassification penalties.  
-- **Multi-Class Classification**: Implements strategies like one-vs-one or one-vs-rest for multi-class problems.  
-- **Hyperparameter Optimization**: Grid search and cross-validation are used to fine-tune parameters like C (regularization) and gamma for improved performance.  
+-   Assumes data can be separated with a hyperplane or transformed into a space where it becomes separable.
 
----
+-   Assumes that critical points (support vectors) sufficiently represent the decision boundary.
 
-- **Advantages of SVM**  
-- Effective for both linear and non-linear classification tasks.  
-- Works well with high-dimensional datasets where feature selection is challenging.  
-- Robust to overfitting, especially in high-dimensional spaces.  
-- Flexible with kernels, making it suitable for complex decision boundaries.  
+-   SVM performance heavily depends on appropriate kernel selection and hyperparameter tuning.
 
----
+* * * * *
 
-- **Disadvantages of SVM**  
-- Computationally intensive, especially for large datasets with many support vectors.  
-- Choosing the right kernel and hyperparameters requires careful tuning and domain knowledge.  
-- Sensitive to noisy data and overlapping classes, which can affect decision boundary accuracy.
+### Types of SVM
 
---- 
+**Linear SVM**
 
-- **Applications of SVM in ShopSmart**  
-- **Classification Task**: ShopSmart uses SVM to classify products as "high-demand" or "low-demand" based on user reviews, ratings, and purchase trends. Personalized recommendations enhance this analysis, focusing on products that match customer preferences.  
-- **Outlier Detection**: SVM helps ShopSmart identify unusual shopping patterns, such as sudden bulk purchases or anomalies in spending behavior. Price alerts and spending insights assist in refining these detections, preventing fraud and ensuring better inventory management.  
-- **Kernel Optimization**: SVM kernels are tailored for ShopSmart's specific use cases, such as RBF for complex purchase patterns or polynomial kernels for identifying trends in multi-dimensional sales data.
+-   Finds the best linear hyperplane to separate classes in linearly separable data.
 
----
+-   Example: Classifying customer segments based on straightforward purchasing behaviors.
 
-- **Conclusion**  
-- Random Forest and SVM complement each other in ShopSmart’s predictive analytics framework. Random Forest excels in handling large datasets and feature interactions, while SVM provides precision in identifying critical patterns and outliers. Together, these algorithms enhance ShopSmart's ability to deliver smarter, data-driven shopping experiences.  
+**Non-Linear SVM**
 
----
+-   Uses kernel functions to transform non-linear data into higher dimensions where it becomes linearly separable.
 
-- ## 6. K-Nearest Neighbors (KNN) with ShopSmart**
-    
-- K-Nearest Neighbors (KNN) is a non-parametric, instance-based machine learning algorithm used for classification and regression tasks.  
-- It operates on the principle of similarity: a data point is predicted to belong to a category or have a value similar to its nearest neighbors in the dataset.  
-- KNN is widely used for its simplicity and effectiveness across various real-world applications.
+**Support Vector Regression (SVR)**
 
-  ---
+-   Extends SVM for regression tasks, predicting continuous values within a defined margin of tolerance.
 
-- **How KNN Works**  
-- KNN does not require explicit model-building or parameter learning during the training phase. Instead, it stores the entire dataset as a reference for predictions.  
-- For **classification tasks**, KNN identifies the `k` nearest data points based on a distance metric and assigns the class most frequent among the neighbors.  
-  - **ShopSmart Example**: ShopSmart classifies whether a user is likely to purchase a product based on features like browsing history, product price, and time spent on the product page. If similar users (nearest neighbors) purchased the product, the current user is predicted as likely to purchase.  
-- For **regression tasks**, KNN calculates the average (or weighted average) of the values of the `k` nearest neighbors to make a prediction.  
-  - **ShopSmart Example**: ShopSmart predicts the total cart value for a user by analyzing the average cart value of their nearest neighbors with similar shopping behaviors.
- 
-    ---
+* * * * *
 
-- **Key Concepts of KNN**  
-- KNN uses distance metrics such as Euclidean, Manhattan, and Minkowski to identify the nearest neighbors.  
-- The parameter `k` determines how many neighbors are considered for predictions. Small `k` values may lead to overfitting, while large `k` values may underfit the data.  
-- Feature scaling is critical for KNN because it relies on distance calculations. Normalization or standardization ensures all features contribute equally.  
-- Weighted neighbors assign more influence to closer neighbors, improving prediction accuracy in many cases.
+### Discussion: Support Vector Machine
 
-  --- 
+As a class or in small groups via breakout rooms, discuss the following questions. Be prepared to share your ideas!
 
-- **Advantages of KNN**  
-- Easy to understand and implement without requiring complex parameter tuning.  
-  - **ShopSmart Example**: KNN is easily deployed by ShopSmart for quick implementation of product recommendation systems.  
-- Versatile and applicable to both classification and regression tasks.  
-  - **ShopSmart Example**: ShopSmart uses KNN for both classifying users into purchasing segments and predicting total cart values.  
-- No explicit training phase, enabling quick adaptation to new data.  
-  - **ShopSmart Example**: ShopSmart can dynamically update its recommendations as new user data is added to the system.  
-- Non-parametric nature allows it to work with various data distributions.  
-  - **ShopSmart Example**: KNN handles diverse user behaviors and shopping patterns without requiring assumptions about the data distribution.  
+1.  How could ShopSmart use SVM to improve its fraud detection system or personalized recommendations?
 
----
+2.  What factors should ShopSmart consider when selecting the appropriate kernel for its SVM model?
 
-- **Limitations of KNN**  
-- Computationally intensive as it requires distance computation for every query point.  
-  - **ShopSmart Example**: To handle high user traffic, ShopSmart implements approximate nearest neighbor algorithms to speed up KNN predictions.  
-- Memory-intensive since the entire dataset must be stored for predictions.  
-- Performance is sensitive to irrelevant or noisy features, which can degrade accuracy.  
-- Struggles with the curse of dimensionality in high-dimensional datasets, where distance metrics become less effective.
+* * * * *
 
-  ---
+**How SVM Works**
 
-- **Practical Considerations for KNN**  
-- Data preprocessing is essential, including scaling features and reducing irrelevant attributes.  
-- For large datasets, approximate nearest neighbor algorithms or KD-Trees can improve computational efficiency.  
-- Hyperparameters like `k` and the choice of distance metric should be tuned for optimal performance.  
-- Cross-validation ensures the model avoids overfitting or underfitting and performs well on unseen data.
+-   **Hyperplane**: Constructs a line or plane that separates classes with the maximum margin.
 
-  --- 
+-   **Margin**: The distance between the hyperplane and the nearest data points (support vectors).
 
-- **K-Nearest Neighbors(KNN)in ShopSmart**
-- **Product Recommendation**: ShopSmart uses KNN to recommend products based on user browsing and purchase history. For example, if a user views "Wireless Headphones," KNN identifies similar users and suggests products they purchased, like "Bluetooth Speakers" or "Earbud Cases."  
-- **Customer Segmentation**: KNN clusters users into segments by analyzing shopping frequency, average cart value, and preferred product categories. For instance, a user who frequently purchases electronics is grouped with similar users, enabling personalized marketing campaigns.  
-- **Shopping Behavior Prediction**: KNN predicts a user’s next likely purchase by analyzing patterns in browsing and purchase history of similar users, enabling ShopSmart to provide tailored suggestions at the right time.  
+-   **Support Vectors**: Critical data points that define the decision boundary and influence the hyperplane.
 
-By leveraging KNN, ShopSmart enhances personalization, improves product recommendations, and optimizes user engagement strategies.  
+-   **Kernel Functions**: Transform data into higher dimensions to handle non-linear decision boundaries. Common kernels include:
 
----
+    -   **Linear**: Suitable for linearly separable data.
 
-## 7. Naive Bayes: A Deeper Dive with ShopSmart
+    -   **Polynomial**: Captures polynomial relationships.
 
-- Naive Bayes is a family of simple yet powerful probabilistic algorithms based on Bayes' Theorem with the assumption of independence between features.  
-- Despite its simplicity, Naive Bayes performs exceptionally well for tasks like text classification, spam filtering, and sentiment analysis.  
+    -   **Radial Basis Function (RBF)**: Handles complex, non-linear relationships.
 
----
+    -   **Sigmoid**: Often used in neural network-like scenarios.
 
-- **How Naive Bayes Works**  
-- Naive Bayes operates on Bayes' Theorem, which calculates the probability of a class given certain features.  
-- The "naive" aspect refers to the assumption that all features are independent of one another, which rarely holds in practice but still yields good results.  
-- **Training Phase**:  
-  - Calculate the prior probabilities of each class.  
-  - Compute the likelihood of each feature given a class.  
-  - Store these probabilities for prediction.  
-- **Prediction Phase**:  
-  - For a new data point, compute the posterior probability for each class using the stored priors and likelihoods.  
-  - Assign the class with the highest posterior probability.  
+**Steps to Build an SVM Model**
+
+1.  Define the objective (classification or regression).
+
+2.  Select the kernel function based on the nature of the data.
+
+3.  Train the model by finding the hyperplane that maximizes the margin.
+
+4.  Tune hyperparameters like C (regularization) and gamma for optimal performance.
+
+* * * * *
+
+### **Common Challenges with SVM**
+
+-   **Computational Complexity**: Training large datasets with many support vectors can be time-consuming.
+
+-   **Kernel Selection**: Choosing the appropriate kernel requires domain knowledge and experimentation.
+
+-   **Sensitivity to Noise**: Noisy data or overlapping classes can negatively impact the decision boundary.
+
+-   **Hyperparameter Tuning**: Parameters like C and gamma must be optimized carefully to avoid overfitting or underfitting.
+
+* * * * *
+
+### **Applications**
+
+-   In healthcare, detecting rare diseases or classifying medical images.
+
+-   In finance, fraud detection and risk assessment.
+
+-   In e-commerce, customer segmentation and product recommendation.
+
+-   In cybersecurity, identifying anomalies in network traffic.
+
+* * * * *
+
+### **Advantages of SVM**
+
+-   Effective for both linear and non-linear classification tasks.
+
+-   Works well with high-dimensional datasets where feature selection is challenging.
+
+-   Robust to overfitting, especially in high-dimensional spaces.
+
+-   Flexible with kernels, making it suitable for complex decision boundaries.
+
+### **Limitations of SVM**
+
+-   Computationally intensive, especially for large datasets with many support vectors.
+
+-   Requires careful tuning of kernels and hyperparameters for optimal performance.
+
+-   Sensitive to noisy data and overlapping classes, which can affect decision boundary accuracy.
+
+-   Less interpretable compared to simpler models like decision trees.
 
 ---
 
-- **Types of Naive Bayes Classifiers**  
-- **Gaussian Naive Bayes**: Used for continuous features assumed to follow a normal distribution, common in numerical data classification.  
-- **Multinomial Naive Bayes**: Suitable for discrete data like word counts, commonly used in document classification tasks.  
-- **Bernoulli Naive Bayes**: Designed for binary or boolean feature vectors, widely used in spam detection.
+## 6. K-Nearest Neighbors (KNN)
+-----------------------------
+
+K-Nearest Neighbors (KNN) is a non-parametric, instance-based machine learning algorithm used for classification and regression tasks. It operates on the principle of similarity: a data point is predicted to belong to a category or have a value similar to its nearest neighbors in the dataset. KNN is widely used for its simplicity and effectiveness across various real-world applications.
+
+**Key Concepts in KNN**
+
+-   KNN does not require explicit model-building or parameter learning during the training phase. Instead, it stores the entire dataset as a reference for predictions.
+
+-   KNN uses distance metrics such as Euclidean, Manhattan, and Minkowski to identify the nearest neighbors.
+
+-   The parameter `k` determines how many neighbors are considered for predictions:
+
+    -   Small `k` values may lead to overfitting.
+
+    -   Large `k` values may underfit the data.
+
+-   Feature scaling is critical for KNN because it relies on distance calculations. Normalization or standardization ensures all features contribute equally.
+
+-   Weighted neighbors assign more influence to closer neighbors, improving prediction accuracy in many cases.
+
+**Core Assumptions of KNN**
+
+-   Assumes that similar data points are located near each other in the feature space.
+
+-   Assumes that the chosen distance metric appropriately represents similarity for the dataset.
+
+-   Performance depends heavily on careful preprocessing and hyperparameter selection.
+
+* * * * *
+
+### Types of KNN
+
+**Classification KNN**
+
+-   Predicts discrete categories based on the most frequent class among the `k` nearest neighbors.
+
+-   Example: Predicting whether a user will purchase a product based on browsing behavior and pricing.
+
+**Regression KNN**
+
+-   Predicts continuous values by averaging (or weighting) the values of the `k` nearest neighbors.
+
+-   Example: Estimating the total cart value for a user based on similar customers.
+
+* * * * *
+
+### Discussion: K-Nearest Neighbors
+
+As a class or in small groups via breakout rooms, discuss the following questions. Be prepared to share your ideas!
+
+1.  How could ShopSmart use KNN for personalized recommendations or customer segmentation?
+
+2.  What challenges might arise when scaling KNN for large datasets?
+
+* * * * *
+
+**How KNN Works**
+
+-   **Training Phase**: KNN does not involve explicit training. Instead, the entire dataset is stored as a reference.
+
+-   **Prediction Phase**:
+
+    -   For a new data point, calculate its distance to all other points in the dataset using a chosen metric (e.g., Euclidean).
+
+    -   Identify the `k` nearest neighbors.
+
+    -   For classification, assign the most frequent class among the neighbors.
+
+    -   For regression, calculate the average (or weighted average) of the neighbors' values.
+
+**Steps to Build a KNN Model**
+
+1.  Choose the value of `k` based on the dataset's characteristics.
+
+2.  Select an appropriate distance metric for similarity measurement.
+
+3.  Preprocess data by scaling features and removing irrelevant attributes.
+
+4.  Validate the model using cross-validation to ensure optimal hyperparameter settings.
+
+* * * * *
+
+### **Common Challenges with KNN**
+
+-   **Computational Complexity**: Distance calculations for every query can be slow for large datasets.
+
+-   **Memory Usage**: Storing the entire dataset for predictions can be resource-intensive.
+
+-   **Irrelevant Features**: Noisy or irrelevant features can degrade prediction accuracy.
+
+-   **Curse of Dimensionality**: In high-dimensional spaces, distance metrics become less effective at identifying true nearest neighbors.
+
+* * * * *
+
+### **Applications**
+
+-   In healthcare, predicting patient diagnoses based on similar cases.
+
+-   In marketing, segmenting customers and predicting purchase behavior.
+
+-   In finance, identifying fraudulent transactions through anomaly detection.
+
+-   In e-commerce, recommending products based on user similarity.
+
+* * * * *
+
+### **Advantages of KNN**
+
+-   Simple and easy to understand without requiring complex parameter tuning.
+
+-   Flexible, handling both classification and regression tasks effectively.
+
+-   Non-parametric, making no assumptions about the underlying data distribution.
+
+-   Adapts dynamically to new data without retraining.
+
+### **Limitations of KNN**
+
+-   Computationally expensive for large datasets, requiring optimizations like approximate nearest neighbors.
+
+-   Performance is sensitive to irrelevant or noisy features, necessitating careful preprocessing.
+
+-   Struggles in high-dimensional datasets due to the curse of dimensionality.
+
+-   Requires significant memory to store the entire dataset for predictions.
 
 ---
 
-- **Key Concepts of Naive Bayes**  
-- **Bayes' Theorem**: Calculates the probability of an event based on prior knowledge of related events.  
-- **Feature Independence Assumption**: Assumes all features contribute independently to the outcome.  
-- **Prior and Likelihood**:  
-  - **Prior**: The initial probability of each class based on training data.  
-  - **Likelihood**: The probability of the data point given a class.
- 
+## 7. Naive Bayes
+---------------
+
+Naive Bayes is a family of simple yet powerful probabilistic algorithms based on Bayes' Theorem with the assumption of independence between features. Despite its simplicity, Naive Bayes performs exceptionally well for tasks like text classification, spam filtering, and sentiment analysis.
+
+**Key Concepts in Naive Bayes**
+
+-   **Bayes' Theorem**: Calculates the probability of an event based on prior knowledge of related events.
+
+-   **Feature Independence Assumption**: Assumes all features contribute independently to the outcome, which rarely holds but still delivers strong results in practice.
+
+-   **Prior and Likelihood**:
+
+    -   **Prior**: The initial probability of each class based on training data.
+
+    -   **Likelihood**: The probability of the data point given a class.
+
+**Core Assumptions of Naive Bayes**
+
+-   Assumes that all features are conditionally independent given the class label.
+
+-   Assumes sufficient training data is available to estimate probabilities reliably.
+
+-   Performs best when features have a strong individual relationship with the target variable.
+
+* * * * *
+
+### Types of Naive Bayes
+
+**Gaussian Naive Bayes**
+
+-   Used for continuous features assumed to follow a normal distribution.
+
+-   Example: Predicting customer satisfaction scores based on numerical feedback.
+
+**Multinomial Naive Bayes**
+
+-   Suitable for discrete data like word counts, commonly used in text classification.
+
+-   Example: Categorizing product reviews into sentiment categories (positive, neutral, negative).
+
+**Bernoulli Naive Bayes**
+
+-   Designed for binary or boolean feature vectors.
+
+-   Example: Identifying whether a user review contains spam-related keywords (yes/no).
+
+* * * * *
+
+### Discussion: Naive Bayes
+
+As a class or in small groups via breakout rooms, discuss the following questions. Be prepared to share your ideas!
+
+1.  How could ShopSmart use Naive Bayes to analyze customer reviews or detect fraudulent activity?
+
+2.  What limitations might arise when applying Naive Bayes to product categorization?
+
+* * * * *
+
+**How Naive Bayes Works**
+
+-   **Training Phase**:
+
+    1.  Calculate the prior probabilities of each class based on the training dataset.
+
+    2.  Compute the likelihood of each feature given each class.
+
+    3.  Store these probabilities for prediction.
+
+-   **Prediction Phase**:
+
+    1.  For a new data point, compute the posterior probability for each class using the stored priors and likelihoods.
+
+    2.  Assign the class with the highest posterior probability.
+
+* * * * *
+
+### **Common Challenges with Naive Bayes**
+
+-   **Strong Independence Assumption**: This assumption may not hold in real-world datasets, reducing performance in some cases.
+
+-   **Zero Frequency Problem**: Feature values not observed during training lead to zero probability; this can be addressed with Laplace Smoothing.
+
+-   **Limited to Linearly Separable Data**: Performs poorly when classes are not linearly separable.
+
+-   **Misleading Probabilities**: Outputs are not calibrated and may not reflect true confidence levels.
+
+* * * * *
+
+### **Applications**
+
+-   In text processing, spam detection, and sentiment analysis.
+
+-   In e-commerce, product categorization and fraud detection.
+
+-   In marketing, predicting customer churn and segmenting users for targeted campaigns.
+
+-   In healthcare, diagnosing diseases based on symptoms.
+
+* * * * *
+
+### **Advantages of Naive Bayes**
+
+-   Simple and fast to implement and execute.
+
+-   Effective for high-dimensional data, such as text classification.
+
+-   Robust to irrelevant features, as they minimally impact predictions.
+
+-   Provides probabilistic output, offering a measure of certainty in predictions.
+
+### **Limitations of Naive Bayes**
+
+-   Relies on the unrealistic assumption of feature independence.
+
+-   Sensitive to zero probabilities for unseen feature values.
+
+-   Struggles with datasets where features are highly correlated.
+
+-   May produce probabilities that are not well-calibrated.
+
 ---
 
-- **Advantages of Naive Bayes**  
-- Simple and fast to implement and execute.  
-- Effective for high-dimensional data, such as text classification.  
-- Robust to irrelevant features, as they minimally impact predictions.  
-- Provides probabilistic output, offering a measure of certainty in predictions.
+## **D. Activity: Communicating Supervised Learning Concepts to Clients (10 min)**  
 
----
+#### **Scenario**
+You are a consultant working with a client in the retail sector. The client has an e-commerce platform and is looking for ways to improve their business outcomes using data-driven strategies. They’ve heard about machine learning but are unsure how it applies to their goals.
 
-- **Limitations of Naive Bayes**  
-- **Strong Independence Assumption**: Often unrealistic in real-world datasets, potentially reducing performance.  
-- **Zero Frequency Problem**: A feature value not observed in training data results in zero probability, addressed with Laplace Smoothing.  
-- **Limited to Linearly Separable Data**: Performs poorly if classes are not linearly separable.  
-- **Misleading Probabilities**: Probabilities are not calibrated and may be less reliable.  
+#### **Role-Play Activity Setup**
+Divide participants into pairs or small groups. One person acts as the **consultant**, and the other(s) act as the **client**.
 
----
+> Consultants - [here is your consultant brief](https://docs.google.com/document/d/12jRD0RHsAdgntobjRJdmkdQ22uc6gUGMGh2Lc67aKR4/edit?tab=t.0).
 
-- **Examples of Naive Bayes Applications in ShopSmart**  
+> Clients - [here are the scenarios you can choose from](https://docs.google.com/document/d/1GNzBn9XW-yc93q5pDTXQNc5l8E7dea9qNMxH5VOBLEE/view). 
 
-- **Spam Detection**:  
-  ShopSmart uses Naive Bayes to identify and filter spam product reviews. For instance, reviews containing terms like "fake" or "scam" with a high probability of being spam are flagged and hidden from users, ensuring they only see genuine feedback.  
+#### **Instructions**
 
-- **Sentiment Analysis**:  
-  Naive Bayes analyzes product reviews on ShopSmart to determine their sentiment as "positive," "negative," or "neutral." For example, a review containing phrases like "great quality" and "highly recommend" is classified as positive, helping users make informed purchase decisions.  
+1.  **Consultant Preparation (2 Minutes):**
 
-- **Product Categorization**:  
-  ShopSmart leverages Naive Bayes to automatically categorize products based on their descriptions. For example, if a product's description mentions "smartphone," "camera," and "processor," it is classified into the "electronics" category.  
+    -   Identify one or two supervised learning techniques (e.g., Logistic Regression, Random Forest) you think are most relevant to the client's scenario.
+    -   Consider how to explain these techniques in simple terms, focusing on outcomes rather than algorithms (e.g., "We can predict which customers are most likely to leave based on patterns in their behavior" instead of "We'll use logistic regression to calculate probabilities.").
+2.  **Role-Playing Conversation (8 Minutes):**
 
-- **Customer Feedback Categorization**:  
-  Naive Bayes helps ShopSmart categorize customer feedback into topics like "delivery issues," "pricing concerns," or "product quality." For instance, feedback containing phrases like "delayed delivery" or "late shipment" is categorized under "delivery issues," allowing ShopSmart to address concerns more efficiently.  
+    -   The **consultant** explains how supervised learning can address the client's problem, avoiding overly technical jargon.
+    -   The **client** asks questions about feasibility, timelines, and potential business impact.
 
-- **Fraud Detection in Reviews**:  
-  ShopSmart applies Naive Bayes to detect fraudulent reviews by analyzing patterns such as repetitive text or overly generic terms. Reviews with high probabilities of being fraudulent are flagged for manual review.  
-
-- **Personalized Email Campaigns**:  
-  ShopSmart uses Naive Bayes to classify users based on their preferences. For example, analyzing users who frequently browse electronics categories allows ShopSmart to send targeted email promotions for gadgets and tech products.  
-
-- **Churn Prediction**:  
-  By analyzing historical user activity, Naive Bayes predicts the likelihood of user churn. For instance, users with declining browsing activity and fewer purchases over time are flagged as at risk, prompting re-engagement campaigns.  
-
-  
----
-
-- **D. Discussion : Personalized Product Recommendations for ShopSmart**  
-
-- **Objective**  
-- Develop a personalized recommendation system for ShopSmart using supervised learning to enhance user experience and boost sales.  
-
-- **Scenario**  
-- ShopSmart aims to suggest products to users based on their browsing behavior, purchase history, and demographic data to improve engagement and drive conversions.  
-
-- **Tasks**  
-- **Dataset Exploration**: Analyze ShopSmart’s labeled dataset containing user demographics, browsing history, purchase history, and product ratings. Identify key features influencing purchase decisions.  
-- **Model Selection**: Choose a supervised learning algorithm, such as Random Forest or Logistic Regression, to predict the likelihood of a user purchasing a recommended product. Justify the choice based on data size, feature types, and interpretability needs.  
-- **Model Training and Validation**: Train the selected model using a split of training and testing datasets. Evaluate the model using metrics like accuracy, precision, recall, and F1-score to measure effectiveness.  
-- **Result Interpretation**: Analyze patterns in predictions, such as higher purchase probabilities for specific categories during sales or trends in response to discounts. Discuss how these insights can enhance ShopSmart’s recommendation strategy, such as targeted promotions or highlighting frequently purchased items.  
-- **Optimization**: Perform hyperparameter tuning to improve model performance. Identify challenges like computational demands and propose solutions for scaling ShopSmart’s recommendations for millions of users.  
-
-- **Deliverables for ShopSmart**  
-- **Model Performance Summary**: Present evaluation metrics showing how effectively the model predicts user behavior.  
-- **Insights and Recommendations**: Provide actionable insights, such as trends in user preferences, to enhance ShopSmart’s engagement strategies. Examples include identifying that users aged 25–34 are more likely to purchase discounted electronics or identifying high-demand categories for future sales promotions.  
-
-This activity empowers ShopSmart to deliver a highly personalized shopping experience, improving user satisfaction and driving sales.  
-
-
+#### Debrief Questions
+1. What strategies helped make technical concepts relatable to the client?
+2. How did you ensure the conversation stayed focused on the client’s business goals?
+3. What challenges did you face in explaining complex ideas simply?
 
 ---
 
