@@ -1,5 +1,5 @@
 <h1>
-  <span class="headline">[tktk Headline]</span>
+  <span class="headline">Quick Refresher for ML</span>
   <span class="subhead">Video Hub</span>
 </h1>
 

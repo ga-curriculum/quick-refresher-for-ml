@@ -9,23 +9,93 @@ setup = new Template.Microlesson {
   videoUrl = ""
 }
 
-concepts = new Template.Microlesson {
-  friendlyName = "Concepts"
-  dirName = "concepts"
+machineLearningOverview = new Template.Microlesson {
+  friendlyName = "Machine Learning Overview"
+  dirName = "machine-learning-overview"
   type = "Content"
   videoUrl = ""
 }
 
-microlesson01 = new Template.Microlesson {
-  friendlyName = "Microlesson 01"
-  dirName = "microlesson-01"
+supervisedMachineLearning = new Template.Microlesson {
+  friendlyName = "Supervised Machine Learning"
+  dirName = "supervised-machine-learning"
   type = "Content"
   videoUrl = ""
 }
 
-microlesson02 = new Template.Microlesson {
-  friendlyName = "Microlesson 02"
-  dirName = "microlesson-02"
+linearRegression = new Template.Microlesson {
+  friendlyName = "Linear Regression"
+  dirName = "linear-regression"
+  type = "Content"
+  videoUrl = ""
+}
+
+logisticRegression = new Template.Microlesson {
+  friendlyName = "Logistic Regression"
+  dirName = "logistic-regression"
+  type = "Content"
+  videoUrl = ""
+}
+
+decisionTrees = new Template.Microlesson {
+  friendlyName = "Decision Trees"
+  dirName = "decision-trees"
+  type = "Content"
+  videoUrl = ""
+}
+
+randomForest = new Template.Microlesson {
+  friendlyName = "Random Forest"
+  dirName = "random-forest"
+  type = "Content"
+  videoUrl = ""
+}
+
+supportVectorMachine = new Template.Microlesson {
+  friendlyName = "Support Vector Machine"
+  dirName = "support-vector-machine"
+  type = "Content"
+  videoUrl = ""
+}
+
+kNearestNeighbors = new Template.Microlesson {
+  friendlyName = "K-Nearest Neighbors"
+  dirName = "k-nearest-neighbors"
+  type = "Content"
+  videoUrl = ""
+}
+
+naiveBayes = new Template.Microlesson {
+  friendlyName = "Naive Bayes"
+  dirName = "naive-bayes"
+  type = "Content"
+  videoUrl = ""
+}
+
+unsupervisedMachineLearning = new Template.Microlesson {
+  friendlyName = "Unsupervised Machine Learning"
+  dirName = "unsupervised-machine-learning"
+  type = "Content"
+  videoUrl = ""
+}
+
+reinforcementMachineLearning = new Template.Microlesson {
+  friendlyName = "Reinforcement Machine Learning"
+  dirName = "reinforcement-machine-learning"
+  type = "Content"
+  videoUrl = ""
+}
+
+machineLearningLimitations = new Template.Microlesson {
+  friendlyName = "Machine Learning Limitations"
+  dirName = "machine-learning-limitations"
+  type = "Content"
+  videoUrl = ""
+}
+
+activityCommunicatingConceptsToClients = new Template.Microlesson {
+  friendlyName = "Activity: Communicating Concepts to Clients"
+  dirName = "activity-communicating-concepts-to-clients"
   type = "Content"
   videoUrl = ""
 }
