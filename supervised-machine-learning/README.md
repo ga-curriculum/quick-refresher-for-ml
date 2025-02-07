@@ -35,7 +35,7 @@ Supervised learning is widely used due to its effectiveness and reliability in s
 
 ## Let's look at each in more detail with some examples:
 
-1\. [Linear Regression](https://git.generalassemb.ly/modular-curriculum-all-courses/quick-refresher-for-ml/blob/main/linear-regression/README.md) 📈
+1\. [Linear Regression](https://pages.git.generalassemb.ly/modular-curriculum-all-courses/quick-refresher-for-ml/linear-regression/) 📈
 ------------------------
 
 **Core Concept:**\
@@ -46,7 +46,7 @@ Imagine ShopSmart wants to forecast monthly sales revenue. By analyzing past dat
 
 * * * * *
 
-2\. [Logistic Regression](https://git.generalassemb.ly/modular-curriculum-all-courses/quick-refresher-for-ml/blob/main/logistic-regression/README.md) 🔢
+2\. [Logistic Regression](https://pages.git.generalassemb.ly/modular-curriculum-all-courses/quick-refresher-for-ml/logistic-regression/) 🔢
 --------------------------
 
 **Core Concept:**\
@@ -57,7 +57,7 @@ Consider predicting whether a website visitor will complete a purchase. By exami
 
 * * * * *
 
-3\. [Decision Trees](https://git.generalassemb.ly/modular-curriculum-all-courses/quick-refresher-for-ml/blob/main/decision-trees/README.md) 🌳
+3\. [Decision Trees](https://pages.git.generalassemb.ly/modular-curriculum-all-courses/quick-refresher-for-ml/decision-trees/) 🌳
 ---------------------
 
 **Core Concept:**\
@@ -69,7 +69,7 @@ ShopSmart could build a decision tree to determine which customers should receiv
 
 * * * * *
 
-4\. [Random Forest](https://git.generalassemb.ly/modular-curriculum-all-courses/quick-refresher-for-ml/blob/main/random-forest/README.md) 🌲
+4\. [Random Forest](https://pages.git.generalassemb.ly/modular-curriculum-all-courses/quick-refresher-for-ml/random-forest/) 🌲
 --------------------
 
 **Core Concept:**\
@@ -80,7 +80,7 @@ Imagine ShopSmart needs a robust forecast of product demand. By analyzing featur
 
 * * * * *
 
-5\. [Support Vector Machines (SVM)](https://git.generalassemb.ly/modular-curriculum-all-courses/quick-refresher-for-ml/blob/main/support-vector-machine/README.md)**** 💡
+5\. [Support Vector Machines (SVM)](https://pages.git.generalassemb.ly/modular-curriculum-all-courses/quick-refresher-for-ml/support-vector-machine/)**** 💡
 ------------------------------------
 
 **Core Concept:**\
@@ -91,7 +91,7 @@ For fraud detection, ShopSmart can employ an SVM to classify transactions as fra
 
 * * * * *
 
-6\. [K-Nearest Neighbors (KNN)](https://git.generalassemb.ly/modular-curriculum-all-courses/quick-refresher-for-ml/blob/main/k-nearest-neighbors/README.md) 👥
+6\. [K-Nearest Neighbors (KNN)](https://pages.git.generalassemb.ly/modular-curriculum-all-courses/quick-refresher-for-ml/k-nearest-neighbors/) 👥
 --------------------------------
 
 **Core Concept:**\
@@ -102,7 +102,7 @@ Imagine ShopSmart wants to personalize product recommendations. KNN can find cus
 
 * * * * *
 
-7\. [Naive Bayes](https://git.generalassemb.ly/modular-curriculum-all-courses/quick-refresher-for-ml/blob/main/naive-bayes/README.md) 🧮
+7\. [Naive Bayes](https://pages.git.generalassemb.ly/modular-curriculum-all-courses/quick-refresher-for-ml/naive-bayes/) 🧮
 ------------------
 
 **Core Concept:**\
