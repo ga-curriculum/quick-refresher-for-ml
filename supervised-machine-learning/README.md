@@ -30,8 +30,9 @@ Supervised learning is widely used due to its effectiveness and reliability in s
 - **Decision Trees:** Uses a tree-like model of decisions and their possible consequences to classify or predict outcomes.  
 - **Random Forest:** An ensemble of multiple decision trees that improves accuracy and reduces overfitting.  
 - **Support Vector Machine:** Finds the optimal hyperplane to separate data into distinct classes with maximum margin.  
+- **XGBoost:** An efficient implementation of gradient boosting that builds an ensemble of weak models sequentially.
 - **K-Nearest Neighbors:** Classifies data points based on the majority class of their k-nearest neighbors.  
-- **Naive Bayes:** A probabilistic classifier based on Bayes’ theorem, assuming feature independence.
+- **Naive Bayes:** A probabilistic classifier based on Bayes' theorem, assuming feature independence.
 
 ## Let's look at each in more detail with some examples:
 
@@ -91,7 +92,18 @@ For fraud detection, ShopSmart can employ an SVM to classify transactions as fra
 
 * * * * *
 
-6\. [K-Nearest Neighbors (KNN)](https://pages.git.generalassemb.ly/modular-curriculum-all-courses/quick-refresher-for-ml/k-nearest-neighbors/) 👥
+6\. [XGBoost](https://pages.git.generalassemb.ly/modular-curriculum-all-courses/quick-refresher-for-ml/xgboost/) 🚀
+------------------
+
+**Core Concept:**\
+XGBoost is an advanced implementation of gradient boosting that sequentially builds an ensemble of weak models (usually trees) to create a strong predictor. Each new model focuses on correcting the errors made by previous models.
+
+**ShopSmart Example:**\
+ShopSmart could use XGBoost to predict customer lifetime value by analyzing features like purchase history, browsing behavior, and demographic data. The model's ability to handle complex relationships and missing data makes it ideal for such predictions, helping target high-value customers with personalized experiences.
+
+* * * * *
+
+7\. [K-Nearest Neighbors (KNN)](https://pages.git.generalassemb.ly/modular-curriculum-all-courses/quick-refresher-for-ml/k-nearest-neighbors/) 👥
 --------------------------------
 
 **Core Concept:**\
@@ -102,7 +114,7 @@ Imagine ShopSmart wants to personalize product recommendations. KNN can find cus
 
 * * * * *
 
-7\. [Naive Bayes](https://pages.git.generalassemb.ly/modular-curriculum-all-courses/quick-refresher-for-ml/naive-bayes/) 🧮
+8\. [Naive Bayes](https://pages.git.generalassemb.ly/modular-curriculum-all-courses/quick-refresher-for-ml/naive-bayes/) 🧮
 ------------------
 
 **Core Concept:**\
@@ -125,6 +137,7 @@ Each supervised learning algorithm brings something unique to the table:
 | **Decision Trees** | Classification/Regression | Rule-based predictions | 
 | **Random Forest** | Ensemble (Decision Trees) | Improved prediction & reduced overfitting | 
 | **SVM** | Classification/Regression | Complex classification tasks | 
+| **XGBoost** | Ensemble (Gradient Boosting) | High-performance predictions on structured data |
 | **KNN** | Instance-based | Classification/Regression | 
 | **Naive Bayes** | Probabilistic | Text classification, sentiment analysis |
 

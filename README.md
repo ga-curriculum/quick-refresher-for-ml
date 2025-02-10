@@ -24,6 +24,7 @@ This session provides a quick refresher on machine learning, highlighting their 
 | [- Decision Trees](./decision-trees/README.md) | Optional | Describe decision tree algorithms used for supervised machine learning.|
 | [- Random Forest](./random-forest/README.md) | Optional | Describe random forest algorithms used for supervised machine learning.|
 | [- Support Vector Machine](./support-vector-machine/README.md) | Optional | Describe support vector machine (SVM) algorithms used for supervised machine learning.|
+| [- XGBoost](./xgboost/README.md) | Optional | Describe XGBoost algorithms used for supervised machine learning.|
 | [- K-Nearest Neighbors](./k-nearest-neighbors/README.md) | Optional | Describe K-nearest neighbors (KNN) algorithms used for supervised machine learning.|
 | [- Naive Bayes](./naive-bayes/README.md) | Optional | Describe naive bayes algorithms used for supervised machine learning.|
 | [Unsupervised Machine Learning](./unsupervised-machine-learning/README.md) | 10 min | Describe unsupervised machine learning approach and explain the types of unsupervised machine learning algorithms.|
