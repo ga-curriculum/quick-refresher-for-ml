@@ -35,11 +35,13 @@ This example shows how to use XGBoost for binary classification:
 ```python
 import xgboost as xgb
 from sklearn.datasets import make_classification
+from sklearn.metrics import classification_report, accuracy_score
+import numpy as np
 
 # Generate sample data
 X, y = make_classification(n_samples=1000, n_features=20, random_state=42)
 
-# Create DMatrix (XGBoost's optimized data structure)
+# Create DMatrix
 dtrain = xgb.DMatrix(X, label=y)
 
 # Set parameters
@@ -55,7 +57,20 @@ num_rounds = 100
 model = xgb.train(params, dtrain, num_rounds)
 
 # Make predictions
-predictions = model.predict(xgb.DMatrix(X))
+predictions_prob = model.predict(xgb.DMatrix(X))
+predictions = (predictions_prob > 0.5).astype(int)
+
+# Print performance report
+print("Model Performance:")
+print(f"Accuracy: {accuracy_score(y, predictions):.4f}")
+print("\nDetailed Classification Report:")
+print(classification_report(y, predictions))
+
+# Print predictions vs actual values
+print("First 10 predictions (probabilities):")
+print(predictions_prob[:10])
+print("\nFirst 10 actual values:")
+print(y[:10])
 ```
 
 ## Applications
