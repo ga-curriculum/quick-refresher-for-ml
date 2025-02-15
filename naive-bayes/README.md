@@ -39,7 +39,14 @@ Naive Bayes is a family of simple yet powerful probabilistic algorithms based on
 ## Demo: Probabilistic Classification
 This model predicts a class based on probability distributions of the features.
 ```python
+import numpy as np
 from sklearn.naive_bayes import GaussianNB
+
+# Create sample data - X features: [age, income]
+X = np.array([[25, 30000], [35, 45000], [45, 50000], [25, 35000], [35, 60000], [45, 70000], [25, 85000], [35, 20000], [45, 35000], [25, 45000]])
+
+# Create target variable (0 or 1 for binary classification) - 1: "approved", 0: "not approved"
+y = np.array([0, 0, 1, 0, 1, 1, 1, 0, 0, 0])
 
 # Train Naive Bayes classifier
 model = GaussianNB()
@@ -47,6 +54,7 @@ model.fit(X, y)
 
 # Make a prediction
 print("Prediction:", model.predict([[30, 50000]])[0])
+
 ```
 
 ## Applications
