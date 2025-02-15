@@ -81,7 +81,7 @@ Imagine ShopSmart needs a robust forecast of product demand. By analyzing featur
 
 * * * * *
 
-5\. [Support Vector Machines (SVM)](https://pages.git.generalassemb.ly/modular-curriculum-all-courses/quick-refresher-for-ml/support-vector-machine/)**** 💡
+5\. [Support Vector Machines (SVM)](https://pages.git.generalassemb.ly/modular-curriculum-all-courses/quick-refresher-for-ml/support-vector-machine/)** 💡
 ------------------------------------
 
 **Core Concept:**\
