@@ -5,6 +5,14 @@
 
 ## Setup
 
+Before starting, let's install Jupyter Notebook on you machine. In a terminal, run the command:
+
+```bash
+pip install jupyter
+```
+
+Later in the course, you will need to install more packages, according to the source code being used. 
+
 1. **Create a Directory**
    - On your machine, create a directory or folder named `quick-refresher-for-ml` where you can save all the data and the jupyter notebooks concerned with this module.
 2. **Open Command Prompt**  
