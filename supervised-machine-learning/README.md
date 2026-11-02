@@ -36,7 +36,7 @@ Supervised learning is widely used due to its effectiveness and reliability in s
 
 ## Let's look at each in more detail with some examples:
 
-1\. [Linear Regression](https://pages.git.generalassemb.ly/modular-curriculum-all-courses/quick-refresher-for-ml/linear-regression/) 📈
+1\. [Linear Regression](../linear-regression/README.md) 📈
 ------------------------
 
 **Core Concept:**\
@@ -47,7 +47,7 @@ Imagine ShopSmart wants to forecast monthly sales revenue. By analyzing past dat
 
 * * * * *
 
-2\. [Logistic Regression](https://pages.git.generalassemb.ly/modular-curriculum-all-courses/quick-refresher-for-ml/logistic-regression/) 🔢
+2\. [Logistic Regression](../logistic-regression/README.md) 🔢
 --------------------------
 
 **Core Concept:**\
@@ -58,7 +58,7 @@ Consider predicting whether a website visitor will complete a purchase. By exami
 
 * * * * *
 
-3\. [Decision Trees](https://pages.git.generalassemb.ly/modular-curriculum-all-courses/quick-refresher-for-ml/decision-trees/) 🌳
+3\. [Decision Trees](../decision-trees/README.md) 🌳
 ---------------------
 
 **Core Concept:**\
@@ -70,7 +70,7 @@ ShopSmart could build a decision tree to determine which customers should receiv
 
 * * * * *
 
-4\. [Random Forest](https://pages.git.generalassemb.ly/modular-curriculum-all-courses/quick-refresher-for-ml/random-forest/) 🌲
+4\. [Random Forest](../random-forest/README.md) 🌲
 --------------------
 
 **Core Concept:**\
@@ -81,7 +81,7 @@ Imagine ShopSmart needs a robust forecast of product demand. By analyzing featur
 
 * * * * *
 
-5\. [Support Vector Machines (SVM)](https://pages.git.generalassemb.ly/modular-curriculum-all-courses/quick-refresher-for-ml/support-vector-machine/)** 💡
+5\. [Support Vector Machines (SVM)](../support-vector-machine/README.md)** 💡
 ------------------------------------
 
 **Core Concept:**\
@@ -92,7 +92,7 @@ For fraud detection, ShopSmart can employ an SVM to classify transactions as fra
 
 * * * * *
 
-6\. [XGBoost](https://pages.git.generalassemb.ly/modular-curriculum-all-courses/quick-refresher-for-ml/xgboost/) 🚀
+6\. [XGBoost](../xgboost/README.md) 🚀
 ------------------
 
 **Core Concept:**\
@@ -103,7 +103,7 @@ ShopSmart could use XGBoost to predict customer lifetime value by analyzing feat
 
 * * * * *
 
-7\. [K-Nearest Neighbors (KNN)](https://pages.git.generalassemb.ly/modular-curriculum-all-courses/quick-refresher-for-ml/k-nearest-neighbors/) 👥
+7\. [K-Nearest Neighbors (KNN)](../k-nearest-neighbors/README.md) 👥
 --------------------------------
 
 **Core Concept:**\
@@ -114,7 +114,7 @@ Imagine ShopSmart wants to personalize product recommendations. KNN can find cus
 
 * * * * *
 
-8\. [Naive Bayes](https://pages.git.generalassemb.ly/modular-curriculum-all-courses/quick-refresher-for-ml/naive-bayes/) 🧮
+8\. [Naive Bayes](../naive-bayes/README.md) 🧮
 ------------------
 
 **Core Concept:**\
